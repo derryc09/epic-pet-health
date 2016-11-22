@@ -1,2 +1,2 @@
 # epic-pet-health
-This is the repot
+Our client is the owner of a small at-home business, Epic Pet Health. Our client sells  "natural dog and cat supplements that restore comfort and provide affordable, long term health maintenance.” We will be re-designing the website by using bootstrap and MDL components. The shopping cart will direct to the company’s Shopify website. We will build the website using HTML, CSS, and Javascript.
