@@ -22,7 +22,6 @@ export default class extends React.Component {
                         <div className="container">
                             
 
-
                                 <h2>Best-Sellers</h2>
                                 <span>
 
@@ -99,7 +98,6 @@ export default class extends React.Component {
                                     </div>
 
                                 </span>
-
 
                             
                         </div>
