@@ -7,7 +7,9 @@ export default class App extends React.Component {
     constructor(props) {
         super(props);
         
-        //this.state = {};
+            this.state={
+    open:false
+    }
        //this.state = store.getState();
     }
 
@@ -19,8 +21,10 @@ export default class App extends React.Component {
     //     this.unsub(); 
     // }
 
-    render() {
 
+
+    render() {
+     
             return (
                 
                 <div>
@@ -41,17 +45,17 @@ export default class App extends React.Component {
 
                         <ul className="tabs tabs-transparent">
                             
-                                <li className="tab" data-activates='dropdown1'>
+                                <li className="tab dropbtn">
                                     <Link to="/products" 
                                             activeClassName="active">Products</Link>
-                                      <ul id='dropdown1' className='dropdown-content'>
-                                        <li><a href="#!">one</a></li>
-                                        <li><a href="#!">two</a></li>
-                                        
-                                        <li><a href="#!">three</a></li>
-                                     </ul>
+
                                 </li>
-                            
+                                <div className="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                   
                             <li className="tab">
                                 <Link to="/announcements" 
                                         activeClassName="active">Announcements</Link>
@@ -63,11 +67,84 @@ export default class App extends React.Component {
                                 
                             </li>
                         </ul>
+
+
+
+
+ 
+                    
                         </div>
                     </nav>
+                    
+
+
+
+<div>
+        <ul id="dropdown1" className="dropdown-content">
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li className="divider" />
+          <li><a href="#!">three</a></li>
+        </ul>
+        <nav>
+          <div className="nav-wrapper">
+            <a href="#!" className="brand-logo">Logo</a>
+            <ul className="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              {/* Dropdown Trigger */}
+              <li><a className="dropdown-button" href="#" data-activates="dropdown1">Dropdown<i className="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+
+
                     <main>
                         {this.props.children}
                     </main>
+
+
+
+    <footer className="page-footer">
+        <div className="container">
+          <div className="row">
+
+            <div className="col s3">
+              <h5 className="white-text">How We Got Started</h5>
+              <p className="grey-text text-lighten-4">In 2012, Dr. Amy Swartz started making odorless supplements for her 18 year old dog to improve his quality of life. The first supplement, Relief, helped the arthritis pain in his neck and back. The second supplement reduced his "old dog cough" and helped his allergies. Then she started making supplements for other pets in need. Now she sells the supplements on the internet so animals all over the world can get help.</p>
+            </div>
+            <div className="col s3">
+              <h5 className="white-text">Contact Us</h5>
+              <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div className="col s3 offset-s3">
+              <h5 className="white-text">Links</h5>
+              <ul>
+                <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="footer-copyright">
+          <div className="container">
+            © 2014 Copyright Text
+            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
                 </div>
 
 
