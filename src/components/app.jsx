@@ -23,54 +23,52 @@ export default class App extends React.Component {
 
             return (
                 
-            <div>
-                <nav className="nav-extended">
-                    <div className="nav-wrapper">
-                    <a href="#" className="brand-logo">Logo</a>
-                    <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
-                    <ul id="nav-mobile" className="right hide-on-med-and-down">
-                        <li><a href="sass.html">Sass</a></li>
-                        <li><a href="badges.html">Components</a></li>
-                        <li><a href="collapsible.html">JavaScript</a></li>
-                    </ul>
-                    <ul className="side-nav" id="mobile-demo">
-                        <li><a href="sass.html">Sass</a></li>
-                        <li><a href="badges.html">Components</a></li>
-                        <li><a href="collapsible.html">JavaScript</a></li>
-                    </ul>
+                <div>
+                    <nav className="nav-extended">
+                        <div className="nav-wrapper">
+                        <a href="#/" className="brand-logo">Epic Pet Health</a>
+                        <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
+                        <ul id="nav-mobile" className="right hide-on-med-and-down">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Search</a></li>
+                        </ul>
+                        <ul className="side-nav" id="mobile-demo">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Search</a></li>
+                        </ul>
 
-                    <ul className="tabs tabs-transparent">
-                        <li className="tab">
-                                <a href="#test1"><IndexLink to="/"
-                                    activeclassNameName="active">Main</IndexLink></a>
+                        <ul className="tabs tabs-transparent">
+                            
+                                <li className="tab" data-activates='dropdown1'>
+                                    <Link to="/products" 
+                                            activeClassName="active">Products</Link>
+                                      <ul id='dropdown1' className='dropdown-content'>
+                                        <li><a href="#!">one</a></li>
+                                        <li><a href="#!">two</a></li>
+                                        
+                                        <li><a href="#!">three</a></li>
+                                     </ul>
+                                </li>
+                            
+                            <li className="tab">
+                                <Link to="/announcements" 
+                                        activeClassName="active">Announcements</Link>
                                 
-                        </li>
-                        <li className="tab">
-                            <a className="active" href="#test2"><Link to="/products" 
-                                    activeclassNameName="active">Products</Link></a>
-                            
-                        </li>
-                        <li className="tab">
-                            <a href="#test3"><Link to="/announcements" 
-                                    activeclassNameName="active">Announcements</Link></a>
-                            
-                        </li>
-                        <li className="tab">
-                            <a href="#test4"><Link to="/testimonials" 
-                                    activeclassNameName="active">Testimonials</Link></a>
-                            
-                        </li>
-                    </ul>
-                    </div>
-                </nav>
-                <div id="test1" className="col s12">Test 1</div>
-                <div id="test2" className="col s12">Test 2</div>
-                <div id="test3" className="col s12">Test 3</div>
-                <div id="test4" className="col s12">Test 4</div>
-                <main>
-                    {this.props.children}
-                </main>
-            </div>
+                            </li>
+                            <li className="tab">
+                                <Link to="/testimonials" 
+                                        activeClassName="active">Testimonials</Link>
+                                
+                            </li>
+                        </ul>
+                        </div>
+                    </nav>
+                    <main>
+                        {this.props.children}
+                    </main>
+                </div>
 
 
 
@@ -80,6 +78,14 @@ export default class App extends React.Component {
             );
         }
 }
+
+
+
+                            // <li className="tab">
+                            //         <IndexLink to="/"
+                            //             activeClassName="active">Main</IndexLink>
+                                    
+                            // </li>
 
 
                 // <div>
