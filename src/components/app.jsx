@@ -37,28 +37,28 @@ export default class App extends React.Component {
                             <li><Link to="/about" 
                                             activeClassName="active">About</Link></li>
                             <li><a href="#">Shop</a></li>
+                            <li><Link to="/faq" 
+                                            activeClassName="active">Faq</Link></li>
                             <li><a href="#">Search</a></li>
                         </ul>
                         <ul className="side-nav" id="mobile-demo">
                             <li><a href="#">About</a></li>
                             <li><a href="#">Shop</a></li>
+                            <li><a href="#">Faq</a></li>
                             <li><a href="#">Search</a></li>
+
                         </ul>
 
                         <ul className="tabs tabs-transparent">
                             
-                                <li className="tab dropbtn">
+                                <li className="tab dropdown-button" data-activates="dropdown1">
                                     <Link to="/products" 
                                             activeClassName="active">Products</Link>
 
                                 </li>
-                                <div className="dropdown-content">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                </div>
+ 
                    
-                            <li className="tab">
+                            <li className="tab dropdown-button">
                                 <Link to="/announcements" 
                                         activeClassName="active">Announcements</Link>
                                 
@@ -80,7 +80,7 @@ export default class App extends React.Component {
 
 
 
-<div>
+    <div>
         <ul id="dropdown1" className="dropdown-content">
           <li><a href="#!">one</a></li>
           <li><a href="#!">two</a></li>
