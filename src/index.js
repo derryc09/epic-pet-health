@@ -8,6 +8,7 @@ import Announcements from "./components/announcements.jsx";
 import Testimonials from "./components/testimonials.jsx";
 import About from "./components/about.jsx";
 import Faq from "./components/faq.jsx";
+import Awards from "./components/awards.jsx";
 //import SearchForm from "./components/search-form.jsx";
 
 //import our stylesheet so webpack puts it into the bundle
@@ -32,6 +33,7 @@ var router = (
             <Route path="/testimonials" component={Testimonials}></Route>
             <Route path="/about" component={About}></Route>
             <Route path="/faq" component={Faq}></Route>
+            <Route path="/awards" component={Awards}></Route>
         </Route>
     </Router>
 );
