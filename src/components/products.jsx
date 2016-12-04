@@ -11,8 +11,6 @@ export default class extends React.Component {
     }
 
     render() {
-        console.log(PRODUCTS);
-
         var productCards = PRODUCTS.map(product => (
               <div key={PRODUCTS.indexOf(product)} className="col s12 m7">
                 <h2 className="header">{product.name}</h2>
