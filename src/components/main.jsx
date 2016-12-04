@@ -22,10 +22,7 @@ export default class extends React.Component {
                         <div className="container products">
                             
 
-                            <h2>Best-Sellers</h2>
-
-                            <span>
-
+                            <center><h2>Best-Sellers</h2>
                                     <div className="products col s12 m7">
                                         <div className="card horizontal">
                                             <div className="card-image">
@@ -98,11 +95,9 @@ export default class extends React.Component {
                                         </div>
                                     </div>
 
-                                </span>
 
 
-
-                            
+                            </center>
                         </div>
                     </div>
                 </div>
