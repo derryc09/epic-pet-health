@@ -14,8 +14,6 @@ export default class extends React.Component {
         console.log(PRODUCTS);
 
         var productCards = PRODUCTS.map(product => (
-
-
               <div key={PRODUCTS.indexOf(product)} className="col s12 m7">
                 <h2 className="header">{product.name}</h2>
                 <div className="card horizontal">
@@ -32,14 +30,7 @@ export default class extends React.Component {
                 </div>
                 </div>
             </div>
-            
-            
-
-
-
         ));
-
-
         return (
             <div className="products">
                 {productCards}
