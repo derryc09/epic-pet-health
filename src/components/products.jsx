@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 
 import "whatwg-fetch";
 
-
 export default class extends React.Component {
     constructor(props) {
         super(props);
@@ -12,6 +11,7 @@ export default class extends React.Component {
     }
 
     render() {
+        console.log(PRODUCTS);
 
         var productCards = PRODUCTS.map(product => (
 

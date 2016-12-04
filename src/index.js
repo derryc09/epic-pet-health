@@ -10,19 +10,6 @@ import Testimonials from "./components/testimonials.jsx";
 import About from "./components/about.jsx";
 import Faq from "./components/faq.jsx";
 import Awards from "./components/awards.jsx";
-//import SearchForm from "./components/search-form.jsx";
-
-
-//import our stylesheet so webpack puts it into the bundle
-//import "./css/main.css";
-
-
-//TODO: replace the JSX here with a Router configuration
-//from the react router module (already a dependency in package.json)
-// render((
-//     <App/>
-//     ), document.getElementById("app"));
-
 
 
 
