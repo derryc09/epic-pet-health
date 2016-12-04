@@ -28,35 +28,37 @@ export default class App extends React.Component {
             return (
                 
                 <div>
-                    <nav className="nav-extended">
+                    
+                                <nav className="nav-extended">
                         <div className="nav-wrapper">
                         <a href="#/" className="brand-logo">Epic Pet Health</a>
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
-                            <li><a href="#">About</a></li>
+                            <li><Link to="/about" 
+                                            activeClassName="active">About</Link></li>
                             <li><a href="#">Shop</a></li>
+                            <li><Link to="/faq" 
+                                            activeClassName="active">FAQ</Link></li>
                             <li><a href="#">Search</a></li>
                         </ul>
                         <ul className="side-nav" id="mobile-demo">
                             <li><a href="#">About</a></li>
                             <li><a href="#">Shop</a></li>
+                            <li><a href="#">Faq</a></li>
                             <li><a href="#">Search</a></li>
+
                         </ul>
 
                         <ul className="tabs tabs-transparent">
                             
-                                <li className="tab dropbtn">
+                                <li className="tab dropdown-button" data-activates="dropdown1">
                                     <Link to="/products" 
                                             activeClassName="active">Products</Link>
 
                                 </li>
-                                <div className="dropdown-content">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                </div>
+ 
                    
-                            <li className="tab">
+                            <li className="tab dropdown-button">
                                 <Link to="/announcements" 
                                         activeClassName="active">Announcements</Link>
                                 
@@ -75,11 +77,10 @@ export default class App extends React.Component {
                     
                         </div>
                     </nav>
-                    
 
 
 
-<div>
+    <div>
         <ul id="dropdown1" className="dropdown-content">
           <li><a href="#!">one</a></li>
           <li><a href="#!">two</a></li>
@@ -158,39 +159,53 @@ export default class App extends React.Component {
 
 
 
-                            // <li className="tab">
-                            //         <IndexLink to="/"
-                            //             activeClassName="active">Main</IndexLink>
-                                    
-                            // </li>
+            // <nav className="nav-extended">
+            //             <div className="nav-wrapper">
+            //             <a href="#/" className="brand-logo">Epic Pet Health</a>
+            //             <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
+            //             <ul id="nav-mobile" className="right hide-on-med-and-down">
+            //                 <li><a href="#">About</a></li>
+            //                 <li><a href="#">Shop</a></li>
+            //                 <li><a href="#">Search</a></li>
+            //             </ul>
+            //             <ul className="side-nav" id="mobile-demo">
+            //                 <li><a href="#">About</a></li>
+            //                 <li><a href="#">Shop</a></li>
+            //                 <li><a href="#">Search</a></li>
+            //             </ul>
+
+            //             <ul className="tabs tabs-transparent">
+                            
+            //                     <li className="tab dropbtn">
+            //                         <Link to="/products" 
+            //                                 activeClassName="active">Products</Link>
+
+            //                     </li>
+            //                     <div className="dropdown-content">
+            //                         <a href="#">Link 1</a>
+            //                         <a href="#">Link 2</a>
+            //                         <a href="#">Link 3</a>
+            //                     </div>
+                   
+            //                 <li className="tab">
+            //                     <Link to="/announcements" 
+            //                             activeClassName="active">Announcements</Link>
+                                
+            //                 </li>
+            //                 <li className="tab">
+            //                     <Link to="/testimonials" 
+            //                             activeClassName="active">Testimonials</Link>
+                                
+            //                 </li>
+            //             </ul>
 
 
-                // <div>
-                //     <nav>
-                //         <ul>
-                //             <li>
-                //                 <IndexLink to="/"
-                //                     activeclassNameName="active">Main</IndexLink>
-                //             </li>
-                //             <li>
-                //                 <Link to="/products" 
-                //                     activeclassNameName="active">Products</Link>
-                                    
-                //             </li>
-                //             <li>
-                //                 <Link to="/announcements" 
-                //                     activeclassNameName="active">Announcements</Link>
-                                    
-                //             </li>
-                //             <li>
-                //                 <Link to="/testimonials" 
-                //                     activeclassNameName="active">Testimonials</Link>
-                                    
-                //             </li>                                                        
 
-                //         </ul>
-                //     </nav>
-                //     <main>
-                //         {this.props.children}
-                //     </main>
-                // </div>
+
+ 
+                    
+            //             </div>
+            //         </nav>
+
+
+

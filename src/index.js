@@ -6,6 +6,8 @@ import App from "./components/app.jsx";
 import Products from "./components/products.jsx";
 import Announcements from "./components/announcements.jsx";
 import Testimonials from "./components/testimonials.jsx";
+import About from "./components/about.jsx";
+import Faq from "./components/faq.jsx";
 //import SearchForm from "./components/search-form.jsx";
 
 //import our stylesheet so webpack puts it into the bundle
@@ -28,6 +30,8 @@ var router = (
             <Route path="/products" component={Products}></Route>
             <Route path="/announcements" component={Announcements}></Route>
             <Route path="/testimonials" component={Testimonials}></Route>
+            <Route path="/about" component={About}></Route>
+            <Route path="/faq" component={Faq}></Route>
         </Route>
     </Router>
 );
