@@ -45,13 +45,13 @@ export default class App extends React.Component {
                                             activeClassName="active">About</Link></li>
                             <li><a href="#">Shop</a></li>
                             <li><Link to="/faq" 
-                                            activeClassName="active">Faq</Link></li>
+                                            activeClassName="active">FAQ</Link></li>
                             <li><a href="#">Search</a></li>
                         </ul>
                         <ul className="side-nav" id="mobile-demo">
                             <li><a href="#">About</a></li>
                             <li><a href="#">Shop</a></li>
-                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">FAQ</a></li>
                             <li><a href="#">Search</a></li>
 
 
