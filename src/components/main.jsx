@@ -10,7 +10,7 @@ export default class extends React.Component {
         var img_skin = "../img/products/skin-transparent.png";
         var img_happy = "../img/products/happy-transparent.png";
         var img_repair = "../img/products/repair-transparent.png";
-        var img_height = 300;
+        var img_height = 250;
 
         return (
             <div className="main">
@@ -19,21 +19,22 @@ export default class extends React.Component {
 
                 <div className="container">
                     <div className="container">
-                        <div className="container">
+                        <div className="container products">
                             
 
-                                <h2>Best-Sellers</h2>
-                                <span>
+                            <h2>Best-Sellers</h2>
 
-                                    <div className="col s12 m7">
+                            <span>
+
+                                    <div className="products col s12 m7">
                                         <div className="card horizontal">
                                             <div className="card-image">
-                                                <img src={img_calm} height={img_height}/>
+                                                <img className="product-image" src={img_calm} height={img_height}/>
                                             </div>
                                             <div className="card-stacked">
                                                 <div className="card-content">
-                                                    <h3>Calm</h3>
-                                                    <h6>For tranquil, relaxed behavior</h6>
+                                                    <h5>Calm</h5>
+                                                    <i>For tranquil, relaxed behavior</i>
                                                     <p>This supplement calms a stressed dog or cat. It also relaxes hyper animals, such as puppies and kittens. Use it to encourage restful, all night sleep.</p>
                                                 </div>
                                                 <div className="card-action">
@@ -43,7 +44,7 @@ export default class extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col s12 m7">
+                                    <div className="products col s12 m7">
                                         <div className="card horizontal">
                                             <div className="card-image">
                                                 <img src={img_skin} height={img_height}/>
@@ -61,7 +62,7 @@ export default class extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col s12 m7">
+                                    <div className="products col s12 m7">
                                         <div className="card horizontal">
                                             <div className="card-image">
                                                 <img src={img_happy} height={img_height}/>
@@ -79,7 +80,7 @@ export default class extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div className="col s12 m7">
+                                    <div className="products col s12 m7">
                                         <div className="card horizontal">
                                             <div className="card-image">
                                                 <img src={img_repair} height={img_height}/>
@@ -99,6 +100,8 @@ export default class extends React.Component {
 
                                 </span>
 
+
+
                             
                         </div>
                     </div>
@@ -110,3 +113,25 @@ export default class extends React.Component {
         );
     }
 }
+
+
+
+
+
+
+                            //                                 <div className="col s12 m7">
+                            //     <h2 className="header">{product.name}</h2>
+                            //     <div className="card horizontal">
+                            //     <div className="card-image">
+                            //         <img src={img_calm} height={img_height}/>
+                            //     </div>
+                            //     <div className="card-stacked">
+                            //         <div className="card-content">
+                            //         <p>{product.description}</p>
+                            //         </div>
+                            //         <div className="card-action">
+                            //         <a href="https://epic-pet-health.myshopify.com/">Buy now</a>
+                            //         </div>
+                            //     </div>
+                            //     </div>
+                            // </div>

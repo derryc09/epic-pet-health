@@ -36,9 +36,9 @@ export default class App extends React.Component {
                 
                 <div>
                     
-                    <nav className="nav-extended">
+                    <nav className="nav nav-extended">
                         <div className="nav-wrapper">
-                        <a href="#/" className="brand-logo">Epic Pet Health</a>
+                        <a href="#/" className="brand-logo"><img src="../img/logos/eph-logo.png" height={50}/></a>
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/about" 
