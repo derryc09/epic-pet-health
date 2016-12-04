@@ -17,18 +17,9 @@ export default class extends React.Component {
             </AwardCard>
         ));
         
-
-
         return (
-
-
-            
-
-
             <div className="award-list">
-                
-                {awardCard}
-               
+                {awardCard}        
             </div>
         );
     }
