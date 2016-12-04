@@ -1,4 +1,3 @@
-
 import React from "react";
 import AwardCard from "./award-card.jsx";
 //import AWARDS from "./../../data/awards.js";
