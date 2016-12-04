@@ -1,6 +1,7 @@
 import React from "react";
 import {render} from "react-dom";
 
+
 import Main from "./components/main.jsx";
 import App from "./components/app.jsx";
 import Products from "./components/products.jsx";
@@ -8,10 +9,13 @@ import Announcements from "./components/announcements.jsx";
 import Testimonials from "./components/testimonials.jsx";
 import About from "./components/about.jsx";
 import Faq from "./components/faq.jsx";
+import Awards from "./components/awards.jsx";
 //import SearchForm from "./components/search-form.jsx";
+
 
 //import our stylesheet so webpack puts it into the bundle
 //import "./css/main.css";
+
 
 //TODO: replace the JSX here with a Router configuration
 //from the react router module (already a dependency in package.json)
@@ -21,7 +25,11 @@ import Faq from "./components/faq.jsx";
 
 
 
+
+
+
 import {Router, Route, IndexRoute, hashHistory} from "react-router";
+
 
 var router = (
     <Router history={hashHistory}>
@@ -32,8 +40,10 @@ var router = (
             <Route path="/testimonials" component={Testimonials}></Route>
             <Route path="/about" component={About}></Route>
             <Route path="/faq" component={Faq}></Route>
+            <Route path="/awards" component={Awards}></Route>
         </Route>
     </Router>
 );
+
 
 render(router, document.getElementById("app"));
