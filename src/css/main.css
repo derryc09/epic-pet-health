@@ -1,62 +1,26 @@
-<<<<<<< HEAD
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto", sans-serif;
-}
-
-p {
-    font-family: "Roboto", sans-serif;
-}
-
-.products {
-    display:inline-block;
-}
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .nav-wrapper {
     max-height: 100px;
 }
 
-<<<<<<< HEAD
-
 .hide-nav {
-  max-height: 10px;
-}
-
-
-=======
-.hide-nav {
-  /*max-height: 10px;*/
+  
   height:10px;
   
 }
 
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .col {
     text-align: center;
     vertical-align: middle;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 /*#email {
     background-color: white;
 }*/
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .input-field {
     margin-top: 0;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .input-field .btn {
     /*padding-right: 5px;*/
     font-size: 10px;
@@ -64,44 +28,24 @@ p {
     max-height: 25px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .sign-up-here {
     margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 #email {
     width: 50%;
     height: 1rem;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 i.right {
     margin-left: 0px;
     font-size: 15px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .btn i {
     line-height: normal;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .award {
     height: 200px;
     width: 200px;
@@ -112,56 +56,28 @@ i.right {
     margin: 10px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .award .btn {
     display: none;
     position: relative;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .award:hover {
     background-color: lightgray;
     opacity: .5;
 
-<<<<<<< HEAD
-
 }
 
-
-=======
-}
-
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .award:hover .btn {
     display: block;
     position:absolute;
     background-color: #8674ff;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .award-list {
     flex-wrap: wrap;
     display: flex;
 }
 
-<<<<<<< HEAD
-.nav {
-    background-color: #CCC;
-}
-
-
-
-
-=======
 .testimonials {
     /*width: 95%;*/
     /*margin: 3em auto;*/
@@ -257,4 +173,3 @@ i.right {
         width: 1260px;
     }
 }
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c

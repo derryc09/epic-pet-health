@@ -1,27 +1,31 @@
 import React from "react";
-<<<<<<< HEAD
 import ReactDOM from 'react-dom';
+
 
 import "whatwg-fetch";
 
-=======
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
+
+
 
 export default class extends React.Component {
     constructor(props) {
         super(props);
-<<<<<<< HEAD
         this.state = {}
+
 
     }
 
+
     render() {
+
+
 
 
         return (
             <div className="faq">
             
                 <center><h2>Frequently Asked Questions</h2></center>
+
 
                 <div className="container">
                     <ul className="collapsible" data-collapsible="accordion">
@@ -52,17 +56,10 @@ export default class extends React.Component {
                     </ul>
                 </div>
 
-=======
-    }
 
-    render() {
-  
-
-        return (
-            <div className="faq">
-                <p>faq</p>
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
             </div>
         );
     }
 }
+
+
