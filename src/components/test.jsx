@@ -6,18 +6,15 @@ export default class extends React.Component {
     }
 
     render() {
-        // window.location.href = '/testimonials';
+  
 
         return (
-            <div>
-                <h3>Our Stories</h3>
-                <div className="testimonials">
-                    
-                    <div className="tabitha">
+            <div className="test">
+                <div className="tabitha">
                         <p></p>
                     </div>
                     <h4>Calm Fans</h4>
-                    <div className="calm grid">
+                    <div className="calm grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
                             <h5>Eduardo’s story</h5>
@@ -284,9 +281,6 @@ Before using Repair, Scarlett, almost 16 years old, was having difficulty gettin
                             <h6>Adele</h6>
                         </div>
                     </div>
-
-
-                </div>
             </div>
         );
     }

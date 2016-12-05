@@ -18,12 +18,14 @@ export default class extends React.Component {
 
         return (
 
-            
-
+            <div>
+            <h4>Awards and Media</h4>
             <div className="award-list">
+            
                 
                 {awardCard}
                
+            </div>
             </div>
         );
     }
