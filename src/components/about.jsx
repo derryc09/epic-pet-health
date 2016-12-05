@@ -1,12 +1,16 @@
 import React from "react";
+<<<<<<< HEAD
 import ReactDOM from 'react-dom';
 
 import "whatwg-fetch";
 
+=======
+>>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 
 export default class extends React.Component {
     constructor(props) {
         super(props);
+<<<<<<< HEAD
         this.state = {}
 
     }
@@ -54,6 +58,16 @@ export default class extends React.Component {
                         If you would like to know more about my story and the supplements, please read my blog. You can also like me on Facebook.<br/><br/>
                     </p>
                 </div>
+=======
+    }
+
+    render() {
+  
+
+        return (
+            <div className="about">
+                <p>about</p>
+>>>>>>> 949263749700610749eaed8069f1a8e22d07155c
             </div>
         );
     }

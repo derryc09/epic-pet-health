@@ -1,10 +1,15 @@
 import React from "react";
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 export default class extends React.Component {
     constructor(props) {
         super(props);
     }
 
+<<<<<<< HEAD
 
     render() {
 
@@ -12,6 +17,12 @@ export default class extends React.Component {
         
 
 
+=======
+    render() {
+
+        
+
+>>>>>>> 949263749700610749eaed8069f1a8e22d07155c
         return (
             <div className="award">
                 
@@ -20,6 +31,10 @@ export default class extends React.Component {
             </div>
         );
     }
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> 949263749700610749eaed8069f1a8e22d07155c
