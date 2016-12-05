@@ -10,23 +10,19 @@ import "whatwg-fetch";
 export default class extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        
+    }
 
+    componentDidMount(){
 
     }
 
-
     render() {
-
-
-
 
         return (
             <div className="faq">
             
                 <center><h2>Frequently Asked Questions</h2></center>
-
-
                 <div className="container">
                     <ul className="collapsible" data-collapsible="accordion">
                         <li>
@@ -55,11 +51,7 @@ export default class extends React.Component {
                         </li>
                     </ul>
                 </div>
-
-
             </div>
         );
     }
 }
-
-

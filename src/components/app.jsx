@@ -5,25 +5,11 @@ import{Link, IndexLink} from "react-router";
 //import {store} from "./shared-state.js";
 
 
-export default class App extends React.Component {
+export default class extends React.Component {
     constructor(props) {
         super(props);
-        
-            this.state={
-    open:false
-    }
-       //this.state = store.getState();
     }
 
-
-    // componentDidMount() {
-    //     this.unsub = store.subscribe(() => this.setState(store.getState()));
-    // }
-
-
-    // componentWillUnmount() {
-    //     this.unsub(); 
-    // }
 
 
 
@@ -38,7 +24,11 @@ export default class App extends React.Component {
                    <div className="navbar-fixed">
                     <nav className="nav-extended">
                         <div className="nav-wrapper">
-                        <a href="#/" className="brand-logo">Epic Pet Health</a>
+
+                        <IndexLink to="/" className="brand-logo" activeClassName="active">
+                                Epic Pet Health
+                            </IndexLink>
+                        
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/about" 
@@ -208,31 +198,7 @@ export default class App extends React.Component {
           </div>
         </div>
       </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
-
-
-
-
-
-
-
-
-
-
 
 
             );
