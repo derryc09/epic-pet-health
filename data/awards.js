@@ -1,7 +1,3 @@
-
-
-
-
 var AWARDS = 
 [{"name": "abc", "img": "./../img/awards/abc.png", "link": "http://abcnews.go.com/Entertainment/surprising-freebies-inside-2014-oscar-nominees-gift-bags/story?id=22518285"},
 {"name": "about", "img": "./../img/awards/about.png", "link": "http://petshops.about.com/bio/Alissa-Wolf-86722.htm"},
