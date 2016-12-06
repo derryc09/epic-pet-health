@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import{Link, IndexLink} from "react-router";
 //import {store} from "./shared-state.js";
 
@@ -11,23 +10,30 @@ export default class extends React.Component {
     }
 
 
+    componentDidMount() {
+                    $(".button-collapse").sideNav();
+                    $(".dropdown-button").dropdown();
+    }
+
 
 
 
 
 
     render() {
-        
+        var picture = "./../../img/awards/cnn.png";
             return (
                 
                 <div>
-                   <div className="navbar-fixed">
+                   
+                <div className="navbar-fixed">
                     <nav className="nav-extended">
                         <div className="nav-wrapper">
+                        <a href="#/" className="brand-logo"> <IndexLink to="/" className="brand-logo" activeClassName="active">
+                               <img src="../../img/logos/eph-logo.png" alt=""/>
+                            </IndexLink></a>
 
-                        <IndexLink to="/" className="brand-logo" activeClassName="active">
-                                Epic Pet Health
-                            </IndexLink>
+                       
                         
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
@@ -35,11 +41,12 @@ export default class extends React.Component {
                                             activeClassName="active">About</Link></li>
                             <li><a href="#">Shop</a></li>
                             <li><Link to="/faq" 
-                                            activeClassName="active">Faq</Link></li>
+                                            activeClassName="active">FAQ</Link></li>
                             <li><a href="#">Search</a></li>
                         </ul>
                         <ul className="side-nav" id="mobile-demo">
-                            <li><a href="/about">About</a></li>
+                            <li><Link to="/about" 
+                                            activeClassName="active">About</Link></li>
                             <li><a href="#">Shop</a></li>
                             <li><a href="#">Faq</a></li>
                             <li><a href="#">Search</a></li>
@@ -58,10 +65,26 @@ export default class extends React.Component {
                                     
                                 </li>
                                 <ul id="dropdown1" className="dropdown-content">
-                                    <li><a href="#">one</a></li>
-                                    <li><a href="#">two</a></li>
-                                    <li className="divider" />
-                                    <li><a href="#">three</a></li>
+                                    <div className="nav-children">
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Best-Sellers</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Agility</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Allegy</Link></li>     
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Behavioral</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Cat</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Horse</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Prevention & Wellness</Link></li>
+                                            <li className="divider" />
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">All Products</Link></li>       
+                                </div>
+                                
                                 </ul>
  
                    
@@ -83,11 +106,12 @@ export default class extends React.Component {
                                 
                             </li>
                             <ul id="dropdown3" className="dropdown-content">
-                                <li><Link to="/awards" 
-                                        activeClassName="active">Awards</Link></li>
-                                <li><a href="#">two</a></li>
-                                <li className="divider" />
-                                <li><a href="#">three</a></li>
+                                <div className="nav-children">
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Awards</Link></li>
+                                
+                                </div>
+                                
                             </ul>
                         </ul>
 
@@ -198,11 +222,10 @@ export default class extends React.Component {
           </div>
         </div>
       </footer>
+
                 </div>
 
 
             );
         }
 }
-
-
