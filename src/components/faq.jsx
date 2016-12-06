@@ -20,6 +20,7 @@ export default class extends React.Component {
     render() {
 
         return (
+            
             <div className="faq">
             
                 <center><h2>Frequently Asked Questions</h2></center>

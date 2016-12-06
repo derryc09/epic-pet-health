@@ -9,6 +9,7 @@ import Testimonials from "./components/testimonials.jsx";
 import About from "./components/about.jsx";
 import Faq from "./components/faq.jsx";
 import Awards from "./components/awards.jsx";
+import Contact from "./components/contact.jsx";
 
 
 
@@ -25,6 +26,8 @@ var router = (
             <Route path="/about" component={About}></Route>
             <Route path="/faq" component={Faq}></Route>
             <Route path="/awards" component={Awards}></Route>
+            <Route path="/contact" component={Contact}></Route>
+            
         </Route>
     </Router>
 );

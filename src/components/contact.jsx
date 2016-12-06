@@ -15,22 +15,23 @@ export default class extends React.Component {
 
 
         return (
-             <div className="row">
-                <form className="col s12">
-                    <div className="row">
-                        <div className="input-field col s6">
-                            <i className="material-icons prefix">account_circle</i>
-                            <input id="icon_prefix" type="text" className="validate"></input>
-                            <label for="icon_prefix">First Name</label>
-                        </div>
-                        <div className="input-field col s6">
-                            <i className="material-icons prefix">phone</i>
-                            <input id="icon_telephone" type="tel" className="validate"></input>
-                            <label htmlFor="icon_telephone">Telephone</label>
-                        </div>
-                    </div>
-                </form>
+
+            
+             <div className="row contact-form">
+
+
+
+         <form action="#">
+            <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input className="mdl-textfield__input" type="text" id="sample3"/>
+                <label className="mdl-textfield__label" htmlFor="sample3">First Name</label>
             </div>
+            <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input className="mdl-textfield__input" type="text" id="sample3"/>
+                <label className="mdl-textfield__label" htmlFor="sample3">Last Name</label>
+            </div>            
+        </form>
+        </div>
         
         );
     }
