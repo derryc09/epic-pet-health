@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import{Link, IndexLink} from "react-router";
 //import {store} from "./shared-state.js";
 
@@ -25,6 +24,11 @@ export default class App extends React.Component {
                     $(".dropdown-button").dropdown();
     }
 
+
+    componentDidMount() {
+                    $(".button-collapse").sideNav();
+                    $(".dropdown-button").dropdown();
+    }
 
 
 
@@ -52,7 +56,11 @@ export default class App extends React.Component {
                 <div className="navbar-fixed">
                     <nav className="nav-extended">
                         <div className="nav-wrapper">
-                        <a href="#/" className="brand-logo"><img src="../../img/Logo.png" alt=""/></a>
+                        <a href="#/" className="brand-logo"> <IndexLink to="/" className="brand-logo" activeClassName="active">
+                               <img src="../../img/logos/eph-logo.png" alt=""/>
+                            </IndexLink></a>
+
+
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/about" 
@@ -63,7 +71,8 @@ export default class App extends React.Component {
                             <li><a href="#">Search</a></li>
                         </ul>
                         <ul className="side-nav" id="mobile-demo">
-                            <li><a href="/about">About</a></li>
+                            <li><Link to="/about" 
+                                            activeClassName="active">About</Link></li>
                             <li><a href="#">Shop</a></li>
                             <li><a href="#">Faq</a></li>
                             <li><a href="#">Search</a></li>
@@ -276,10 +285,7 @@ export default class App extends React.Component {
         </div>
       </footer>
 
-
                 </div>
-
-
 
 
             );

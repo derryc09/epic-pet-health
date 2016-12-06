@@ -45,6 +45,7 @@ a:hover, .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover
   height:0;
 }
 
+
 .col {
     text-align: center;
     vertical-align: middle;
@@ -117,6 +118,7 @@ i.right {
 .award-list {
     flex-wrap: wrap;
     display: flex;
+    justify-content: center;
 }
 
 .testimonials {
@@ -168,7 +170,21 @@ i.right {
 }
 
 .dropdown-content.active {
-    width: 500px !important;
+    
+    /*width: 100% !important;
+    left: 0 !important;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-children {
+    width: 200px;
+}
+
+nav .brand-logo img {
+    padding: 10px;
+    height: 75px;
+    width: auto;
 }
 
 .contact-form{
@@ -177,6 +193,11 @@ i.right {
 
 .collapsible{
     width:100%;
+}
+
+
+#sidenav-overlay {
+position: relative;
 }
 
 
