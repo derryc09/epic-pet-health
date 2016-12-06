@@ -7,8 +7,41 @@ p {
     font-family: "Roboto", sans-serif;
 }
 
+a {
+    color: #5567A4; 
+}
+
+a:hover {
+    color: #777; 
+}
+
 .products {
-    display:inline-block;
+    width: 40%;
+    height: 40%;
+}
+
+.main, .products-text {
+    text-align: center;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #5567A4; 
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+    color: #777; 
+}
+
+.test {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin: 100px;*/
+    justify-content: center;
 }
 
 =======
@@ -33,8 +66,8 @@ p {
 
 >>>>>>> 949263749700610749eaed8069f1a8e22d07155c
 .col {
-    text-align: center;
-    vertical-align: middle;
+    /*text-align: center;
+    vertical-align: middle;*/
 }
 
 <<<<<<< HEAD
