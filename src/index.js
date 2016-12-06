@@ -10,13 +10,8 @@ import Testimonials from "./components/testimonials.jsx";
 import About from "./components/about.jsx";
 import Faq from "./components/faq.jsx";
 import Awards from "./components/awards.jsx";
-<<<<<<< HEAD
-=======
+
 //import SearchForm from "./components/search-form.jsx";
->>>>>>> 949263749700610749eaed8069f1a8e22d07155c
-
-
-
 
 
 import {Router, Route, IndexRoute, hashHistory} from "react-router";
