@@ -9,16 +9,8 @@ import Testimonials from "./components/testimonials.jsx";
 import About from "./components/about.jsx";
 import Faq from "./components/faq.jsx";
 import Awards from "./components/awards.jsx";
-//import SearchForm from "./components/search-form.jsx";
+import Contact from "./components/contact.jsx";
 
-//import our stylesheet so webpack puts it into the bundle
-//import "./css/main.css";
-
-//TODO: replace the JSX here with a Router configuration
-//from the react router module (already a dependency in package.json)
-// render((
-//     <App/>
-//     ), document.getElementById("app"));
 
 
 
@@ -34,6 +26,8 @@ var router = (
             <Route path="/about" component={About}></Route>
             <Route path="/faq" component={Faq}></Route>
             <Route path="/awards" component={Awards}></Route>
+            <Route path="/contact" component={Contact}></Route>
+            
         </Route>
     </Router>
 );
