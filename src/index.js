@@ -1,7 +1,6 @@
 import React from "react";
 import {render} from "react-dom";
 
-
 import Main from "./components/main.jsx";
 import App from "./components/app.jsx";
 import Products from "./components/products.jsx";
@@ -11,11 +10,12 @@ import About from "./components/about.jsx";
 import Faq from "./components/faq.jsx";
 import Awards from "./components/awards.jsx";
 
+import Contact from "./components/contact.jsx";
+
 //import SearchForm from "./components/search-form.jsx";
 
 
 import {Router, Route, IndexRoute, hashHistory} from "react-router";
-
 
 var router = (
     <Router history={hashHistory}>
@@ -27,9 +27,10 @@ var router = (
             <Route path="/about" component={About}></Route>
             <Route path="/faq" component={Faq}></Route>
             <Route path="/awards" component={Awards}></Route>
+            <Route path="/contact" component={Contact}></Route>
+            
         </Route>
     </Router>
 );
-
 
 render(router, document.getElementById("app"));

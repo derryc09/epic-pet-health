@@ -43,6 +43,13 @@ a:hover, .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover
 
 .hide-nav {
   height:0;
+
+.nav-wrapper {
+    max-height: 100px;
+}
+
+.hide-nav {
+    height:10px;
 }
 
 .col {
@@ -167,16 +174,17 @@ i.right {
     height: 100px;
 }
 
-
 .dropdown-content.active {
     width: 500px !important;
 }
 
+.contact-form{
+    width: 50%;
+}
 
-
-
-
-
+.collapsible{
+    width:100%;
+}
 
 
 

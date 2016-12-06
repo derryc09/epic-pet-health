@@ -1,8 +1,6 @@
 import React from "react";
 
 
-
-
 import{Link, IndexLink} from "react-router";
 //import {store} from "./shared-state.js";
 
@@ -22,9 +20,10 @@ export default class App extends React.Component {
 
 
 
-    // componentDidMount() {
-    //     this.unsub = store.subscribe(() => this.setState(store.getState()));
-    // }
+    componentDidMount() {
+                    $(".button-collapse").sideNav();
+                    $(".dropdown-button").dropdown();
+    }
 
 
 
@@ -53,7 +52,7 @@ export default class App extends React.Component {
                 <div className="navbar-fixed">
                     <nav className="nav-extended">
                         <div className="nav-wrapper">
-                        <a href="#/" className="brand-logo">Epic Pet Health</a>
+                        <a href="#/" className="brand-logo"><img src="../../img/Logo.png" alt=""/></a>
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/about" 
@@ -87,10 +86,26 @@ export default class App extends React.Component {
                                     
                                 </li>
                                 <ul id="dropdown1" className="dropdown-content">
-                                    <li><a href="#">one</a></li>
-                                    <li><a href="#">two</a></li>
-                                    <li className="divider" />
-                                    <li><a href="#">three</a></li>
+                                    <div className="nav-children">
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Best-Sellers</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Agility</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Allegy</Link></li>     
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Behavioral</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Cat</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Horse</Link></li>
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">Prevention & Wellness</Link></li>
+                                            <li className="divider" />
+                                    <li><Link to="/awards" 
+                                            activeClassName="active">All Products</Link></li>       
+                                </div>
+                                
                                 </ul>
  
                    
@@ -115,13 +130,9 @@ export default class App extends React.Component {
                                 <div className="nav-children">
                                     <li><Link to="/awards" 
                                             activeClassName="active">Awards</Link></li>
-                                    <li><a href="#">two</a></li>
-                                    <li className="divider" />
-                                    <li><a href="#">three</a></li>
+                                
                                 </div>
-                                <div className="nav-children-side">
-                                    <img src={picture} alt=""/>
-                                </div>
+                                
                             </ul>
                         </ul>
 

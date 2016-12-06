@@ -2,22 +2,23 @@ import React from "react";
 import ReactDOM from 'react-dom';
 
 import "whatwg-fetch";
-// import "materialize-css";
 
 export default class extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {}        
+    }
 
+    componentDidMount(){
+        $('.collapsible').collapsible();
     }
 
     render() {
 
-
         return (
+            
             <div className="faq">
                 <center><h2>Frequently Asked Questions</h2></center>
-
                 <div className="container">
                     <ul className="collapsible" data-collapsible="accordion">
                         <li>

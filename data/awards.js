@@ -16,4 +16,3 @@ var AWARDS =
 {"name": "Star 94.1", "img": "./../img/awards/star.png", "link": "http://star941fm.iheart.com/onair/delanas-dish-40516/see-whats-in-the-oscar-85k-12112211/"},
 {"name": "US Weekly", "img": "./../img/awards/us-weekly.png", "link": "http://www.usmagazine.com/celebrity-style/news/oscars-2014-celebrity-swag-bags-losing-nominees-gift-products-2014202"},
 {"name": "Yahoo", "img": "./../img/awards/yahoo.png", "link": "http://finance.yahoo.com/news/oscar-swag-bag-boasts-85-021636790.html;_ylt=A0SO8xI3NhJTojoAJo5XNyoA;_ylu=X3oDMTExM2o3NTViBHNlYwNzcgRwb3MDMwRjb2xvA2dxMQR2dGlkA1VJQzFfMQ--"}]
-

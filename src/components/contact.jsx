@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-
 import "whatwg-fetch";
 
 
@@ -10,27 +9,27 @@ export default class extends React.Component {
         this.state = {}
 
     }
+    componentDidMount(){
+
+        $('select').material_select();
+        $('input#input_text, textarea#textarea1').characterCounter();
+        
+    }
 
     render() {
 
 
         return (
-             <div className="row">
-                <form className="col s12">
-                    <div className="row">
-                        <div className="input-field col s6">
-                            <i className="material-icons prefix">account_circle</i>
-                            <input id="icon_prefix" type="text" className="validate"></input>
-                            <label for="icon_prefix">First Name</label>
-                        </div>
-                        <div className="input-field col s6">
-                            <i className="material-icons prefix">phone</i>
-                            <input id="icon_telephone" type="tel" className="validate"></input>
-                            <label htmlFor="icon_telephone">Telephone</label>
-                        </div>
+
+             <div className="row contact-form">
+                <div className="row">
+                    <div className="input-field col s6">
+                    <input defaultValue="" id="first_name2" type="text" className="validate"/>
+                    <label className="" htmlFor="first_name2">First Name</label>
                     </div>
-                </form>
-            </div>
+                </div>
+          
+             </div>
         
         );
     }
