@@ -43,13 +43,6 @@ a:hover, .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover
 
 .hide-nav {
   height:0;
-
-.nav-wrapper {
-    max-height: 100px;
-}
-
-.hide-nav {
-    height:10px;
 }
 
 .col {
