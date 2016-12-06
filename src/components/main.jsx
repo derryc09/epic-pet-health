@@ -28,7 +28,7 @@ export default class extends React.Component {
                         <div className="products col s12 m7">
                             <div className="card horizontal">
                                 <div className="card-image">
-                                    <img className="product-image" src={img_calm} height={img_height}/>
+                                    <img className="product-image animated bounce" src={img_calm} height={img_height}/>
                                 </div>
                                 <div className="card-stacked products-text">
                                     <h5>Calm</h5>
