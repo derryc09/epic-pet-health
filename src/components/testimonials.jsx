@@ -20,6 +20,7 @@ export default class extends React.Component {
                     <div className="calm grid">
                         
                         <div className="grid-item">
+                            <img src="http://epicpethealth.com/wp-content/uploads/2012/11/Eduardo.jpg" alt=""/>
                             <h5>Eduardo’s story</h5>
                             
                             <p>“Eduardo has been thrown off his schedule a bit lately. We have been using Calm at bedtime to help get ready for bed.  He gets super sleepy, super quick.  He also seems to be more restful all night long-  not getting up and moving around.  At first he was wary of this “stuff”  I was putting on him, now as soon as he sees the bottle he comes and licks it right out of the dropper.”</p>

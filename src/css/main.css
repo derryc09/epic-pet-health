@@ -4,7 +4,7 @@
 
 .hide-nav {
   
-  height:10px;
+  height:0;
   
 }
 
@@ -76,13 +76,14 @@ i.right {
 .award-list {
     flex-wrap: wrap;
     display: flex;
+    justify-content: center;
 }
 
 .testimonials {
     /*width: 95%;*/
     /*margin: 3em auto;*/
-    margin-left: 15%;
-    /*margin-right: 10%;*/
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .grid {
@@ -125,6 +126,22 @@ i.right {
 
 .navbar-fixed {
     height: 100px;
+}
+
+.dropdown-content.active {
+    
+    /*width: 100% !important;
+    left: 0 !important;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-children {
+    width: 200px;
+}
+
+nav .brand-logo {
+    padding: 10px;
 }
 
 
