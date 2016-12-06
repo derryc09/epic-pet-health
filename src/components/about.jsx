@@ -1,5 +1,7 @@
 import React from "react";
+import ReactDOM from 'react-dom';
 
+import "whatwg-fetch";
 
 export default class extends React.Component {
     constructor(props) {
@@ -51,7 +53,6 @@ export default class extends React.Component {
                         If you would like to know more about my story and the supplements, please read my blog. You can also like me on Facebook.<br/><br/>
                     </p>
                 </div>
-
             </div>
         );
     }

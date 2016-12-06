@@ -4,9 +4,24 @@ import{Link, IndexLink} from "react-router";
 //import {store} from "./shared-state.js";
 
 
-export default class extends React.Component {
+
+
+export default class App extends React.Component {
     constructor(props) {
         super(props);
+        
+            this.state={
+    open:false
+    }
+       //this.state = store.getState();
+    }
+
+
+
+
+    componentDidMount() {
+                    $(".button-collapse").sideNav();
+                    $(".dropdown-button").dropdown();
     }
 
 
@@ -14,6 +29,18 @@ export default class extends React.Component {
                     $(".button-collapse").sideNav();
                     $(".dropdown-button").dropdown();
     }
+
+
+
+    // componentWillUnmount() {
+    //     this.unsub(); 
+    // }
+
+
+
+
+
+
 
 
 
@@ -33,8 +60,7 @@ export default class extends React.Component {
                                <img src="../../img/logos/eph-logo.png" alt=""/>
                             </IndexLink></a>
 
-                       
-                        
+
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/about" 
@@ -52,7 +78,11 @@ export default class extends React.Component {
                             <li><a href="#">Search</a></li>
 
 
+
+
                         </ul>
+
+
 
 
                         <ul className="tabs tabs-transparent">
@@ -122,6 +152,14 @@ export default class extends React.Component {
 
 
 
+
+
+
+
+
+
+
+
  
                     
                         </div>
@@ -134,7 +172,15 @@ export default class extends React.Component {
 
 
 
+
+
+
+
+
+
     <div className="navbar-fixed">
+
+
 
 
         <nav className="hide-nav">
@@ -157,6 +203,12 @@ export default class extends React.Component {
 
 
 
+
+
+
+
+
+
                     <main>
                         {this.props.children}
                     </main>
@@ -166,9 +218,17 @@ export default class extends React.Component {
 
 
 
+
+
+
+
+
+
     <footer className="page-footer">
         <div className="container">
           <div className="row">
+
+
 
 
             <div className="col s4">
@@ -187,6 +247,8 @@ export default class extends React.Component {
                 (206) 450-1118 <br/>
                 <i className="fa fa-facebook-square" aria-hidden="true"></i><span><i className="fa fa-twitter-square" aria-hidden="true"></i></span>
                 
+
+
 
 
               </p>

@@ -8,25 +8,20 @@ export default class extends React.Component {
     }
 
     render() {
-        console.log(AWARDS);
         var awardCard = AWARDS.map(award => (
             <AwardCard key={award.name} className="awardCard" award={award}>
             
             </AwardCard>
         ));
         
-
         return (
-
-            <div>
-            <h4>Awards and Media</h4>
-            <div className="award-list">
-            
-                
-                {awardCard}
-               
-            </div>
+            <div className="awardTitle">
+            <h2>Awards and Media</h2>
+                <div className="award-list">
+                    {awardCard}
+                </div>
             </div>
         );
     }
 }
+

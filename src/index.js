@@ -9,9 +9,10 @@ import Testimonials from "./components/testimonials.jsx";
 import About from "./components/about.jsx";
 import Faq from "./components/faq.jsx";
 import Awards from "./components/awards.jsx";
+
 import Contact from "./components/contact.jsx";
 
-
+//import SearchForm from "./components/search-form.jsx";
 
 
 import {Router, Route, IndexRoute, hashHistory} from "react-router";

@@ -1,4 +1,3 @@
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", sans-serif;
 }
@@ -7,11 +6,11 @@ p {
     font-family: "Roboto", sans-serif;
 }
 
-a {
+a, .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
     color: #5567A4; 
 }
 
-a:hover {
+a:hover, .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
     color: #777; 
 }
 
@@ -20,28 +19,22 @@ a:hover {
     height: 40%;
 }
 
-.main, .products-text {
+.bestSellers {
+    background-color: #F2F2F2; 
+}
+
+.container, .award-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main, .bestSellers, .awards, .products-text, .awardTitle {
     text-align: center;
 }
 
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
-    color: #5567A4; 
-}
-
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
-    color: #777; 
-}
-
-.test {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    /*margin: 100px;*/
-    justify-content: center;
+.awardCardMain {
+    width: 100px;
 }
 
 .nav-wrapper {
@@ -54,8 +47,8 @@ a:hover {
 
 
 .col {
-    /*text-align: center;
-    vertical-align: middle;*/
+    text-align: center;
+    vertical-align: middle;
 }
 
 /*#email {
@@ -101,6 +94,11 @@ i.right {
     margin: 10px;
 }
 
+.awardMain {
+    width: 100px;
+    height: 100px;
+}
+
 .award .btn {
     display: none;
     position: relative;
@@ -109,7 +107,6 @@ i.right {
 .award:hover {
     background-color: lightgray;
     opacity: .5;
-
 }
 
 .award:hover .btn {
@@ -143,7 +140,6 @@ i.right {
 }
 
 .grid h6 {
-    
     float: right;
     font-weight: bold;
 }
@@ -191,12 +187,9 @@ nav .brand-logo img {
     width: auto;
 }
 
-
 .contact-form{
-
     width: 50%;
 }
-
 
 .collapsible{
     width:100%;
@@ -219,6 +212,7 @@ position: relative;
     }
 }
 
+
 @media only screen and (min-width: 700px) {
     .grid {
         -moz-column-count: 3;
@@ -226,6 +220,7 @@ position: relative;
         column-count: 3;
     }
 }
+
 
 @media only screen and (min-width: 900px) {
     .grid {
@@ -235,6 +230,7 @@ position: relative;
     }
 }
 
+
 @media only screen and (min-width: 1100px) {
     .grid {
         -moz-column-count: 5;
@@ -242,6 +238,7 @@ position: relative;
         column-count: 5;
     }
 }
+
 
 @media only screen and (min-width: 1280px) {
     .testimonials {
