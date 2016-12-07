@@ -29,7 +29,7 @@ a:hover, .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover
     justify-content: center;
 }
 
-.main, .bestSellers, .awards, .products-text, .awardTitle {
+.main, .bestSellers, .awards, .awardTitle {
     text-align: center;
 }
 
@@ -199,6 +199,11 @@ nav .brand-logo img {
 #sidenav-overlay {
 position: relative;
 }
+
+.parallax-container {
+    height: 800px;
+}
+
 
 
 
