@@ -11,7 +11,7 @@ export default class extends React.Component {
         console.log(AWARDS);
         var awardCard = AWARDS.map(award => (
             <AwardCard key={award.name} className="awardCard" award={award}>
-            
+             
             </AwardCard>
         ));
         
@@ -24,6 +24,9 @@ export default class extends React.Component {
             
                 
                 {awardCard}
+               
+                        {this.props.children}
+                
                
             </div>
             </div>
