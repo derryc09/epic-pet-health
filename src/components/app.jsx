@@ -56,9 +56,9 @@ export default class App extends React.Component {
                 <div className="navbar-fixed">
                     <nav className="nav-extended">
                         <div className="nav-wrapper">
-                        <a href="#/" className="brand-logo"> <IndexLink to="/" className="brand-logo" activeClassName="active">
+                         <IndexLink to="/" className="brand-logo" activeClassName="active">
                                <img src="../../img/logos/eph-logo.png" alt=""/>
-                            </IndexLink></a>
+                            </IndexLink>
 
 
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>

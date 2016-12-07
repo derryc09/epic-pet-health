@@ -14,10 +14,7 @@ a:hover, .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover
     color: #777; 
 }
 
-.products {
-    width: 40%;
-    height: 40%;
-}
+
 
 .bestSellers {
     background-color: #F2F2F2; 
@@ -199,7 +196,29 @@ nav .brand-logo img {
 #sidenav-overlay {
 position: relative;
 }
+.product-image{
+    height:191px;
 
+}
+
+.card {
+    margin: 20px;
+    width: 350px;
+}
+.flex-row {
+    display: flex;
+    flex-wrap: wrap; /* wrap columns to next line if needed */
+}
+
+.flex-column {
+    flex-grow: 1;
+    flex-basis: 25%; /* columns take up whole line */
+    padding: 0 0.25em;
+}
+.headerBackground{
+    background: url("http://us.escents.ca/app/uploads/2016/03/Escents-Aroma-Diffusers.jpg") top center no-repeat; 
+    background-size: cover; 
+}
 
 
 
