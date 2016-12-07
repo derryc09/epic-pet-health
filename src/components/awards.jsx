@@ -16,7 +16,7 @@ export default class extends React.Component {
         
         return (
             <div className="awardTitle">
-            <h2>Awards and Media</h2>
+                <h2>Awards and Media</h2>
                 <div className="award-list">
                     {awardCard}
                 </div>

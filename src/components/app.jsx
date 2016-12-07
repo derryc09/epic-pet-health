@@ -1,7 +1,6 @@
 import React from "react";
 
 import{Link, IndexLink} from "react-router";
-//import {store} from "./shared-state.js";
 
 
 
@@ -9,11 +8,6 @@ import{Link, IndexLink} from "react-router";
 export default class App extends React.Component {
     constructor(props) {
         super(props);
-        
-            this.state={
-    open:false
-    }
-       //this.state = store.getState();
     }
 
 
@@ -23,25 +17,6 @@ export default class App extends React.Component {
                     $(".button-collapse").sideNav();
                     $(".dropdown-button").dropdown();
     }
-
-
-    componentDidMount() {
-                    $(".button-collapse").sideNav();
-                    $(".dropdown-button").dropdown();
-    }
-
-
-
-    // componentWillUnmount() {
-    //     this.unsub(); 
-    // }
-
-
-
-
-
-
-
 
 
 
@@ -49,18 +24,14 @@ export default class App extends React.Component {
 
     render() {
         var picture = "./../../img/awards/cnn.png";
-            return (
-                
-                <div>
-                   
+            return (        
+                <div>   
                 <div className="navbar-fixed">
                     <nav className="nav-extended">
                         <div className="nav-wrapper">
                          <IndexLink to="/" className="brand-logo" activeClassName="active">
                                <img src="../../img/logos/eph-logo.png" alt=""/>
                             </IndexLink>
-
-
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/about" 
@@ -76,23 +47,11 @@ export default class App extends React.Component {
                             <li><a href="#">Shop</a></li>
                             <li><a href="#">Faq</a></li>
                             <li><a href="#">Search</a></li>
-
-
-
-
                         </ul>
-
-
-
-
-                        <ul className="tabs tabs-transparent">
-                            
-                                <li className="tab dropdown-button" data-activates="dropdown1">
-                                
+                        <ul className="tabs tabs-transparent">                       
+                                <li className="tab dropdown-button" data-activates="dropdown1">                         
                                 <Link to="/products" 
-                                            activeClassName="active">Products</Link>
-                                
-                                    
+                                            activeClassName="active">Products</Link>        
                                 </li>
                                 <ul id="dropdown1" className="dropdown-content">
                                     <div className="nav-children">
@@ -115,9 +74,7 @@ export default class App extends React.Component {
                                             activeClassName="active">All Products</Link></li>       
                                 </div>
                                 
-                                </ul>
- 
-                   
+                                </ul>           
                             <li className="tab dropdown-button" data-activates="dropdown2">
                                 <Link to="/announcements" 
                                         activeClassName="active">Announcements</Link>             
@@ -144,24 +101,6 @@ export default class App extends React.Component {
                                 
                             </ul>
                         </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-                    
                         </div>
                     </nav>
                     </div> 
@@ -196,40 +135,13 @@ export default class App extends React.Component {
         </nav>
      
       </div>
-     
-
-
-
-
-
-
-
-
-
-
-
 
                     <main>
                         {this.props.children}
                     </main>
-
-
-
-
-
-
-
-
-
-
-
-
     <footer className="page-footer">
         <div className="container">
           <div className="row">
-
-
-
 
             <div className="col s4">
               <h5 className="white-text">Location</h5>

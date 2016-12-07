@@ -14,6 +14,8 @@ export default class extends React.Component {
         var img_height = 230;
 
         var awardCard = AWARDS.map(award => (
+
+            
             <AwardCard key={award.name} className="awardCardMain" award={award}>
             
             </AwardCard>
