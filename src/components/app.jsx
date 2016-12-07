@@ -220,3 +220,230 @@ export default class extends React.Component {
             );
         }
 }
+
+
+                // <div className="navbar-fixed">
+                //     <nav className="nav-extended">
+                //         <div className="nav-wrapper">
+                //         <IndexLink to="/" className="brand-logo" activeClassName="active">
+                //                <img src="../../img/logos/eph-logo.png" alt=""/>
+                //             </IndexLink>
+
+                       
+                        
+                //         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
+                //         <ul id="nav-mobile" className="right hide-on-med-and-down">
+                //             <li><Link to="/about" 
+                //                             activeClassName="active">About</Link></li>
+                //             <li><a href="#">Shop</a></li>
+                //             <li><Link to="/faq" 
+                //                             activeClassName="active">FAQ</Link></li>
+                //             <li><a href="#">Search</a></li>
+                //         </ul>
+                //         <ul className="side-nav" id="mobile-demo">
+                //             <li><Link to="/about" 
+                //                             activeClassName="active">About</Link></li>
+                //             <li><a href="#">Shop</a></li>
+                //             <li><Link to="/faq" 
+                //                             activeClassName="active">FAQ</Link></li>
+                //             <li><a href="#">Search</a></li>
+
+
+                //         </ul>
+
+
+                //         <ul className="tabs tabs-transparent">
+                //             <li><a className="dropdown-button" href="#" data-activates="dropdown1">Dropdown<i className="material-icons right">arrow_drop_down</i></a></li>
+                //                 <li className="tab dropdown-button" data-activates="dropdown1">
+                                
+                //                 <Link to="/products" 
+                //                             activeClassName="active">Products</Link>
+                                
+                                    
+                //                 </li>
+                //                 <ul id="dropdown1" className="dropdown-content">
+                //                     <div className="nav-children">
+                //                     <li><Link to="/awards" 
+                //                             activeClassName="active">Best-Sellers</Link></li>
+                //                     <li><Link to="/awards" 
+                //                             activeClassName="active">Agility</Link></li>
+                //                     <li><Link to="/awards" 
+                //                             activeClassName="active">Allegy</Link></li>     
+                //                     <li><Link to="/awards" 
+                //                             activeClassName="active">Behavioral</Link></li>
+                //                     <li><Link to="/awards" 
+                //                             activeClassName="active">Cat</Link></li>
+                //                     <li><Link to="/awards" 
+                //                             activeClassName="active">Horse</Link></li>
+                //                     <li><Link to="/awards" 
+                //                             activeClassName="active">Prevention & Wellness</Link></li>
+                //                             <li className="divider" />
+                //                     <li><Link to="/awards" 
+                //                             activeClassName="active">All Products</Link></li>       
+                //                 </div>
+                                
+                //                 </ul>
+ 
+                   
+                //             <li className="tab dropdown-button" data-activates="dropdown2">
+                //                 <Link to="/announcements" 
+                //                         activeClassName="active">Announcements</Link>             
+                //             </li>
+                //             <ul id="dropdown2" className="dropdown-content">
+                //                 <li><a href="#">one</a></li>
+                //                 <li><a href="#">two</a></li>
+                //                 <li className="divider" />
+                //                 <li><a href="#">three</a></li>
+                //             </ul>
+                //             <li className="tab dropdown-button" data-activates="dropdown3">
+                                
+                //                 <Link to="/testimonials" 
+                //                         activeClassName="active">Testimonials</Link>
+                               
+                                
+                //             </li>
+                //             <ul id="dropdown3" className="dropdown-content">
+                //                 <div className="nav-children">
+                //                     <li><Link to="/awards" 
+                //                             activeClassName="active">Awards</Link></li>
+                                
+                //                 </div>
+                                
+                //             </ul>
+                //         </ul>
+
+
+
+
+
+
+
+
+ 
+                    
+                //         </div>
+                //     </nav>
+                //     </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    //             <div className="navbar-fixed">
+                    // <nav className="nav-extended">
+                    //     <div className="nav-wrapper">
+                    //     <IndexLink to="/" className="brand-logo" activeClassName="active">
+                    //            <img src="../../img/logos/eph-logo.png" alt=""/>
+                    //         </IndexLink>
+
+                       
+                        
+                    //     <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
+                    //     <ul id="nav-mobile" className="right hide-on-med-and-down">
+                    //         <li><Link to="/about" 
+                    //                         activeClassName="active">About</Link></li>
+                    //         <li><a href="#">Shop</a></li>
+                    //         <li><Link to="/faq" 
+                    //                         activeClassName="active">FAQ</Link></li>
+                    //         <li><a href="#">Search</a></li>
+                    //     </ul>
+                    //     <ul className="side-nav" id="mobile-demo">
+                    //         <li><Link to="/about" 
+                    //                         activeClassName="active">About</Link></li>
+                    //         <li><a href="#">Shop</a></li>
+                    //         <li><Link to="/faq" 
+                    //                         activeClassName="active">FAQ</Link></li>
+                    //         <li><a href="#">Search</a></li>
+
+
+                    //     </ul>
+
+
+                    //     <ul className="tabs tabs-transparent">
+                    //         <li><a className="dropdown-button" href="#" data-activates="dropdown1">Dropdown<i className="material-icons right">arrow_drop_down</i></a></li>
+                    //             <li className="tab dropdown-button" data-activates="dropdown1">
+                                
+                    //             <Link to="/products" 
+                    //                         activeClassName="active">Products</Link>
+                                
+                                    
+                    //             </li>
+                    //             <ul id="dropdown1" className="dropdown-content">
+                    //                 <div className="nav-children">
+                    //                 <li><Link to="/awards" 
+                    //                         activeClassName="active">Best-Sellers</Link></li>
+                    //                 <li><Link to="/awards" 
+                    //                         activeClassName="active">Agility</Link></li>
+                    //                 <li><Link to="/awards" 
+                    //                         activeClassName="active">Allegy</Link></li>     
+                    //                 <li><Link to="/awards" 
+                    //                         activeClassName="active">Behavioral</Link></li>
+                    //                 <li><Link to="/awards" 
+                    //                         activeClassName="active">Cat</Link></li>
+                    //                 <li><Link to="/awards" 
+                    //                         activeClassName="active">Horse</Link></li>
+                    //                 <li><Link to="/awards" 
+                    //                         activeClassName="active">Prevention & Wellness</Link></li>
+                    //                         <li className="divider" />
+                    //                 <li><Link to="/awards" 
+                    //                         activeClassName="active">All Products</Link></li>       
+                    //             </div>
+                                
+                    //             </ul>
+ 
+                   
+                    //         <li className="tab dropdown-button" data-activates="dropdown2">
+                    //             <Link to="/announcements" 
+                    //                     activeClassName="active">Announcements</Link>             
+                    //         </li>
+                    //         <ul id="dropdown2" className="dropdown-content">
+                    //             <li><a href="#">one</a></li>
+                    //             <li><a href="#">two</a></li>
+                    //             <li className="divider" />
+                    //             <li><a href="#">three</a></li>
+                    //         </ul>
+                    //         <li className="tab dropdown-button" data-activates="dropdown3">
+                                
+                    //             <Link to="/testimonials" 
+                    //                     activeClassName="active">Testimonials</Link>
+                               
+                                
+                    //         </li>
+                    //         <ul id="dropdown3" className="dropdown-content">
+                    //             <div className="nav-children">
+                    //                 <li><Link to="/awards" 
+                    //                         activeClassName="active">Awards</Link></li>
+                                
+                    //             </div>
+                                
+                    //         </ul>
+                    //     </ul>
+
+
+
+
+
+
+
+
+ 
+                    
+                    //     </div>
+                    // </nav>
+                    // </div> 
