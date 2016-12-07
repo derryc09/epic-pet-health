@@ -10,6 +10,7 @@ export default class extends React.Component {
 
         return (
             <div>
+            
                 <h3>Our Stories</h3>
                 <div className="testimonials">
                     
@@ -27,7 +28,7 @@ export default class extends React.Component {
                             <h6>Christina K (Columbia, MO)</h6>
                         </div>
                         <div className="grid-item">
-                            
+                            <img src="http://www.epicpethealth.com/wp-content/uploads/2012/11/Bear-300x179.jpg" alt=""/>
                             <p> “So Kylei started adding drops to his food and over time she can see a difference.  For one thing she notices he isn’t as snappy with the kids, and just seems lots more CALM, and he is up and running around now like a youngster that he was before the DRUG REACTION.  I sent Amy an email recently to tell her how well Bear is doing and we also talked about Stella’s eyes and how concerned I am about it going into something very serious.  She generously is sending us her EYE’S to try to help with her dry eye issue.  Stella has NO tears at all so she often has muscus forming in her eyes and she has a brown pigment all over her big eyes.  This contributes to her blindness.  So we are thanking AMY at EPIC PET HEALTH for being so helpful to Bear and Stella.  We wish everyone who invested in pet health were as kind and thoughtful as she is.  We will be letting you guys know how it works with Stella’s eyes.”</p>
                             <h6>Stell Rose Long Blog (add href link)</h6>
                         </div> 
@@ -288,6 +289,7 @@ Before using Repair, Scarlett, almost 16 years old, was having difficulty gettin
 
 
                 </div>
+                
             </div>
         );
     }

@@ -1,37 +1,41 @@
 import React from "react";
 
 import{Link, IndexLink} from "react-router";
+//import {store} from "./shared-state.js";
 
 
-
-
-export default class App extends React.Component {
+export default class extends React.Component {
     constructor(props) {
         super(props);
     }
 
 
-
-
     componentDidMount() {
                     $(".button-collapse").sideNav();
-                    $(".dropdown-button").dropdown();
+                    $(".dropdown-button").dropdown({hover: true});
+                    
     }
+
 
 
 
 
 
     render() {
-        var picture = "./../../img/awards/cnn.png";
-            return (        
-                <div>   
-                <div className="navbar-fixed">
+        
+            return (
+                
+                <div>
+                   
+                <div className="navbar-fixed test">
                     <nav className="nav-extended">
                         <div className="nav-wrapper">
-                         <IndexLink to="/" className="brand-logo" activeClassName="active">
+                        <IndexLink to="/" className="brand-logo" activeClassName="active">
                                <img src="../../img/logos/eph-logo.png" alt=""/>
                             </IndexLink>
+
+                       
+                        
                         <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/about" 
@@ -45,13 +49,22 @@ export default class App extends React.Component {
                             <li><Link to="/about" 
                                             activeClassName="active">About</Link></li>
                             <li><a href="#">Shop</a></li>
-                            <li><a href="#">Faq</a></li>
+                            <li><Link to="/faq" 
+                                            activeClassName="active">FAQ</Link></li>
                             <li><a href="#">Search</a></li>
+
+
                         </ul>
-                        <ul className="tabs tabs-transparent">                       
-                                <li className="tab dropdown-button" data-activates="dropdown1">                         
+
+
+                        <ul className="tabs tabs-transparent">
+                            
+                                <li className="tab dropdown-button" data-activates="dropdown1">
+                                
                                 <Link to="/products" 
-                                            activeClassName="active">Products</Link>        
+                                            activeClassName="active">Products</Link>
+                                
+                                    
                                 </li>
                                 <ul id="dropdown1" className="dropdown-content">
                                     <div className="nav-children">
@@ -74,7 +87,9 @@ export default class App extends React.Component {
                                             activeClassName="active">All Products</Link></li>       
                                 </div>
                                 
-                                </ul>           
+                                </ul>
+ 
+                   
                             <li className="tab dropdown-button" data-activates="dropdown2">
                                 <Link to="/announcements" 
                                         activeClassName="active">Announcements</Link>             
@@ -101,22 +116,15 @@ export default class App extends React.Component {
                                 
                             </ul>
                         </ul>
+
+ 
+                    
                         </div>
                     </nav>
                     </div> 
-                    
 
 
-
-
-
-
-
-
-
-
-
-
+     <div className="hidnav">
     <div className="navbar-fixed">
 
 
@@ -135,13 +143,24 @@ export default class App extends React.Component {
         </nav>
      
       </div>
+</div>
+
+
+
 
                     <main>
                         {this.props.children}
                     </main>
+
+
+
+
+
+
     <footer className="page-footer">
         <div className="container">
           <div className="row">
+
 
             <div className="col s4">
               <h5 className="white-text">Location</h5>
@@ -157,10 +176,8 @@ export default class App extends React.Component {
               <p className="grey-text text-lighten-4">
                 info@EpicPetHealth.com <br/>
                 (206) 450-1118 <br/>
-                <i className="fa fa-facebook-square" aria-hidden="true"></i><span><i className="fa fa-twitter-square" aria-hidden="true"></i></span>
+                <i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i><span><i className="fa fa-twitter-square fa-2x" aria-hidden="true"></i></span>
                 
-
-
 
 
               </p>
@@ -192,7 +209,7 @@ export default class App extends React.Component {
         <div className="footer-copyright">
           <div className="container">
             © Epic Pet Health 2014
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+            
           </div>
         </div>
       </footer>
