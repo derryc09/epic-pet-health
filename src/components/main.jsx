@@ -18,20 +18,21 @@ export default class extends React.Component {
         var img_height = 230;
 
         var awardCard = AWARDSSMALL.map(award => (
-            <AwardCard key={award.name} className="awardCardMain" award={award}>
-            
-            </AwardCard>
+            <AwardCard key={award.name} className="awardCardMain" award={award}></AwardCard>
         ));
 
         return (
             <main>
                 <div className="parallax-container">
-                    <div className="parallax">
-                        <section className="bestSellers">
-                            <h2>Best-Sellers</h2>
+                    <div className="parallax"><img src="../img/other/robbie-joey.jpg"></img></div>
+                </div>
 
-                            <div className="container">
-                                <div className="products col s12 m7">
+                <div className="section bestSellers">
+                    <h2>Best-Sellers</h2>
+                    <div className="bestSellers-content row container">
+      
+                                
+                                <div className="products col s12 m7 container">
                                     <div className="card horizontal">
                                         <div className="card-image">
                                             <img className="product-image" src={img_calm} height={img_height}/>
@@ -49,7 +50,8 @@ export default class extends React.Component {
                                     </div>
                                 </div>
 
-                                <div className="products col s12 m7">
+
+                                <div className="products col s12 m7 container">
                                     <div className="card horizontal">
                                         <div className="card-image">
                                             <img className="product-image" src={img_skin} height={img_height}/>
@@ -58,7 +60,7 @@ export default class extends React.Component {
                                             <h5>Skin</h5>
                                             <i>Relieves itchy, flaky skin</i>
                                             <div className="card-content">
-                                                <p>Promotes healthy skin and coats. It also relieves scratchy, dry skin. Helps ease discomfort from flea bites and other skin irritants.</p>
+                                                <p>Promotes healthy skin and coats. It also relieves scratchy, dry skin. Helps ease discomfort from flea bites and skin irritants.</p>
                                             </div>
                                             <div className="card-action">
                                                 <a href="#">This is a link</a>
@@ -94,7 +96,7 @@ export default class extends React.Component {
                                             <h5>Repair</h5>
                                             <i>For faster injury recovery</i>
                                             <div className="card-content">
-                                                <p>Helps boost the body’s immune response and relieves aches, pains and inflammation. It is good for injury recovery and supports the body during illness.</p>
+                                                <p>Boosts body’s immune response, relieves aches, pains and inflammation. Good for injury recovery and supports the body.</p>
                                             </div>
                                             <div className="card-action">
                                                 <a href="#">This is a link</a>
@@ -102,22 +104,16 @@ export default class extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                            
-                            </div>
-                        </section>
+    
+                    </div>
+                </div>
 
+                <section className="awards">
+                    <h2>Awards</h2>
+                    <div className="award-list-main">                
+                        {awardCard}
                     </div>
-                </div>
-                <div className="section white">
-                    <div className="row container">
-                        <section className="awards">
-                            <h2>Awards</h2>
-                            <div className="award-list">                
-                                {awardCard}
-                            </div>
-                        </section>
-                    </div>
-                </div>
+                </section>
             </main>
         );
     }

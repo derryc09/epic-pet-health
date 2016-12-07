@@ -17,16 +17,29 @@ a:hover, .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover
 .products {
     width: 40%;
     height: 40%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .bestSellers {
     background-color: #F2F2F2; 
+    
 }
 
-.container, .award-list {
+.container, .award-list, .award-list-main, .bestSellers-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+
+.award-list-main {
+    width: 75%;
+    margin: 0 auto;
+
 }
 
 .main, .bestSellers, .awards, .awardTitle {
@@ -205,7 +218,11 @@ position: relative;
 }
 
 
-
+@media only screen and (min-width: 601px) {
+    .row, .col, .m7 {
+        width: 50% !important;
+    }
+}
 
 
 

@@ -24,7 +24,7 @@ export default class extends React.Component {
                 </div>
                 <div className="section white">
                     <div className="row container">
-                    <center>
+                        <center>
                             <img src="../img/other/amy.png"/>   
                             <img src="../img/other/girls.png"/>
                             <h5>
