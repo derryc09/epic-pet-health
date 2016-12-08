@@ -40,12 +40,11 @@ export default class extends React.Component {
                             
                             <p>“Eduardo has been thrown off his schedule a bit lately. We have been using Calm at bedtime to help get ready for bed.  He gets super sleepy, super quick.  He also seems to be more restful all night long-  not getting up and moving around.  At first he was wary of this “stuff”  I was putting on him, now as soon as he sees the bottle he comes and licks it right out of the dropper.”</p>
                             <h6>Christina K (Columbia, MO)</h6>
-                        </div>
-                       
+                        </div>                                 
                         <div className="grid-item">
                             
                             <p> “So Kylei started adding drops to his food and over time she can see a difference.  For one thing she notices he isn’t as snappy with the kids, and just seems lots more CALM, and he is up and running around now like a youngster that he was before the DRUG REACTION.  I sent Amy an email recently to tell her how well Bear is doing and we also talked about Stella’s eyes and how concerned I am about it going into something very serious.  She generously is sending us her EYE’S to try to help with her dry eye issue.  Stella has NO tears at all so she often has muscus forming in her eyes and she has a brown pigment all over her big eyes.  This contributes to her blindness.  So we are thanking AMY at EPIC PET HEALTH for being so helpful to Bear and Stella.  We wish everyone who invested in pet health were as kind and thoughtful as she is.  We will be letting you guys know how it works with Stella’s eyes.”</p>
-                            <h6>Stell Rose Long Blog (add href link)</h6>
+                            <a href="http://stellroselong.blogspot.com/2013/08/epic-and-bear.html"><h6>Stell Rose Long Blog</h6></a>
                         </div> 
                         <div className="grid-item">
                             <h5>Really takes off the edge of anxiety-related barking!</h5>
@@ -76,7 +75,7 @@ export default class extends React.Component {
             </div>   
             <div className="testimonials">
                     <h4>Clean Teeth Fans</h4>
-                    <div className="clean-teeth grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
+                    <div className="clean-teeth grid" >
                         
                         <div className="grid-item">
                             <h5>Great product for cat lovers!</h5>
@@ -102,7 +101,7 @@ export default class extends React.Component {
                         <div className="grid-item">
                             
                             <p>”This is a new one that Amy is trying, and I gotta say….it’s a winner! Now, I have pretty good toothers, butts Ma had noticed some slight yellowing of my canines. She also put this in my water just once a day, and guess what?? It worked!  Yups, the yellowing is gone! Yea!! Ma was really  happy about this cause doggie dental care is very important, and tooth problems are not funs at all!!”</p>
-                            <h6>Ruby The Airedale Blog (add href link)</h6>
+                            <a href="http://www.rubytheairedalepup.com/2013/07/review-epic-pet-health_12.html"><h6>Ruby The Airedale Blog</h6></a>
                         </div>
                     </div>
                     <h4>Clear Fans</h4>
@@ -124,7 +123,7 @@ export default class extends React.Component {
                         
                         <div className="grid-item">
                             <p>“Now this one is for dogs and cats with gas pain (yes, yes, I gets the farts!!! BOL) and, it also reduces bad breath (I don’t have this particular problem) and promotes normal, healthy digestion. Anyhu, did it help? YES!!! Ma was really shocked puppers, shocked! She put it in my water just once a day ( you can use it up to 3 times a day!), and it took away almost all my ‘stink’! A couple of days she forgot to put it in my water, and she really noticed the difference.”</p>
-                            <h6> Ruby The Airedale Blog (add href link)</h6>
+                            <a href="http://www.rubytheairedalepup.com/2013/07/review-epic-pet-health_12.html"><h6> Ruby The Airedale Blog</h6></a>
                         </div>
                     </div>
                     <h4>Eye Fans</h4>
@@ -142,7 +141,7 @@ export default class extends React.Component {
                         <div className="grid-item">
                             
                             <p>“Since I am taking the supplement for the pain in my leg, Lee has noticed a change in my coat. Even my vet said how nice my coat was looking, my furs are much thicker and coarser. Coarser usually means low, common, or inferior quality, but not in this instance. I, Sweet William The Scot, mean more coarse like a double scottie coat.  We Scots have a double (hard wiry & soft under) coat. So there you have it ~ my day is sitting here watching the Black Eyed Susans grow and admiring my furs.”</p>
-                            <h6>Sweet William The Scot Blog (add href link)</h6>
+                            <a href="http://sweetwilliamthescot.blogspot.com/"><h6>Sweet William The Scot Blog</h6></a>
                         </div>
                     </div>
                     <h4>Gain Fans</h4>
@@ -151,7 +150,7 @@ export default class extends React.Component {
                         <div className="grid-item">
                             
                             <p>“I was given gain, align, calm and repair. I have tested them all. You can spray the supplements onto food or water, and on the skin to proved maximum effect. I can confidently say that all the supplements work. Boston has always struggled to keep weight on, and she’s never looked this good. The Calm worked well, too! I’m not sure about the Align, as I thankfully I have no issues there, but it hasn’t hurt and makes Mom feel good. 5/5 stars!</p>
-                            <h6>Dachshund Nola Blog (add href link)</h6>
+                            <a href="http://dachshundnola.blogspot.com/2013/07/review-day-and-giveaways.html"><h6>Dachshund Nola Blog</h6></a>
                         </div>
                     </div>
                     </div>

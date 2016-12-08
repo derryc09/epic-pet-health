@@ -126,21 +126,22 @@ export default class extends React.Component {
             <div className="col s4">
               <h5 className="white-text">Company</h5>
               <p className="grey-text text-lighten-4">
-              <a className="footer-link" href="/about">About</a><br/>
+              <a className="footer-link" href="#/about">About</a><br/>
               <a className="footer-link" href="https://epic-pet-health.myshopify.com/" target="_blank">Shop</a><br/>
-              <a className="footer-link" href="/faq">FAQ</a><br/>
-              <a className="footer-link" href="/contact">Contact Us</a><br/>
+              <a className="footer-link" href="#/faq">FAQ</a><br/>
+              <a className="footer-link" href="#/contact">Contact Us</a>
               </p>
               <h5 className="white-text">Newsletter</h5>
-              <p className="grey-text text-lighten-4 sign-up-here">
+              <a href="https://visitor.r20.constantcontact.com/manage/optin/ea?v=001-rR5XWQW7dOJ53DgWALv0B8t2EFtMBrpptbmlsQtd1LYqXciUTOcMXmSpkbt_nf89c0gE1y86GaPwMbFg6wyvBCNLqYcZSUs0cae6NUeQDyj5pkc29Sy8w5-I5jvuL_4951eHkjoVtWwUyGVUKLiRGk54jit4BuyIh-v5iupzzYjO38I4iwEicUzFpzzak8v"><p className="grey-text text-lighten-4 sign-up-here">
               Sign Up Here
-              </p>
+              </p></a>
               
       <div className="input-field inline">
         <input id="email" type="email" className="validate" placeholder="email"/>
         <label htmlFor="email" data-error="wrong" data-success="right"></label>
           <button className="btn waves-effect waves-light" type="submit" name="action">
-            <i className="material-icons right">send</i>
+            
+            <i className="fa fa-paper-plane" aria-hidden="true"></i>
   </button>
       </div>
   
