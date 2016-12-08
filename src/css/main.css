@@ -161,6 +161,23 @@ i.right {
     justify-content: center;
 }
 
+.award-main {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.award-main:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.award-list-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
 
 .testimonials {
     /*width: 95%;*/
@@ -173,12 +190,14 @@ i.right {
 .grid {
     /*margin-left: 10%;
     margin-right: 10%;*/
-    margin: 1.5em 0;
+    
     padding: 0;
     -moz-column-gap: 1.5em;
     -webkit-column-gap: 1.5em;
     column-gap: 1.5em;
     font-size: .85em;
+    align-content: center;
+    
 }
 
 
@@ -204,11 +223,11 @@ i.right {
     background: #fff;
     padding: 1em;
     margin: 0 0 1.5em;
-    width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-shadow: 2px 2px 4px 0 #ccc;
+   
 }
 
 
@@ -358,6 +377,18 @@ footer, .page-footer {
 .products1{
     width: 80%;
     margin: 0 auto;
+}
+
+.award:hover .btn {
+    background-color: #5567A4;
+}
+
+#headingAwards {
+    padding-top: 30px;
+    font-size: 50px;
+  margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
 
