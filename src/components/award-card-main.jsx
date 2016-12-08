@@ -13,7 +13,7 @@ export default class extends React.Component {
     render() {
         return (
             <div className="award-main">
-                <img src={this.props.award.img} alt="" className="award-image"/>
+                <a href={this.props.award.link}><img src={this.props.award.img} alt="" className="award-image"/></a>
             </div>
         );
     }
