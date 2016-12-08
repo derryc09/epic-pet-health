@@ -19,16 +19,17 @@ export default class extends React.Component {
                     </div>
                     <h4>Calm Fans</h4>
                     <div className="calm grid">
-                        
+                        <img src="http://epicpethealth.com/wp-content/uploads/2012/11/Eduardo.jpg" alt=""/>
                         <div className="grid-item">
-                            <img src="http://epicpethealth.com/wp-content/uploads/2012/11/Eduardo.jpg" alt=""/>
+                            
                             <h5>Eduardo’s story</h5>
                             
                             <p>“Eduardo has been thrown off his schedule a bit lately. We have been using Calm at bedtime to help get ready for bed.  He gets super sleepy, super quick.  He also seems to be more restful all night long-  not getting up and moving around.  At first he was wary of this “stuff”  I was putting on him, now as soon as he sees the bottle he comes and licks it right out of the dropper.”</p>
                             <h6>Christina K (Columbia, MO)</h6>
                         </div>
+                        <img src="http://www.epicpethealth.com/wp-content/uploads/2012/11/Bear-300x179.jpg" alt=""/>
                         <div className="grid-item">
-                            <img src="http://www.epicpethealth.com/wp-content/uploads/2012/11/Bear-300x179.jpg" alt=""/>
+                            
                             <p> “So Kylei started adding drops to his food and over time she can see a difference.  For one thing she notices he isn’t as snappy with the kids, and just seems lots more CALM, and he is up and running around now like a youngster that he was before the DRUG REACTION.  I sent Amy an email recently to tell her how well Bear is doing and we also talked about Stella’s eyes and how concerned I am about it going into something very serious.  She generously is sending us her EYE’S to try to help with her dry eye issue.  Stella has NO tears at all so she often has muscus forming in her eyes and she has a brown pigment all over her big eyes.  This contributes to her blindness.  So we are thanking AMY at EPIC PET HEALTH for being so helpful to Bear and Stella.  We wish everyone who invested in pet health were as kind and thoughtful as she is.  We will be letting you guys know how it works with Stella’s eyes.”</p>
                             <h6>Stell Rose Long Blog (add href link)</h6>
                         </div> 
