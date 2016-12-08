@@ -36,6 +36,8 @@ export default class extends React.Component {
                             <li><a href="https://epic-pet-health.myshopify.com/" target="_blank">Shop</a></li>
                             <li><Link to="/faq" 
                                             activeClassName="active">FAQ</Link></li>
+                            <li><Link to="/contact" 
+                                            activeClassName="active">Contact Us</Link></li>
                             <li><a href="#">Search</a></li>
                         </ul>
                         <ul className="side-nav" id="mobile-demo">
@@ -44,6 +46,8 @@ export default class extends React.Component {
                             <li><a href="#">Shop</a></li>
                             <li><Link to="/faq" 
                                             activeClassName="active">FAQ</Link></li>
+                            <li><Link to="/contact" 
+                                            activeClassName="active">Contact Us</Link></li>
                             <li><a href="#">Search</a></li>
 
 
