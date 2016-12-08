@@ -3,9 +3,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
 p {
     font-family: "Roboto", sans-serif;
 }
+
+
 
 
 a {
@@ -13,14 +17,20 @@ a {
 }
 
 
+
+
 a:hover {
     color: #000; 
 }
 
 
+
+
 .footer-link {
     color: #FFF;
 }
+
+
 
 
 .products {
@@ -34,9 +44,13 @@ a:hover {
 }
 
 
+
+
 .main, .products-text {
     text-align: center;
 }
+
+
 
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
@@ -44,8 +58,19 @@ a:hover {
 }
 
 
+
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
     color: #777; 
+}
+
+
+.btn, .btn-large {
+    background-color: #62BE48 !important; 
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #5567A4 !important; 
 }
 
 
@@ -55,12 +80,16 @@ a:hover {
 }
 
 
+
+
 .container {
     display: flex;
     flex-wrap: wrap;
     /*margin: 100px;*/
     justify-content: center;
 }
+
+
 
 
 .bestSellers {
@@ -73,10 +102,18 @@ a:hover {
 
 
 
+
+
+
+
+
+
 .col {
     /*text-align: center;
     vertical-align: middle;*/
 }
+
+
 
 
 /*#email {
@@ -84,9 +121,13 @@ a:hover {
 }*/
 
 
+
+
 .input-field {
     margin-top: 0;
 }
+
+
 
 
 .input-field .btn {
@@ -97,9 +138,13 @@ a:hover {
 }
 
 
+
+
 .sign-up-here {
     margin-bottom: 0;
 }
+
+
 
 
 #email {
@@ -108,10 +153,14 @@ a:hover {
 }
 
 
+
+
 i.right {
     margin-left: 0px;
     font-size: 15px;
 }
+
+
 
 
 .btn i {
@@ -120,6 +169,7 @@ i.right {
 .product-image{
     height: 230px;
 }
+
 
 .award {
     height: 200px;
@@ -132,6 +182,8 @@ i.right {
 }
 
 
+
+
 .award .btn {
     display: none;
     position: relative;
@@ -140,12 +192,18 @@ i.right {
 }
 
 
+
+
 .award:hover {
     background-color: lightgray;
     opacity: .5;
 
 
+
+
 }
+
+
 
 
 .award:hover .btn {
@@ -155,11 +213,14 @@ i.right {
 }
 
 
+
+
 .award-list {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
 }
+
 
 .award-main {
     width: 100px;
@@ -173,10 +234,12 @@ i.right {
     
 }
 
+
 .award-main:hover {
     opacity: .5;
     cursor: pointer;
 }
+
 
 .award-list-main {
     display: flex;
@@ -185,12 +248,15 @@ i.right {
     
 }
 
+
 .testimonials {
     /*width: 95%;*/
     /*margin: 3em auto;*/
     margin-left: 10%;
     margin-right: 10%;
 }
+
+
 
 
 .grid {
@@ -207,6 +273,8 @@ i.right {
 }
 
 
+
+
 .grid h6 {
     
     float: right;
@@ -214,9 +282,13 @@ i.right {
 }
 
 
+
+
 .grid h5 {
     font-style: italic;
 }
+
+
 
 
 .grid-item {
@@ -237,9 +309,15 @@ i.right {
 }
 
 
+
+
 nav {
     background-color: #B5B5B5 !important;
 }
+
+
+
+
 
 
 
@@ -248,11 +326,13 @@ nav {
     height: 100px;
 }
 
+
 .flex-row-products {
     display: flex;
     margin-top:50px;
     flex-wrap: wrap; /* wrap columns to next line if needed */
 }
+
 
 .flex-col-products {
     flex-grow: 1;
@@ -262,10 +342,13 @@ nav {
 }
 
 
+
+
 .products-card-horizontal{
     height:320px;
     width: 332px;
 }
+
 
 .dropdown-content.active {
     
@@ -276,9 +359,13 @@ nav {
 }
 
 
+
+
 .nav-children {
     width: 200px;
 }
+
+
 
 
 nav .brand-logo img {
@@ -290,11 +377,21 @@ nav .brand-logo img {
 
 
 
+
+
+
+
 .contact-form{
+
+
 
 
     width: 50%;
 }
+
+
+
+
 
 
 
@@ -306,13 +403,20 @@ nav .brand-logo img {
 
 
 
+
+
+
+
 #sidenav-overlay {
     position: relative;
 }
 
+
 .readMore{
     color:cadetblue;
 }
+
+
 
 
 .productsGenre {
@@ -321,6 +425,8 @@ nav .brand-logo img {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+
 
 
 .award-list, .award-list-main, .bestSellers-content {
@@ -334,12 +440,22 @@ nav .brand-logo img {
 
 
 
+
+
+
+
+
+
 .award-list-main {
     width: 75%;
     margin: 0 auto;
 
 
+
+
 }
+
+
 
 
 .main, .bestSellers, .awards, .awardTitle {
@@ -347,9 +463,13 @@ nav .brand-logo img {
 }
 
 
+
+
 .parallax-container {
     height: 800px;
 }
+
+
 
 
 .products1 .row {
@@ -359,9 +479,15 @@ nav .brand-logo img {
 }
 
 
+
+
 .row .col.s5 {
     margin-left: 0;
 }
+
+
+
+
 
 
 
@@ -371,6 +497,8 @@ footer, .page-footer {
 }
 
 
+
+
 .submitButton{
     text-align: center;
 }
@@ -378,18 +506,22 @@ footer, .page-footer {
     line-height: 36px;
 }
 
+
 .centerTitle{
     text-align: center;
 }
+
 
 .products1{
     width: 80%;
     margin: 0 auto;
 }
 
+
 .award:hover .btn {
     background-color: #5567A4;
 }
+
 
 #headingAwards {
     padding-top: 30px;
@@ -398,6 +530,8 @@ footer, .page-footer {
     width: 50%;
     text-align: center;
 }
+
+
 
 
 @media only screen and (min-width: 400px) {
@@ -409,6 +543,8 @@ footer, .page-footer {
 }
 
 
+
+
 @media only screen and (min-width: 700px) {
     .grid {
         -moz-column-count: 3;
@@ -416,6 +552,8 @@ footer, .page-footer {
         column-count: 3;
     }
 }
+
+
 
 
 @media only screen and (min-width: 900px) {
@@ -427,6 +565,8 @@ footer, .page-footer {
 }
 
 
+
+
 @media only screen and (min-width: 1100px) {
     .grid {
         -moz-column-count: 5;
@@ -436,24 +576,13 @@ footer, .page-footer {
 }
 
 
+
+
 @media only screen and (min-width: 1280px) {
     .testimonials {
         /*width: 1260px;*/
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -488,8 +617,6 @@ footer, .page-footer {
        -o-transition: .6s ease-in-out left ;
           transition: .6s ease-in-out left ;
           transition-timing-function: ease-in;
-
-
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -503,6 +630,12 @@ footer, .page-footer {
 
 
 
+
+
+
+
+
+
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
@@ -510,6 +643,8 @@ footer, .page-footer {
          -o-transition:      -o-transform .6s ease-in-out;
             transition:         transform .6s ease-in-out;
             transition-timing-function: ease-in;
+
+
 
 
     -webkit-backface-visibility: hidden;
@@ -712,7 +847,6 @@ footer, .page-footer {
   }
 }
 
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -733,7 +867,6 @@ footer, .page-footer {
   clip: auto;
 }
 
-
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
@@ -743,7 +876,6 @@ footer, .page-footer {
 .glyphicon-chevron-right:before {
   content: "\e080";
 }
-
 
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
@@ -756,7 +888,6 @@ footer, .page-footer {
   margin-top: -10px;
 }
 
-
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
@@ -768,16 +899,14 @@ footer, .page-footer {
   margin-right: -10px;
 }
 
-
 .fa-arrow-right, .fa-arrow-left {
 margin-top: 75%;
 
 
-}
 
+
+}
 
 .fa-facebook-square {
     padding-right: 5px;
 }
-
-

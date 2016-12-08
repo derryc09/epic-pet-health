@@ -71,7 +71,7 @@ export default class extends React.Component {
                                         <p>Calms a stressed dog or cat. It also relaxes hyper animals, such as puppies and kittens. Use it to encourage restful, all night sleep.</p>
                                     </div>
                                     <div className="card-action">
-                                        <a href="#">This is a link</a>
+                                        <a href="https://epic-pet-health.myshopify.com/collections/frontpage/products/calm" target="_blank">BUY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@ export default class extends React.Component {
                                         <p>Promotes healthy skin and coats. It also relieves scratchy, dry skin. Helps ease discomfort from flea bites and other skin irritants.</p>
                                     </div>
                                     <div className="card-action">
-                                        <a href="#">This is a link</a>
+                                        <a href="https://epic-pet-health.myshopify.com/collections/frontpage/products/skin" target="_blank">BUY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ export default class extends React.Component {
                                         <p>Reduces stress from grief, separation anxiety, and environmental changes. It helps your pet feel better and get back to normal.</p>
                                     </div>
                                     <div className="card-action">
-                                        <a href="#">This is a link</a>
+                                        <a href="https://epic-pet-health.myshopify.com/collections/frontpage/products/happy" target="_blank">BUY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ export default class extends React.Component {
                                         <p>Helps boost the body’s immune response and relieves aches, pains and inflammation. It is good for injury recovery and supports the body during illness.</p>
                                     </div>
                                     <div className="card-action">
-                                        <a href="#">This is a link</a>
+                                        <a href="https://epic-pet-health.myshopify.com/collections/frontpage/products/repair" target="_blank">BUY NOW</a>
                                     </div>
                                 </div>
                             </div>
