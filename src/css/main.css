@@ -337,7 +337,6 @@ nav {
 .flex-col-products {
     flex-grow: 1;
     flex-basis: 33%; /* columns take up whole line */
-  padding: 0 0.25em;
     
 }
 
