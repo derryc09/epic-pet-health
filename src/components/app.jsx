@@ -15,22 +15,16 @@ export default class extends React.Component {
                     
     }
 
-
-
-
-
-
     render() {
-        
-            return (
+        return (
                 
-                <div>
+            <div>
                    
                 <div className="navbar-fixed test">
                     <nav className="nav-extended">
                         <div className="nav-wrapper">
                         <IndexLink to="/" className="brand-logo" activeClassName="active">
-                               <img src="../../img/logos/eph-logo.png" alt=""/>
+                               
                             </IndexLink>
 
                        
@@ -39,7 +33,7 @@ export default class extends React.Component {
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/about" 
                                             activeClassName="active">About</Link></li>
-                            <li><a href="#">Shop</a></li>
+                            <li><a href="https://epic-pet-health.myshopify.com/" target="_blank">Shop</a></li>
                             <li><Link to="/faq" 
                                             activeClassName="active">FAQ</Link></li>
                             <li><a href="#">Search</a></li>
