@@ -117,7 +117,9 @@ i.right {
 .btn i {
     line-height: normal;
 }
-
+.product-image{
+    height: 230px;
+}
 
 .award {
     height: 200px;
@@ -221,7 +223,18 @@ nav {
     height: 100px;
 }
 
+.flex-row-products {
+    display: flex;
+    margin-top:50px;
+    flex-wrap: wrap; /* wrap columns to next line if needed */
+}
 
+.flex-col-products {
+    flex-grow: 1;
+    flex-basis: 33%; /* columns take up whole line */
+  padding: 0 0.25em;
+    
+}
 
 
 
@@ -339,6 +352,10 @@ footer, .page-footer {
     text-align: center;
 }
 
+.products1{
+    width: 80%;
+    margin: 0 auto;
+}
 
 .award .btn {
     color: black;
