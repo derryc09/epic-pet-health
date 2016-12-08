@@ -237,7 +237,10 @@ nav {
 }
 
 
-
+.products-card-horizontal{
+    height:240px;
+    width: 332px;
+}
 
 .dropdown-content.active {
     

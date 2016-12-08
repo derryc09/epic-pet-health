@@ -68,15 +68,21 @@ export default class extends React.Component {
         });
         this.setState({products: newProducts});
     }
-
+    truncate(s){
+        if(s.length > 65){
+            return <span>{s.substring(0,65)}... <span className="readMore">Read More</span></span>
+        } 
+        return s;
+    }
 
 
 
 
     componentWillMount() {
+        $('.modal').modal();
+        
         this.setState({products: PRODUCTS});
     }
-
 
 
     render() {
@@ -87,20 +93,20 @@ export default class extends React.Component {
         // console.log(this.props);
         var productCards = this.state.products.map(product => (
               <div key={this.state.products.indexOf(product)} className="products col flex-col-products s12 m7">
-                <div className="card horizontal">
-                <div className="card-image">
-                    <img className="product-image" src={product.img}></img>
-                </div>
-                <div className="card-stacked products-text">
-                    <h5>{product.name}</h5>
-                    <i>Come in for a sample</i>
-                    <div className="card-content">
-                    <p>{product.description}</p>
+                <div className="card horizontal products-card-horizontal">
+                    <div className="card-image">
+                        <img className="product-image" src={product.img}></img>
                     </div>
-                    <div className="card-action">
-                    <a href="https://epic-pet-health.myshopify.com/">Buy now</a>
+                    <div className="card-stacked products-text">
+                        <h5>{product.name}</h5>
+                        <i>Come in for a sample</i>
+                        <div className="card-content">
+                        <p>{this.truncate(product.description)}</p>
+                        </div>
+                        <div className="card-action">
+                        <a href="https://epic-pet-health.myshopify.com/">Buy now</a>
+                        </div>
                     </div>
-                </div>
                 </div>
 
 
@@ -109,7 +115,11 @@ export default class extends React.Component {
         ));
         return (
 
+
             <div>
+         
+
+
                <div className="productsGenre">
 
                     <button href="#/products" onClick={() => this.bestSellers()} className="btn waves-effect waves-light" type="submit" name="action">
