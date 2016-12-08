@@ -86,16 +86,14 @@ export default class extends React.Component {
         // console.log(this.state);
         // console.log(this.props);
         var productCards = this.state.products.map(product => (
-              <div key={this.state.products.indexOf(product)} className="products col s12 m7">
-              
-              
+              <div key={this.state.products.indexOf(product)} className="products col flex-col-products s12 m7">
                 <div className="card horizontal">
                 <div className="card-image">
                     <img className="product-image" src={product.img}></img>
                 </div>
                 <div className="card-stacked products-text">
                     <h5>{product.name}</h5>
-                    <i>For tranquil, relaxed behavior</i>
+                    <i>Come in for a sample</i>
                     <div className="card-content">
                     <p>{product.description}</p>
                     </div>
@@ -113,18 +111,52 @@ export default class extends React.Component {
 
             <div>
                <div className="productsGenre">
-                    <span><a href="#/products" onClick={() => this.bestSellers()}>Best-Sellers</a></span>
-                    <span><a href="#/products" onClick={() => this.agility()}>Agility</a></span>
-                    <span><a href="#/products" onClick={() => this.behavioral()}>Behavioral</a></span>
-                    <span><a href="#/products" onClick={() => this.prevention()}>Prevention & Wellness</a></span>
-                    <span><a href="#/products" onClick={() => this.allergy()}>Allergy</a></span>
-                    <span><a href="#/products" onClick={() => this.cat()}>Cat</a></span>
-                    <span><a href="#/products" onClick={() => this.horse()}>Horse</a></span>
-                    <span><a href="#/products" onClick={() => this.reset()}>All Products</a></span>
+
+                    <button href="#/products" onClick={() => this.bestSellers()} className="btn waves-effect waves-light" type="submit" name="action">
+                        <span>
+                                Best-Sellers
+                        </span>
+                    </button>
+                    <button href="#/products" onClick={() => this.agility()} className="btn waves-effect waves-light" type="submit" name="action">
+                        <span>
+                                Agility
+                        </span>
+                    </button>
+                    <button href="#/products" onClick={() => this.behavioral()} className="btn waves-effect waves-light" type="submit" name="action">
+                        <span>
+                                Behavioral
+                        </span>
+                    </button>
+                    <button href="#/products" onClick={() => this.prevention()} className="btn waves-effect waves-light" type="submit" name="action">
+                        <span>
+                                Prevention & Wellness
+                        </span>
+                    </button>
+                    <button href="#/products" onClick={() => this.allergy()} className="btn waves-effect waves-light" type="submit" name="action">
+                        <span>
+                                Allergy
+                        </span>
+                    </button>
+                    <button href="#/products" onClick={() => this.cat()} className="btn waves-effect waves-light" type="submit" name="action">
+                        <span>
+                                Cat
+                        </span>
+                    </button>
+                    <button href="#/products" onClick={() => this.horse()} className="btn waves-effect waves-light" type="submit" name="action">
+                        <span>
+                                Horse
+                        </span>
+                    </button>   
+                    <button href="#/products" onClick={() => this.reset()} className="btn waves-effect waves-light" type="submit" name="action">
+                        <span>
+                                All Products
+                        </span>
+                    </button>                                                                                                                        
+   
                 </div>
                 
                 <div className="products1">
-                <div className="row">
+                <div className="flex-row-products">
                 {productCards} 
                 </div>
             </div>
