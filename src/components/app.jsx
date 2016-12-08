@@ -127,8 +127,9 @@ export default class extends React.Component {
               <h5 className="white-text">Company</h5>
               <p className="grey-text text-lighten-4">
               <a className="footer-link" href="/about">About</a><br/>
+              <a className="footer-link" href="https://epic-pet-health.myshopify.com/" target="_blank">Shop</a><br/>
               <a className="footer-link" href="/faq">FAQ</a><br/>
-              <a className="footer-link" href="/contact">Contact Form</a><br/>
+              <a className="footer-link" href="/contact">Contact Us</a><br/>
               </p>
               <h5 className="white-text">Newsletter</h5>
               <p className="grey-text text-lighten-4 sign-up-here">
