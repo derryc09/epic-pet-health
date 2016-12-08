@@ -29,7 +29,7 @@ a:hover, .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover
     
 }
 
-.container, .award-list, .award-list-main, .bestSellers-content {
+.award-list, .award-list-main, .bestSellers-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -267,3 +267,263 @@ position: relative;
         width: 1260px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general flex row and column classes */
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.flex-col {
+  flex-grow: 1;
+  flex-basis: 100%;
+  padding: 0.5rem; }
+
+@media (min-width: 768px) {
+  .flex-col-sm-25 {
+    flex-basis: 25%; }
+  .flex-col-sm-50 {
+    flex-basis: 50%; } }
+
+@media (min-width: 992px) {
+  .flex-col-md-25 {
+    flex-basis: 25%; }
+  .flex-col-md-50 {
+    flex-basis: 50%; } }
+
+@media (min-width: 1200px) {
+  .flex-col-lg-25 {
+    flex-basis: 25%; }
+  .flex-col-lg-50 {
+    flex-basis: 50%; } }
+
+/*
+recommended method for setting box-sizing to border-box
+https://css-tricks.com/box-sizing/
+*/
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.43;
+  background-color: #F8F8F8; }
+
+h1, h2, h3, h4 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+
+h1 {
+  font-weight: 100; }
+
+h2, h3, h4 {
+  font-weight: 300; }
+
+h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-variant: small-caps; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+section {
+  padding: 2em 0; }
+
+section:nth-of-type(even) {
+  background-color: #ebebeb; }
+
+header {
+  background-image: linear-gradient(to bottom, #391d18, #814236);
+  color: #FFF;
+  padding: 1rem 0; }
+  header .order-icon-button {
+    float: right; }
+  header .order-icon-button i {
+    color: #dfdfdf;
+    font-size: 2rem; }
+  header .order-button {
+    display: none; }
+
+@media (min-width: 992px) {
+  header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    color: #000; }
+    header h1 {
+      font-size: 80px;
+      padding-top: 150px; }
+    header .tag {
+      font-size: 20px;
+      max-width: 50%; }
+    header .order-button {
+      display: inline-block; }
+    header .order-icon-button {
+      display: none; } }
+
+@media (min-width: 1200px) {
+  header h1 {
+    font-size: 100px; }
+  header .tag {
+    font-size: 30px; } }
+
+footer {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  background-color: #391d18;
+  color: #EEE;
+  font-size: 80%; }
+
+footer a,
+footer a:link,
+footer a:hover,
+footer a:visited {
+  color: #AAA;
+  text-decoration: none; }
+
+footer .contact-links {
+  font-size: 1.5rem; }
+  @media (min-width: 768px) {
+    footer .contact-links {
+      text-align: right; } }
+
+/* space between contact links */
+footer .contact-link {
+  margin-right: 0.5rem; }
+
+footer .contact-link:last-of-type {
+  margin-right: 0; }
+
+.img-responsive {
+  width: 100%; }
+
+.align-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.large-text {
+  font-size: 30px; }
+  @media (min-width: 768px) {
+    .large-text {
+      font-size: 40px; } }
+
+/* 
+general container class
+becomes fixed-width on wider screens 
+*/
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+
+.button {
+  border: 1px solid #acacac;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #dfdfdf;
+  color: #000;
+  transition: background-color 0.5s; }
+
+.button:hover {
+  background-color: #c5c5c5; }
+
+.button-dark {
+  border-color: #391d18;
+  background-color: #814236;
+  color: #FFF; }
+
+.button-dark:hover {
+  background-color: #5d3027; }
+
+/* reusable card classes */
+.card {
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+  height: 100%;
+  background-color: #FFF; }
+
+.card-image {
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px 3px 0 0;
+  height: 150px; }
+
+.card-content {
+  padding: 1rem; }
+
+.feature svg {
+  fill: #814236;
+  width: 50px;
+  margin-bottom: 0.5rem;
+  float: left; }
+
+.feature > :not(svg) {
+  margin-left: 60px; }
+
+@media (min-width: 992px) {
+  .feature {
+    text-align: center; }
+  .feature svg {
+    float: none; }
+  .feature > :not(svg) {
+    margin-left: inherit; } }
+
+.image-note-taking {
+  background-image: url(../img/note-taking.jpg); }
+
+.image-art {
+  background-image: url(../img/art.jpg); }
+
+.image-drafting {
+  background-image: url(../img/drafting.jpg); }
+
+.image-coloring {
+  background-image: url(../img/coloring.jpg); }
+
+.testimonial img {
+  float: left;
+  border-radius: 50%; }
+
+.testimonial > :not(img) {
+  margin-left: 100px; }
+
+.testimonial .title {
+  font-size: 80%;
+  color: #999; }
