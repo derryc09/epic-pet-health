@@ -107,7 +107,7 @@ export default class extends React.Component {
               <h5 className="white-text">Location</h5>
               <p className="grey-text text-lighten-4">
                 Epic Pet Health <br/>
-                <a className="footer-link" href="http://maps.google.com/?q=3211 W McGraw #99092 Seattle, WA 98139">3211 W. McGraw #99092<br/>
+                <a className="footer-link" href="http://maps.google.com/?q=3211 W McGraw #99092 Seattle, WA 98139" target="_blank">3211 W. McGraw #99092<br/>
                 Seattle, WA  98139</a> <br/>
                 
               </p>
@@ -127,8 +127,7 @@ export default class extends React.Component {
               <h5 className="white-text">Company</h5>
               <p className="grey-text text-lighten-4">
               <a className="footer-link" href="/about">About</a><br/>
-              FAQ <br/>
-              Blog <br/>
+              <a className="footer-link" href="/faq">FAQ</a> <br/>
               </p>
               <h5 className="white-text">Newsletter</h5>
               <p className="grey-text text-lighten-4 sign-up-here">
