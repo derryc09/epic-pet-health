@@ -7,10 +7,16 @@ export default class extends React.Component {
         super(props);
     }
     
+<<<<<<< HEAD
     componentDidMount() {
         $('.carousel').carousel();
         $('.parallax').parallax();
     }
+=======
+    // componentDidMount() {
+    //     $('.parallax').parallax();
+    // }
+>>>>>>> c3c9f6801c3ee951891ba7e5b4d5501e8f7798fe
 
     render() {
         var img_calm = "../img/products/calm-transparent.png";

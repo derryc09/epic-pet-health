@@ -63,40 +63,22 @@ export default class extends React.Component {
                                 
                                     
                                 </li>
-                                <ul id="dropdown1" className="dropdown-content">
-                                    <div className="nav-children">
-                                    <li><Link to="/products" 
-                                            activeClassName="active">Best-Sellers</Link></li>
-                                    <li><Link to="/products" 
-                                            activeClassName="active">Agility</Link></li>
-                                    <li><Link to="/products" 
-                                            activeClassName="active">Allegy</Link></li>     
-                                    <li><Link to="/products" 
-                                            activeClassName="active">Behavioral</Link></li>
-                                    <li><Link to="/products" 
-                                            activeClassName="active">Cat</Link></li>
-                                    <li><Link to="/products" 
-                                            activeClassName="active">Horse</Link></li>
-                                    <li><Link to="/products" 
-                                            activeClassName="active" onClick={() => this.horse()}>Prevention & Wellness</Link></li>
-                                            <li className="divider" />
-                                    <li><Link to="/products" 
-                                            activeClassName="active" onClick={() => this.reset()}>All Products</Link></li>       
-                                </div>
+<<<<<<< HEAD
                                 
-                                </ul>
+=======
+                 
+>>>>>>> c3c9f6801c3ee951891ba7e5b4d5501e8f7798fe
  
                    
                             <li className="tab dropdown-button" data-activates="dropdown2">
-                                <Link to="/announcements" 
-                                        activeClassName="active">Announcements</Link>             
+                                <Link to="/awards" 
+                                        activeClassName="active">Awards</Link>             
                             </li>
-                            <ul id="dropdown2" className="dropdown-content">
-                                <li><a href="#">one</a></li>
-                                <li><a href="#">two</a></li>
-                                <li className="divider" />
-                                <li><a href="#">three</a></li>
-                            </ul>
+<<<<<<< HEAD
+  
+=======
+        
+>>>>>>> c3c9f6801c3ee951891ba7e5b4d5501e8f7798fe
                             <li className="tab dropdown-button" data-activates="dropdown3">
                                 
                                 <Link to="/testimonials" 
@@ -104,14 +86,11 @@ export default class extends React.Component {
                                
                                 
                             </li>
-                            <ul id="dropdown3" className="dropdown-content">
-                                <div className="nav-children">
-                                    <li><Link to="/awards" 
-                                            activeClassName="active">Awards</Link></li>
-                                
-                                </div>
-                                
-                            </ul>
+<<<<<<< HEAD
+ 
+=======
+
+>>>>>>> c3c9f6801c3ee951891ba7e5b4d5501e8f7798fe
                         </ul>
 
  
@@ -121,29 +100,17 @@ export default class extends React.Component {
                     </div> 
 
 
-     <div className="hidnav">
-    <div className="navbar-fixed">
+<<<<<<< HEAD
 
 
 
 
-        <nav className="hide-nav">
-        
-          <div className="nav-wrapper">
-            
-              <a className="dropdown-button" href="#" data-activates="dropdown1"></a>
-              <a className="dropdown-button" href="#" data-activates="dropdown2"></a>
-              <a className="dropdown-button" href="#" data-activates="dropdown3"></a>
-              
-          </div>
-          
-        </nav>
-     
-      </div>
-</div>
+=======
 
 
 
+
+>>>>>>> c3c9f6801c3ee951891ba7e5b4d5501e8f7798fe
 
                     <main>
                         {this.props.children}
@@ -210,8 +177,8 @@ export default class extends React.Component {
           </div>
         </div>
       </footer>
-
-                </div>
+</div>
+            
 
 
             );
