@@ -31,6 +31,7 @@ export default class extends React.Component {
                         <li data-target="#myCarousel" data-slide-to={0} className="active" />
                         <li data-target="#myCarousel" data-slide-to={1} />
                         <li data-target="#myCarousel" data-slide-to={2} />    
+                        <li data-target="#myCarousel" data-slide-to={3} />  
                     </ol>
                     
                     <div className="carousel-inner" role="listbox">
@@ -43,6 +44,10 @@ export default class extends React.Component {
                         <div className="item">
                         <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/cat1.jpg" alt="4" />
                         </div>
+                        <div className="item">
+                        <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/dog1.jpg" alt="5" />
+                        </div>
+                        
                     </div>
                             
                     <a className="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
