@@ -1,6 +1,6 @@
 import React from "react";
 import {render} from "react-dom";
-import AwardCard from "./award-card.jsx";
+import AwardCard from "./award-card-main.jsx";
 
 export default class extends React.Component {
     constructor(props) {

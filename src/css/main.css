@@ -110,6 +110,16 @@ i.right {
     margin: 10px;
 }
 
+.award-main {
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10px;    
+}
+
 .award .btn {
     display: none;
     position: relative;
