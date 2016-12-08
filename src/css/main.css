@@ -48,6 +48,11 @@ a:hover {
     justify-content: center;
 }
 
+.bestSellers {
+    background-color: #F8F8F8;
+    padding-top: 5px;
+}
+
 .nav-wrapper {
     max-height: 100px;
 }
