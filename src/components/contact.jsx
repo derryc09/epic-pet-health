@@ -24,7 +24,7 @@ export default class extends React.Component {
 
              <div className="row contact-form">
                     <h2 className="centerTitle">Contact Us</h2>
-                    <form className="col s12">
+                    <form className="col s12" method="post" action="mailto:derryc0907@gmail.com" >
                     <div className="row">
                         <div className="input-field col s6">
                         <i className="material-icons prefix">account_circle</i>
@@ -50,13 +50,13 @@ export default class extends React.Component {
 
                         <div className="row">
                         <div className="input-field col s12">
-                          <i className="material-icons prefix">comment</i>
+                            <i className="material-icons prefix">comment</i>
                         
                             <textarea id="textarea1" className="materialize-textarea" ></textarea>
                             <label className="active" htmlFor="textarea1">Comments</label>
                         </div>
                         </div>      
-                        <div className = "submitButton">                  
+                        <div className = "submitButton" type="submit" value="Send Email">                  
                         <a className="waves-effect waves-light btn"><i className="material-icons left">cloud</i>submit</a>
                         </div>
                
