@@ -27,44 +27,35 @@ export default class extends React.Component {
             <AwardCard key={award.name} className="awardCardMain" award={award}></AwardCard>
         ));
         return (
-            <div className="main">
-        
-                <div>
-                    <div id="myCarousel" className="carousel slide" data-ride="carousel">   
-                        <ol className="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to={0} className="active" />
-                            <li data-target="#myCarousel" data-slide-to={1} />
-                            <li data-target="#myCarousel" data-slide-to={2} />
-                            <li data-target="#myCarousel" data-slide-to={3} />
-                            <li data-target="#myCarousel" data-slide-to={4} />
-                        </ol>               
-                        <div className="carousel-inner" role="listbox">
-                            <div className="item active">
-                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/Banner2.jpg?1481110239362" alt="1" />
-                            </div>
-                            <div className="item">
-                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/Love1.jpg" alt="2" />
-                            </div>
-                            <div className="item">
-                            <img src="http://epicpethealth.com/wp-content/uploads/2013/02/happy_narrow.jpg" alt="3" />
-                            </div>
-                            <div className="item">
-                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/cat1.jpg" alt="4" />
-                            </div>
-                            <div className="item">
-                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/dog1.jpg" alt="5" />
-                            </div>            
+        <div className="main">
+            <div>
+                <div id="myCarousel" className="carousel slide" data-ride="carousel"> 
+                    <ol className="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to={0} className="active" />
+                        <li data-target="#myCarousel" data-slide-to={1} />
+                        <li data-target="#myCarousel" data-slide-to={2} />    
+                    </ol>
+                    
+                    <div className="carousel-inner" role="listbox">
+                        <div className="item active">
+                        <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/Love1.jpg" alt="2" />
                         </div>
-                        
-                        <a className="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                            <span className="glyphicon fa fa-arrow-left fa-2x" aria-hidden="true" />
-                            <span className="sr-only">Previous</span>
-                        </a>
-                        <a className="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                            <span className="glyphicon fa fa-arrow-right fa-2x" aria-hidden="true" />
-                            <span className="sr-only">Next</span>
-                        </a>
+                        <div className="item">
+                        <img src="http://epicpethealth.com/wp-content/uploads/2013/02/happy_narrow.jpg" alt="3" />
+                        </div>
+                        <div className="item">
+                        <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/cat1.jpg" alt="4" />
+                        </div>
                     </div>
+                            
+                    <a className="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span className="glyphicon fa fa-arrow-left fa-2x" aria-hidden="true" />
+                        <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span className="glyphicon fa fa-arrow-right fa-2x" aria-hidden="true" />
+                        <span className="sr-only">Next</span>
+                    </a>
                 </div>
 
                 <div className="bestSellers">
@@ -152,6 +143,7 @@ export default class extends React.Component {
                             {awardCard}
                         </div>
                 </section>
+                </div>
             </div>
         );
     }
