@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-
 import "whatwg-fetch";
 
 
@@ -87,7 +86,7 @@ export default class extends React.Component {
         // console.log(this.state);
         // console.log(this.props);
         var productCards = this.state.products.map(product => (
-              <div key={this.state.products.indexOf(product)} className="col s7">
+              <div key={this.state.products.indexOf(product)} className="col s5">
                 <h2 className="header">{product.name}</h2>
                 <div className="card horizontal">
                 <div className="card-image">
@@ -117,7 +116,8 @@ export default class extends React.Component {
                     <span><a href="#/products" onClick={() => this.horse()}>Horse</a></span>
                     <span><a href="#/products" onClick={() => this.reset()}>All Products</a></span>
                 </div>
-                <div className="products">
+                
+                <div className="products1">
                 <div className="row">
                 {productCards} 
                 </div>
