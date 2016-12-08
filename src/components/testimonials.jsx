@@ -19,11 +19,12 @@ export default class extends React.Component {
             
             <div className="parallax-container">
                 <div className="parallax">
-                    <img src="../../img/logos/eph-logo.png"/>
+                    <img src="../../img/other/corgi1.jpg"/>
                 </div>
             </div>            
             
-                <h3>Our Stories</h3>
+            
+                <h3 id="headerTestimonial">Our Stories</h3>
 
                 <div className="testimonials">
                     
@@ -32,7 +33,7 @@ export default class extends React.Component {
                     </div>
                     <h4>Calm Fans</h4>
                     <div className="calm grid">
-                        <img src="http://epicpethealth.com/wp-content/uploads/2012/11/Eduardo.jpg" alt=""/>
+                        
                         <div className="grid-item">
                             
                             <h5>Eduardo’s story</h5>
@@ -40,7 +41,7 @@ export default class extends React.Component {
                             <p>“Eduardo has been thrown off his schedule a bit lately. We have been using Calm at bedtime to help get ready for bed.  He gets super sleepy, super quick.  He also seems to be more restful all night long-  not getting up and moving around.  At first he was wary of this “stuff”  I was putting on him, now as soon as he sees the bottle he comes and licks it right out of the dropper.”</p>
                             <h6>Christina K (Columbia, MO)</h6>
                         </div>
-                        <img src="http://www.epicpethealth.com/wp-content/uploads/2012/11/Bear-300x179.jpg" alt=""/>
+                       
                         <div className="grid-item">
                             
                             <p> “So Kylei started adding drops to his food and over time she can see a difference.  For one thing she notices he isn’t as snappy with the kids, and just seems lots more CALM, and he is up and running around now like a youngster that he was before the DRUG REACTION.  I sent Amy an email recently to tell her how well Bear is doing and we also talked about Stella’s eyes and how concerned I am about it going into something very serious.  She generously is sending us her EYE’S to try to help with her dry eye issue.  Stella has NO tears at all so she often has muscus forming in her eyes and she has a brown pigment all over her big eyes.  This contributes to her blindness.  So we are thanking AMY at EPIC PET HEALTH for being so helpful to Bear and Stella.  We wish everyone who invested in pet health were as kind and thoughtful as she is.  We will be letting you guys know how it works with Stella’s eyes.”</p>
@@ -66,8 +67,14 @@ export default class extends React.Component {
                             <p>“Our 1 year old pup, Eduardo, is very anxious in the car and gets car sick. We add Calm to his water dish about an hour before we leave and then use a spray in the car once on our way. He still doesn’t like the car but there is much less vomiting and he much more relaxed.”</p>
                             <h6>makesscents</h6>
                         </div>
-                                               
+                       </div>                        
                     </div>
+                <div className="parallax-container">
+                <div className="parallax">
+                    <img src="../../img/other/cat.jpeg"/>
+                </div>
+            </div>   
+            <div className="testimonials">
                     <h4>Clean Teeth Fans</h4>
                     <div className="clean-teeth grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
@@ -91,7 +98,7 @@ export default class extends React.Component {
                             <p>“I have been using Clean Teeth on my geriatric cat Scarlett, age 16 years, for 6 months and have noticed a definite difference in her breath, which now has little to no odor, and her gums are now a lot pinker. I am very happy to have found Clean Teeth for Scarlett because she has had dental problems during the past 5 years and visiting the vet is always a traumatic experience for her. I am confident Clean Teeth is making a difference in Scarlett’s tooth health and will hopefully help her avoid “bad tooth news” at the vet when she goes in for her checkups. Clean Teeth will definitely always be part of Scarlett’s health maintenance program.</p>
                             <h6>Barb J</h6>
                         </div>
-                        <img src="http://www.epicpethealth.com/wp-content/uploads/2012/11/Ruby2-300x292.jpg" alt=""/>
+                       
                         <div className="grid-item">
                             
                             <p>”This is a new one that Amy is trying, and I gotta say….it’s a winner! Now, I have pretty good toothers, butts Ma had noticed some slight yellowing of my canines. She also put this in my water just once a day, and guess what?? It worked!  Yups, the yellowing is gone! Yea!! Ma was really  happy about this cause doggie dental care is very important, and tooth problems are not funs at all!!”</p>
@@ -114,7 +121,7 @@ export default class extends React.Component {
                     </div>
                     <h4>Digest Fans</h4>
                     <div className="digest grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
-                        <img src="http://www.epicpethealth.com/wp-content/uploads/2012/11/Ruby-300x225.jpg" alt=""/>
+                        
                         <div className="grid-item">
                             <p>“Now this one is for dogs and cats with gas pain (yes, yes, I gets the farts!!! BOL) and, it also reduces bad breath (I don’t have this particular problem) and promotes normal, healthy digestion. Anyhu, did it help? YES!!! Ma was really shocked puppers, shocked! She put it in my water just once a day ( you can use it up to 3 times a day!), and it took away almost all my ‘stink’! A couple of days she forgot to put it in my water, and she really noticed the difference.”</p>
                             <h6> Ruby The Airedale Blog (add href link)</h6>
@@ -131,7 +138,7 @@ export default class extends React.Component {
                     </div>
                     <h4>Fur Fans</h4>
                     <div className="fur grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
-                        <img src="http://www.epicpethealth.com/wp-content/uploads/2012/11/William2.jpg" alt=""/>
+                        
                         <div className="grid-item">
                             
                             <p>“Since I am taking the supplement for the pain in my leg, Lee has noticed a change in my coat. Even my vet said how nice my coat was looking, my furs are much thicker and coarser. Coarser usually means low, common, or inferior quality, but not in this instance. I, Sweet William The Scot, mean more coarse like a double scottie coat.  We Scots have a double (hard wiry & soft under) coat. So there you have it ~ my day is sitting here watching the Black Eyed Susans grow and admiring my furs.”</p>
@@ -140,13 +147,21 @@ export default class extends React.Component {
                     </div>
                     <h4>Gain Fans</h4>
                     <div className="gain grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
-                        <img src="http://www.epicpethealth.com/wp-content/uploads/2013/04/5-300x194.jpg" alt=""/>
+                       
                         <div className="grid-item">
                             
                             <p>“I was given gain, align, calm and repair. I have tested them all. You can spray the supplements onto food or water, and on the skin to proved maximum effect. I can confidently say that all the supplements work. Boston has always struggled to keep weight on, and she’s never looked this good. The Calm worked well, too! I’m not sure about the Align, as I thankfully I have no issues there, but it hasn’t hurt and makes Mom feel good. 5/5 stars!</p>
                             <h6>Dachshund Nola Blog (add href link)</h6>
                         </div>
                     </div>
+                    </div>
+    <div className="parallax-container">
+                <div className="parallax">
+                    <img src="../../img/other/dog2.jpg"/>
+                </div>
+            </div>   
+            <div className="testimonials">
+
                     <h4>Happy Fans</h4>
                     <div className="happy grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
@@ -284,7 +299,8 @@ Before using Repair, Scarlett, almost 16 years old, was having difficulty gettin
                     </div>
                     <h4>Vitality Fans</h4>
                     <div className="vitality grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
-                        <img src="http://epicpethealth.com/wp-content/uploads/2012/11/taylor_web.jpg" alt=""/>
+                        
+                    
                         <div className="grid-item">
                             <h5>Taylor’s story</h5>
                             <p>“My feline companion is a gregarious 12 year old. He was beginning to show some decline in his normal active routine and seemed less engaged in his usual playfulness. When I started him on Vitality he was back to his old self and being a feline nuisance within a few days.  I am elated!”</p>
@@ -302,10 +318,10 @@ Before using Repair, Scarlett, almost 16 years old, was having difficulty gettin
                         </div>
                     </div>
 
-
-                </div>
-                
-            </div>
+                    </div>
+             </div>
+               
+           
            
         );
     }

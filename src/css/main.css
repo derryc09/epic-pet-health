@@ -188,8 +188,9 @@ i.right {
 .testimonials {
     /*width: 95%;*/
     /*margin: 3em auto;*/
-    margin-left: 10%;
+    /*margin-left: 10%;*/
     margin-right: 10%;
+    /*padding-left: 100px;*/
 }
 
 
@@ -203,7 +204,7 @@ i.right {
     column-gap: 1.5em;
     font-size: .85em;
     align-content: center;
-    
+    justify-content: center;
 }
 
 
@@ -233,7 +234,7 @@ i.right {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-shadow: 2px 2px 4px 0 #ccc;
-   
+    
 }
 
 
@@ -242,7 +243,13 @@ nav {
 }
 
 
-
+.parallax {
+    background-position: center top;
+    /*background-position: 50% 100px !important;*/
+    /*height: auto;*/
+    /*background-size: 100%;*/
+    /*width: 1200px;*/
+}
 
 .navbar-fixed.test {
     height: 100px;
@@ -324,7 +331,13 @@ nav .brand-logo img {
     justify-content: center;
 }
 
-
+#headerTestimonial {
+        padding-top: 30px;
+    font-size: 50px;
+  margin: auto;
+    width: 50%;
+    text-align: center;
+}
 
 
 
@@ -433,7 +446,7 @@ footer, .page-footer {
 
 @media only screen and (min-width: 1280px) {
     .testimonials {
-        /*width: 1260px;*/
+        width: 1260px;
     }
 }
 
@@ -469,7 +482,7 @@ footer, .page-footer {
 }
 .carousel {
   position: relative;
-  height: 350px;
+  height: 350px !important;
 }
 .carousel-inner {
   position: relative;
@@ -774,5 +787,16 @@ margin-top: 75%;
 .fa-facebook-square {
     padding-right: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
