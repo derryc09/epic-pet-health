@@ -1,5 +1,4 @@
 import React from "react";
-
 import{Link, IndexLink} from "react-router";
 //import {store} from "./shared-state.js";
 
@@ -68,23 +67,23 @@ export default class extends React.Component {
                                 </li>
                                 <ul id="dropdown1" className="dropdown-content">
                                     <div className="nav-children">
-                                    <li><Link to="/awards" 
+                                    <li><Link to="/products" 
                                             activeClassName="active">Best-Sellers</Link></li>
-                                    <li><Link to="/awards" 
+                                    <li><Link to="/products" 
                                             activeClassName="active">Agility</Link></li>
-                                    <li><Link to="/awards" 
+                                    <li><Link to="/products" 
                                             activeClassName="active">Allegy</Link></li>     
-                                    <li><Link to="/awards" 
+                                    <li><Link to="/products" 
                                             activeClassName="active">Behavioral</Link></li>
-                                    <li><Link to="/awards" 
+                                    <li><Link to="/products" 
                                             activeClassName="active">Cat</Link></li>
-                                    <li><Link to="/awards" 
+                                    <li><Link to="/products" 
                                             activeClassName="active">Horse</Link></li>
-                                    <li><Link to="/awards" 
-                                            activeClassName="active">Prevention & Wellness</Link></li>
+                                    <li><Link to="/products" 
+                                            activeClassName="active" onClick={() => this.horse()}>Prevention & Wellness</Link></li>
                                             <li className="divider" />
-                                    <li><Link to="/awards" 
-                                            activeClassName="active">All Products</Link></li>       
+                                    <li><Link to="/products" 
+                                            activeClassName="active" onClick={() => this.reset()}>All Products</Link></li>       
                                 </div>
                                 
                                 </ul>
@@ -174,7 +173,7 @@ export default class extends React.Component {
             <div className="col s4">
               <h5 className="white-text">Contact</h5>
               <p className="grey-text text-lighten-4">
-                info@EpicPetHealth.com <br/>
+                info@EpicPet Health.com <br/>
                 (206) 450-1118 <br/>
                 <i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i><span><i className="fa fa-twitter-square fa-2x" aria-hidden="true"></i></span>
                 

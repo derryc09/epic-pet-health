@@ -53,7 +53,7 @@ a:hover {
 }
 
 .hide-nav {
-  height:5px;
+  height:0;
 }
 
 
@@ -218,7 +218,15 @@ nav .brand-logo img {
 
 
 #sidenav-overlay {
-position: relative;
+    position: relative;
+}
+
+
+.productsGenre {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .award-list, .award-list-main, .bestSellers-content {
@@ -241,6 +249,16 @@ position: relative;
 
 .parallax-container {
     height: 800px;
+}
+
+.products1 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row .col.s5 {
+    margin-left: 0;
 }
 
 
@@ -306,6 +324,7 @@ position: relative;
 }
 .carousel {
   position: relative;
+  height: 350px;
 }
 .carousel-inner {
   position: relative;
@@ -486,14 +505,14 @@ position: relative;
   cursor: pointer;
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
+  border: 1px solid grey;
   border-radius: 10px;
 }
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #fff;
+  background-color: grey;
 }
 .carousel-caption {
   position: absolute;
@@ -591,7 +610,7 @@ position: relative;
 }
 
 .fa-arrow-right, .fa-arrow-left {
-margin-top: 100%;
+margin-top: 75%;
 
 }
 
