@@ -16,9 +16,12 @@ export default class extends React.Component {
         $('#textarea1').val('');
         $('#textarea1').trigger('autoresize');
     }
+    submitEmail(){
+
+          Materialize.toast('Request submitted', 10000) 
+    }
 
     render() {
-
 
         return (
 
@@ -56,14 +59,12 @@ export default class extends React.Component {
                             <label className="active" htmlFor="textarea1">Comments</label>
                         </div>
                         </div>      
-                        <div className = "submitButton" type="submit" value="Send Email">                  
-                        <a className="waves-effect waves-light btn"><i className="material-icons left">cloud</i>submit</a>
+                        <div className = "submitButton" type="submit" value="Send Email" onClick={this.submitEmail}>                  
+                            <a className="waves-effect waves-light btn"><i className="material-icons left">cloud</i>submit</a>
                         </div>
-               
                     </div>
                     </form>
-        
-          
+
              </div>
         
         );
