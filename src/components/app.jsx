@@ -63,14 +63,22 @@ export default class extends React.Component {
                                 
                                     
                                 </li>
+<<<<<<< HEAD
                                 
+=======
+                 
+>>>>>>> c3c9f6801c3ee951891ba7e5b4d5501e8f7798fe
  
                    
                             <li className="tab dropdown-button" data-activates="dropdown2">
                                 <Link to="/awards" 
                                         activeClassName="active">Awards</Link>             
                             </li>
+<<<<<<< HEAD
   
+=======
+        
+>>>>>>> c3c9f6801c3ee951891ba7e5b4d5501e8f7798fe
                             <li className="tab dropdown-button" data-activates="dropdown3">
                                 
                                 <Link to="/testimonials" 
@@ -78,7 +86,11 @@ export default class extends React.Component {
                                
                                 
                             </li>
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> c3c9f6801c3ee951891ba7e5b4d5501e8f7798fe
                         </ul>
 
  
@@ -88,10 +100,17 @@ export default class extends React.Component {
                     </div> 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+
+
+
+
+>>>>>>> c3c9f6801c3ee951891ba7e5b4d5501e8f7798fe
 
                     <main>
                         {this.props.children}
@@ -158,8 +177,8 @@ export default class extends React.Component {
           </div>
         </div>
       </footer>
-
-                </div>
+</div>
+            
 
 
             );
