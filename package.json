@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Our client is the owner of a small at-home business, Epic Pet Health. Our client sells  \"natural dog and cat supplements that restore comfort and provide affordable, long term health maintenance.” We will be re-designing the website by using bootstrap and MDL components. The shopping cart will direct to the company’s Shopify website. We will build the website using HTML, CSS, and Javascript.",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lint": "eslint src",
+    "build": "webpack -p --config production.webpack.config.js",
+    "clean": "rm -rf dist"
+  },
   "dependencies": {
     "materialize-css": "^0.97.8",
     "react": "^15.3.1",
