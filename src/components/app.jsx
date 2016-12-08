@@ -117,7 +117,7 @@ export default class extends React.Component {
               <p className="grey-text text-lighten-4">
                 <a className="footer-link" href="mailto:info@EpicPetHealth.com" target="_top">info@EpicPet Health.com</a><br/>
                 <a className="footer-link" href="tel:206-450-1118">(206) 450-1118</a><br/>
-                <i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i><span><i className="fa fa-twitter-square fa-2x" aria-hidden="true"></i></span>
+                <a className="footer-link" href="https://www.facebook.com/Epic-Pet-Health-279887328780587/" target="_blank"><i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a><span><a className="footer-link" href="https://twitter.com/epicpethealth" target="_blank"><i className="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></span>
                 
 
 
@@ -127,7 +127,8 @@ export default class extends React.Component {
               <h5 className="white-text">Company</h5>
               <p className="grey-text text-lighten-4">
               <a className="footer-link" href="/about">About</a><br/>
-              <a className="footer-link" href="/faq">FAQ</a> <br/>
+              <a className="footer-link" href="/faq">FAQ</a><br/>
+              <a className="footer-link" href="/contact">Contact Form</a><br/>
               </p>
               <h5 className="white-text">Newsletter</h5>
               <p className="grey-text text-lighten-4 sign-up-here">
