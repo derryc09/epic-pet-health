@@ -42,13 +42,13 @@ export default class extends React.Component {
                         <ul className="side-nav" id="mobile-demo">
                             <li><Link to="/about" 
                                             activeClassName="active">About</Link></li>
-                            <li><a href="#">Shop</a></li>
+                            <li><a href="https://epic-pet-health.myshopify.com/">Shop</a></li>
                             <li><Link to="/faq" 
                                             activeClassName="active">FAQ</Link></li>
                             <li><Link to="/contact" 
                                             activeClassName="active">Contact Us</Link></li>
                             <li><a href="#">Search</a></li>
-
+                            
 
                         </ul>
 
