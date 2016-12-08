@@ -11,8 +11,7 @@ export default class extends React.Component {
 
     componentDidMount() {
                     $(".button-collapse").sideNav();
-                    $(".dropdown-button").dropdown({hover: true});
-                    
+                    $(".dropdown-button").dropdown({hover: true}); 
     }
 
     render() {
