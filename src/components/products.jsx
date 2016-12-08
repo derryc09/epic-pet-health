@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom';
 
 import "whatwg-fetch";
 
+
+function option(products) {
+    var newProducts = products.filter(function(product) {
+        
+    });
+    return newProducts;
+}
+
 export default class extends React.Component {
     constructor(props) {
         super(props);
@@ -11,7 +19,8 @@ export default class extends React.Component {
     }
 
     render() {
-        var productCards = PRODUCTS.map(product => (
+        var renderProducts = PRODUCTS; 
+        var productCards = renderProducts.map(product => (
               <div key={PRODUCTS.indexOf(product)} className="col s12 m7">
                 <h2 className="header">{product.name}</h2>
                 <div className="card horizontal">
@@ -30,8 +39,19 @@ export default class extends React.Component {
             </div>
         ));
         return (
+
             <div className="products">
-                {productCards}
+               <div className="productsGenre">
+                    <span><a href="#">Best-Sellers</a></span>
+                    <span><a href="#">Agility</a></span>
+                    <span><a href="#">Behavioral</a></span>
+                    <span><a href="#">Prevention & Wellness</a></span>
+                    <span><a href="#">Allegy</a></span>
+                    <span><a href="#">Cat</a></span>
+                    <span><a href="#">Horse</a></span>
+                    <span><a href="#">All Products</a></span>
+                </div>
+                {productCards} 
             </div>
         );
     }
