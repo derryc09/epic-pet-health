@@ -31,14 +31,12 @@ export default class extends React.Component {
             <li data-target="#myCarousel" data-slide-to={1} />
             <li data-target="#myCarousel" data-slide-to={2} />
             <li data-target="#myCarousel" data-slide-to={3} />
-            <li data-target="#myCarousel" data-slide-to={4} />
+            
           </ol>
           
           <div className="carousel-inner" role="listbox">
+
             <div className="item active">
-              <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/Banner2.jpg?1481110239362" alt="1" />
-            </div>
-            <div className="item">
               <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/Love1.jpg" alt="2" />
             </div>
             <div className="item">

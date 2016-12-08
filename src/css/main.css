@@ -214,7 +214,15 @@ nav .brand-logo img {
 
 
 #sidenav-overlay {
-position: relative;
+    position: relative;
+}
+
+
+.productsGenre {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
@@ -285,6 +293,7 @@ position: relative;
 }
 .carousel {
   position: relative;
+  height: 350px;
 }
 .carousel-inner {
   position: relative;
