@@ -104,7 +104,7 @@ export default class extends React.Component {
                         <p>{this.truncate(product.description)}</p>
                         </div>
                         <div className="card-action">
-                        <a href="https://epic-pet-health.myshopify.com/">Buy now</a>
+                        <a href={product.link}>Buy now</a>
                         </div>
                     </div>
                 </div>
