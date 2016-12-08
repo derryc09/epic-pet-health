@@ -171,7 +171,7 @@ export default class extends React.Component {
             <div className="col s4">
               <h5 className="white-text">Contact</h5>
               <p className="grey-text text-lighten-4">
-                info@EpicPet Health.com <br/>
+                <a className="footer-link" href="mailto:info@EpicPetHealth.com" target="_top">info@EpicPet Health.com</a><br/>
                 (206) 450-1118 <br/>
                 <i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i><span><i className="fa fa-twitter-square fa-2x" aria-hidden="true"></i></span>
                 
@@ -205,7 +205,7 @@ export default class extends React.Component {
         </div>
         <div className="footer-copyright">
           <div className="container">
-            © Epic Pet Health 2014
+            &copy; Epic Pet Health 2014
             
           </div>
         </div>
