@@ -107,8 +107,8 @@ export default class extends React.Component {
               <h5 className="white-text">Location</h5>
               <p className="grey-text text-lighten-4">
                 Epic Pet Health <br/>
-                3211 W. McGraw #99092 <br/>
-                Seattle, WA  98139 <br/>
+                <a className="footer-link" href="http://maps.google.com/?q=3211 W McGraw #99092 Seattle, WA 98139" target="_blank">3211 W. McGraw #99092<br/>
+                Seattle, WA  98139</a> <br/>
                 
               </p>
             </div>
@@ -116,7 +116,7 @@ export default class extends React.Component {
               <h5 className="white-text">Contact</h5>
               <p className="grey-text text-lighten-4">
                 <a className="footer-link" href="mailto:info@EpicPetHealth.com" target="_top">info@EpicPet Health.com</a><br/>
-                (206) 450-1118 <br/>
+                <a className="footer-link" href="tel:206-450-1118">(206) 450-1118</a><br/>
                 <i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i><span><i className="fa fa-twitter-square fa-2x" aria-hidden="true"></i></span>
                 
 
@@ -126,9 +126,8 @@ export default class extends React.Component {
             <div className="col s4">
               <h5 className="white-text">Company</h5>
               <p className="grey-text text-lighten-4">
-              About Us <br/>
-              FAQ <br/>
-              Blog <br/>
+              <a className="footer-link" href="/about">About</a><br/>
+              <a className="footer-link" href="/faq">FAQ</a> <br/>
               </p>
               <h5 className="white-text">Newsletter</h5>
               <p className="grey-text text-lighten-4 sign-up-here">
