@@ -30,7 +30,6 @@ export default class extends React.Component {
             <div className="main">
         
                 <div>
-
                     <div id="myCarousel" className="carousel slide" data-ride="carousel">   
                         <ol className="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to={0} className="active" />
@@ -67,17 +66,8 @@ export default class extends React.Component {
                         </a>
                     </div>
                 </div>
-                    <div className="parallax-container">
-                        <div className="parallax">
-                        <img src="../img/other/robbie-joey.jpg">
-                        
-                        
-                        </img>
-                        </div>
-                    </div>      
 
-
-
+                <div className="bestSellers">
                 <h2>Best-Sellers</h2>
 
                 <div className="container">
@@ -152,6 +142,7 @@ export default class extends React.Component {
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
 
                 </div> 
