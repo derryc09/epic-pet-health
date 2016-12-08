@@ -10,7 +10,6 @@ export default class extends React.Component {
 
     componentDidMount() {
         $('.carousel').carousel();
-        $('.parallax').parallax();
     }
 
 
@@ -57,7 +56,7 @@ export default class extends React.Component {
                 </div>
 
                 <div className="bestSellers">
-                    <h2>Best-Sellers</h2>
+                    <h2>Best Sellers</h2>
 
                     <div className="container">
                         <div className="products col s12 m7">
