@@ -7,9 +7,9 @@ export default class extends React.Component {
         super(props);
     }
     
-    componentDidMount() {
-        $('.parallax').parallax();
-    }
+    // componentDidMount() {
+    //     $('.parallax').parallax();
+    // }
 
         componentDidMount() {
             $('.carousel').carousel();

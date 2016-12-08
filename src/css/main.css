@@ -53,13 +53,6 @@ a:hover {
     padding-top: 5px;
 }
 
-.nav-wrapper {
-    max-height: 100px;
-}
-
-.hide-nav {
-  height:0;
-}
 
 
 .col {
@@ -73,11 +66,6 @@ a:hover {
 
 .input-field {
     margin-top: 0;
-}
-.centerTitle{
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 50px;
 }
 
 .input-field .btn {
@@ -113,16 +101,6 @@ i.right {
     flex-wrap: wrap;
     display: flex;
     margin: 10px;
-}
-
-.award-main {
-    height: 100px;
-    width: 100px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    display: flex;
-    margin: 10px;    
 }
 
 .award .btn {
@@ -199,9 +177,6 @@ i.right {
     height: 100px;
 }
 
-.hidenav {
-    height: 0px !important;
-}
 
 .navbar-fixed {
     height: 0;
@@ -242,12 +217,6 @@ nav .brand-logo img {
 }
 
 
-.submitButton{
-    text-align: center;
-    
-}
-
-
 .productsGenre {
     padding-top: 20px;
     display: flex;
@@ -262,9 +231,7 @@ nav .brand-logo img {
 }
 
 
-.btn i {
-    line-height: 36px;
-}
+
 .award-list-main {
     width: 75%;
     margin: 0 auto;
@@ -327,7 +294,7 @@ nav .brand-logo img {
 
 @media only screen and (min-width: 1280px) {
     .testimonials {
-        width: 1260px;
+        /*width: 1260px;*/
     }
 }
 
