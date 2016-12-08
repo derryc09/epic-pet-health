@@ -388,7 +388,9 @@ nav .brand-logo img {
     width: auto;
 }
 
-
+.side-nav li {
+    cursor: pointer;
+}
 
 
 
@@ -423,6 +425,8 @@ nav .brand-logo img {
 
 #sidenav-overlay {
     position: relative;
+    background-color: rgba(0,0,0,0) !important;
+    z-index: auto !important;
 }
 
 
