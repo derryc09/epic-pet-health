@@ -69,8 +69,8 @@ export default class extends React.Component {
         this.setState({products: newProducts});
     }
     truncate(s){
-        if(s.length > 65){
-            return <span>{s.substring(0,65)}... <span className="readMore">Read More</span></span>
+        if(s.length > 175){
+            return <span>{s.substring(0,175)}... <span className="readMore">Read More</span></span>
         } 
         return s;
     }
@@ -108,18 +108,13 @@ export default class extends React.Component {
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         ));
         return (
 
 
             <div>
-         
-
-
+        
                <div className="productsGenre">
 
                     <button href="#/products" onClick={() => this.bestSellers()} className="btn waves-effect waves-light" type="submit" name="action">

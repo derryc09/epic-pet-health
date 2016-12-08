@@ -263,7 +263,7 @@ nav {
 
 
 .products-card-horizontal{
-    height:240px;
+    height:320px;
     width: 332px;
 }
 
@@ -310,7 +310,9 @@ nav .brand-logo img {
     position: relative;
 }
 
-
+.readMore{
+    color:cadetblue;
+}
 
 
 .productsGenre {
