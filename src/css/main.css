@@ -161,6 +161,23 @@ i.right {
     justify-content: center;
 }
 
+.award-main {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.award-main:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.award-list-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
 
 .testimonials {
     /*width: 95%;*/
@@ -179,7 +196,8 @@ i.right {
     -webkit-column-gap: 1.5em;
     column-gap: 1.5em;
     font-size: .85em;
-
+    align-content: center;
+    
 }
 
 
@@ -209,6 +227,7 @@ i.right {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-shadow: 2px 2px 4px 0 #ccc;
+   
 }
 
 
@@ -357,8 +376,16 @@ footer, .page-footer {
     margin: 0 auto;
 }
 
-.award .btn {
-    color: black;
+.award:hover .btn {
+    background-color: #5567A4;
+}
+
+#headingAwards {
+    padding-top: 30px;
+    font-size: 50px;
+  margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
 
