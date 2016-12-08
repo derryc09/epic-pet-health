@@ -74,6 +74,11 @@ a:hover {
 .input-field {
     margin-top: 0;
 }
+.centerTitle{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 .input-field .btn {
     /*padding-right: 5px;*/
@@ -227,6 +232,12 @@ nav .brand-logo img {
 }
 
 
+.submitButton{
+    text-align: center;
+    
+}
+
+
 .productsGenre {
     padding-top: 20px;
     display: flex;
@@ -241,7 +252,9 @@ nav .brand-logo img {
 }
 
 
-
+.btn i {
+    line-height: 36px;
+}
 .award-list-main {
     width: 75%;
     margin: 0 auto;

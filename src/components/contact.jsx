@@ -13,7 +13,7 @@ export default class extends React.Component {
 
         $('select').material_select();
         $('input#input_text, textarea#textarea1').characterCounter();
-        $('#textarea1').val('New Text');
+        $('#textarea1').val('');
         $('#textarea1').trigger('autoresize');
     }
 
@@ -23,6 +23,7 @@ export default class extends React.Component {
         return (
 
              <div className="row contact-form">
+                    <h2 className="centerTitle">Contact Us</h2>
                     <form className="col s12">
                     <div className="row">
                         <div className="input-field col s6">
@@ -49,11 +50,15 @@ export default class extends React.Component {
 
                         <div className="row">
                         <div className="input-field col s12">
-                            <textarea id="textarea1" className="materialize-textarea" length="120"></textarea>
-                            <label className="active" htmlFor="textarea1">Textarea</label>
+                          <i className="material-icons prefix">comment</i>
+                        
+                            <textarea id="textarea1" className="materialize-textarea" ></textarea>
+                            <label className="active" htmlFor="textarea1">Comments</label>
                         </div>
-                        </div>                        
-
+                        </div>      
+                        <div className = "submitButton">                  
+                        <a className="waves-effect waves-light btn"><i className="material-icons left">cloud</i>submit</a>
+                        </div>
                
                     </div>
                     </form>
