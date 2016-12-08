@@ -1,6 +1,7 @@
 var PRODUCTS = [{
     "name": "Align",
     "img": "../img/products/align.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/align",
     "bestseller": false,
     "agility": true,
     "behavioral": false,
@@ -12,6 +13,7 @@ var PRODUCTS = [{
 }, {
     "name": "Balance",
     "img": "../img/products/balance.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/balance",
     "bestseller": false,
     "agility": true,
     "behavioral": false,
@@ -23,6 +25,7 @@ var PRODUCTS = [{
 }, {
     "name": "Bones",
     "img": "../img/products/bones.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/bones",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
@@ -34,6 +37,7 @@ var PRODUCTS = [{
 }, {
     "name": "Calm",
     "img": "../img/products/calm.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/calm",
     "bestseller": true,
     "agility": false,
     "behavioral": true,
@@ -45,6 +49,7 @@ var PRODUCTS = [{
 }, {
     "name": "Cat Digest",
     "img": "../img/products/cat-digest.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/digest",
     "bestseller": true,
     "agility": false,
     "behavioral": false,
@@ -56,6 +61,7 @@ var PRODUCTS = [{
 }, {
     "name": "Clarity",
     "img": "../img/products/clarity.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/clarity",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
@@ -67,6 +73,7 @@ var PRODUCTS = [{
 }, {
     "name": "Clean Teeth",
     "img": "../img/products/clean-teeth.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/clean-teeth",
     "bestseller": true,
     "agility": true,
     "behavioral": false,
@@ -78,6 +85,7 @@ var PRODUCTS = [{
 }, {
     "name": "Clear",
     "img": "../img/products/clear.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/clear",
     "bestseller": true,
     "agility": false,
     "behavioral": false,
@@ -89,6 +97,7 @@ var PRODUCTS = [{
 }, {
     "name": "Digest",
     "img": "../img/products/digest.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/digest-1",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
@@ -100,6 +109,7 @@ var PRODUCTS = [{
 }, {
     "name": "Eye",
     "img": "../img/products/eye.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/eye",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
@@ -111,6 +121,7 @@ var PRODUCTS = [{
 }, {
     "name": "Fur",
     "img": "../img/products/fur.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/fur",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
@@ -122,6 +133,7 @@ var PRODUCTS = [{
 }, {
     "name": "Gain",
     "img": "../img/products/gain.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/gain",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
@@ -133,6 +145,7 @@ var PRODUCTS = [{
 }, {
     "name": "Happy",
     "img": "../img/products/happy.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/happy",
     "bestseller": true,
     "agility": false,
     "behavioral": true,
@@ -144,6 +157,7 @@ var PRODUCTS = [{
 }, {
     "name": "Healthy Ear",
     "img": "../img/products/healthy-ear.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/healthy-ear",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
@@ -155,6 +169,7 @@ var PRODUCTS = [{
 }, {
     "name": "Heat",
     "img": "../img/products/heat.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/heat",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
@@ -166,6 +181,7 @@ var PRODUCTS = [{
 }, {
     "name": "Immune",
     "img": "../img/products/immune.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/immune",
     "bestseller": true,
     "agility": false,
     "behavioral": false,
@@ -177,6 +193,7 @@ var PRODUCTS = [{
 }, {
     "name": "Kidneys",
     "img": "../img/products/kidneys.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/kidney",
     "bestseller": true,
     "agility": false,
     "behavioral": false,
@@ -188,6 +205,7 @@ var PRODUCTS = [{
 }, {
     "name": "Legs",
     "img": "../img/products/legs.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/legs",
     "bestseller": false,
     "agility": true,
     "behavioral": false,
@@ -199,6 +217,7 @@ var PRODUCTS = [{
 }, {
     "name": "Massage",
     "img": "../img/products/massage.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/message",
     "bestseller": false,
     "agility": true,
     "behavioral": false,
@@ -210,6 +229,7 @@ var PRODUCTS = [{
 }, {
     "name": "Power",
     "img": "../img/products/power.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/power",
     "bestseller": false,
     "agility": true,
     "behavioral": false,
@@ -221,6 +241,7 @@ var PRODUCTS = [{
 }, {
     "name": "Relief",
     "img": "../img/products/relief.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/relief",
     "bestseller": true,
     "agility": true,
     "behavioral": false,
@@ -232,6 +253,7 @@ var PRODUCTS = [{
 }, {
     "name": "Repair",
     "img": "../img/products/repair.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/repair",
     "bestseller": true,
     "agility": false,
     "behavioral": false,
@@ -243,6 +265,7 @@ var PRODUCTS = [{
 }, {
     "name": "Revive",
     "img": "../img/products/revive.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/revive",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
@@ -254,6 +277,7 @@ var PRODUCTS = [{
 }, {
     "name": "Skin",
     "img": "../img/products/skin.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/skin",
     "bestseller": true,
     "agility": false,
     "behavioral": false,
@@ -265,6 +289,7 @@ var PRODUCTS = [{
 }, {
     "name": "Sleep",
     "img": "../img/products/sleep.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/sleep",
     "bestseller": true,
     "agility": false,
     "behavioral": true,
@@ -276,6 +301,7 @@ var PRODUCTS = [{
 }, {
     "name": "Tummy",
     "img": "../img/products/tummy.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/tummy",
     "bestseller": true,
     "agility": false,
     "behavioral": false,
@@ -287,6 +313,7 @@ var PRODUCTS = [{
 }, {
     "name": "Vitality",
     "img": "../img/products/vitality.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/vitality",
     "bestseller": false,
     "agility": false,
     "behavioral": false,
