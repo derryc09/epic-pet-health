@@ -328,8 +328,12 @@ footer, .page-footer {
 }
 
 
-
-
+.submitButton{
+    text-align: center;
+}
+.btn i {
+    line-height: 36px;
+}
 
 
 

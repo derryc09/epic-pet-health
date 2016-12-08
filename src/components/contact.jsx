@@ -11,6 +11,7 @@ export default class extends React.Component {
     }
     componentDidMount(){
 
+        Materialize.updateTextFields();
         $('select').material_select();
         $('input#input_text, textarea#textarea1').characterCounter();
         $('#textarea1').val('');
