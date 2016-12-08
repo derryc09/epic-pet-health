@@ -86,13 +86,16 @@ export default class extends React.Component {
         // console.log(this.state);
         // console.log(this.props);
         var productCards = this.state.products.map(product => (
-              <div key={this.state.products.indexOf(product)} className="col s5">
-                <h2 className="header">{product.name}</h2>
+              <div key={this.state.products.indexOf(product)} className="products col s12 m7">
+              
+              
                 <div className="card horizontal">
                 <div className="card-image">
                     <img className="product-image" src={product.img}></img>
                 </div>
-                <div className="card-stacked">
+                <div className="card-stacked products-text">
+                    <h5>{product.name}</h5>
+                    <i>For tranquil, relaxed behavior</i>
                     <div className="card-content">
                     <p>{product.description}</p>
                     </div>
@@ -101,6 +104,9 @@ export default class extends React.Component {
                     </div>
                 </div>
                 </div>
+
+
+
             </div>
         ));
         return (
