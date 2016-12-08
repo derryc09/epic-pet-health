@@ -17,6 +17,11 @@ a:hover {
 .products {
     width: 40%;
     height: 40%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main, .products-text {
@@ -216,10 +221,27 @@ nav .brand-logo img {
 position: relative;
 }
 
+.award-list, .award-list-main, .bestSellers-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 
+.award-list-main {
+    width: 75%;
+    margin: 0 auto;
 
+}
+
+.main, .bestSellers, .awards, .awardTitle {
+    text-align: center;
+}
+
+.parallax-container {
+    height: 800px;
+}
 
 
 
