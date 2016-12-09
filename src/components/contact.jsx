@@ -19,7 +19,7 @@ export default class extends React.Component {
     }
     submitEmail(){
             
-          Materialize.toast('Request submitted', 10000) 
+          Materialize.toast('Request submitted', 20000) 
     }
 
     render() {
@@ -66,6 +66,7 @@ export default class extends React.Component {
                             <input type="submit" value="Send"/>
                                 <i className="material-icons left">cloud</i>
                         </div>
+                        <input type="hidden" name="_next" value="../#/contact" />
                     </div>
                     </form>
 
