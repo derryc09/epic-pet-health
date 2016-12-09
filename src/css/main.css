@@ -525,6 +525,12 @@ footer, .page-footer {
 
 .submitButton{
     text-align: center;
+    margin: 0 auto;
+
+}
+#app > div > main > div > form > div > div.submitButton.waves-effect.waves-light.btn{
+    width: 25%;
+    display: block;    
 }
 .btn i {
     line-height: 36px;
