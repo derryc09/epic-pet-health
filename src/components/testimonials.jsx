@@ -1,5 +1,19 @@
 import React from "react";
 
+function hashLinkScroll() {
+  const { hash } = window.location;
+  if (hash !== '') {
+    // Push onto callback queue so it runs after the DOM is updated,
+    // this is required when navigating from a different page so that
+    // the element is rendered on the page before trying to getElementById.
+    setTimeout(() => {
+      const id = hash.replace('#', '');
+      const element = document.getElementById(id);
+      if (element) element.scrollIntoView();
+    }, 0);
+  }
+}
+
 export default class extends React.Component {
     constructor(props) {
         super(props);
@@ -7,7 +21,15 @@ export default class extends React.Component {
 
     componentDidMount() {
          $('.parallax').parallax();
+     
+
+         
+        var element = document.querySelector("#test");
+         element.scrollIntoView();
+
     }
+
+
 
 
 
@@ -23,11 +45,42 @@ export default class extends React.Component {
                 </div>
             </div>            
             
-            
-                <h3 id="headerTestimonial">Our Stories</h3>
+           
+                <a name="test"></a><h3 id="headerTestimonial" >Our Stories</h3>
 
-                <div className="testimonials">
-                    
+
+                
+                <div id="sidebar">
+                    <a href=""><h5>Calm</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Clean Teeth</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Clear</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Digest</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Eye</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Fur</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Gain</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Happy</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Kidney</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Relief</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Repair</h5></a>
+                    <h5>|</h5>
+                    <a href=""><h5>Vitality</h5></a>               
+                </div>              
+                
+<div className="testimonials">
+<div id="scrollup">
+                    <a href="#test" >UP</a>
+                   
+                </div>
                     <div className="tabitha">
                         <p></p>
                     </div>
