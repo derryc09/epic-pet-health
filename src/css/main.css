@@ -570,6 +570,7 @@ footer, .page-footer {
         -webkit-column-count: 2;
         column-count: 2;
     }
+
 }
 
 
@@ -613,12 +614,6 @@ footer, .page-footer {
         /*width: 1260px;*/
     }
 }
-
-
-
-
-
-
 
 
 
@@ -940,19 +935,26 @@ margin-top: 75%;
 .fa-facebook-square {
     padding-right: 5px;
 }
-<<<<<<< HEAD
+
+/*Derry's Code -- Begin  */
+
+@media(max-width: 800px){
+    .contact-form{
+        width: 100%;
+    }
+    .centerTitle {
+        font-size: 3rem;
+        text-align: left;
+    }
+    .row .col.s6 {
+        width: 230px;
+    }
+    .input-field col s12{
+
+    }
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> e5d8ba9397ebcfd75379d21bdb23de4637abf901
+/*Derry's Code -- End'*/
