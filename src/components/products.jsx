@@ -99,7 +99,7 @@ export default class extends React.Component {
                     </div>
                     <div className="card-stacked products-text">
                         <h5>{product.name}</h5>
-                        <i>Come in for a sample</i>
+                        <i></i>
                         <div className="card-content">
                         <p>{this.truncate(product.description)}</p>
                         </div>
@@ -117,42 +117,42 @@ export default class extends React.Component {
         
                <div className="productsGenre">
 
-                    <button href="#/products" onClick={() => this.bestSellers()} className="btn waves-effect waves-light" type="submit" name="action">
+                    <button href="#/products" onClick={() => this.bestSellers()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
                                 Best-Sellers
                         </span>
                     </button>
-                    <button href="#/products" onClick={() => this.agility()} className="btn waves-effect waves-light" type="submit" name="action">
+                    <button href="#/products" onClick={() => this.agility()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
                                 Agility
                         </span>
                     </button>
-                    <button href="#/products" onClick={() => this.behavioral()} className="btn waves-effect waves-light" type="submit" name="action">
+                    <button href="#/products" onClick={() => this.behavioral()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
                                 Behavioral
                         </span>
                     </button>
-                    <button href="#/products" onClick={() => this.prevention()} className="btn waves-effect waves-light" type="submit" name="action">
+                    <button href="#/products" onClick={() => this.prevention()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
                                 Prevention & Wellness
                         </span>
                     </button>
-                    <button href="#/products" onClick={() => this.allergy()} className="btn waves-effect waves-light" type="submit" name="action">
+                    <button href="#/products" onClick={() => this.allergy()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
                                 Allergy
                         </span>
                     </button>
-                    <button href="#/products" onClick={() => this.cat()} className="btn waves-effect waves-light" type="submit" name="action">
+                    <button href="#/products" onClick={() => this.cat()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
                                 Cat
                         </span>
                     </button>
-                    <button href="#/products" onClick={() => this.horse()} className="btn waves-effect waves-light" type="submit" name="action">
+                    <button href="#/products" onClick={() => this.horse()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
                                 Horse
                         </span>
                     </button>   
-                    <button href="#/products" onClick={() => this.reset()} className="btn waves-effect waves-light" type="submit" name="action">
+                    <button href="#/products" onClick={() => this.reset()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
                                 All Products
                         </span>

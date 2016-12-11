@@ -46,6 +46,7 @@ a:hover {
 
 
 
+
 .main, .products-text {
     text-align: center;
 }
@@ -441,7 +442,7 @@ nav .brand-logo img {
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
@@ -937,7 +938,9 @@ margin-top: 75%;
 }
 
 /*Derry's Code -- Begin  */
-
+.card-content {
+    text-align: left;
+}
 
 @media(max-width: 800px){
     /*Contact Form */
@@ -975,5 +978,21 @@ margin-top: 75%;
     }    
 }
 
+@media(min-width:800px){
+    .categoryBtn{
+        margin:5px;
+    }    
+}
+
+@media(min-width: 1200px){
+    .flex-row-products{
+        max-width:1100px;
+        margin: 0 auto;
+        margin-top: 50px
+    }
+    .categoryBtn{
+        margin:5px;
+    }    
+}
 
 /*Derry's Code -- End'*/
