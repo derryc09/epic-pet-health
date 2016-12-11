@@ -18,7 +18,7 @@ export default class extends React.Component {
         $('#textarea1').trigger('autoresize');
     }
     submitEmail(){
-            
+        
           Materialize.toast('Request submitted', 20000) 
     }
 

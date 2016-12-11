@@ -14,6 +14,11 @@ export default class extends React.Component {
                     $(".dropdown-button").dropdown({hover: true}); 
     }
 
+    submitted(){
+        Materialize.toast('Request submitted', 20000) 
+
+    }
+
     render() {
         return (
                 
@@ -136,14 +141,14 @@ export default class extends React.Component {
               Sign Up Here
               </p></a>
               
-      <div className="input-field inline">
-        <input id="email" type="email" className="validate" placeholder="email"/>
-        <label htmlFor="email" data-error="wrong" data-success="right"></label>
+      <form id="newLetterForm" className="input-field inline newLetterForm">
+        <input id="email" type="email" className="validate newsletterInput" placeholder="email"/>
+        <label htmlFor="email" data-error="wrong" data-success="Thank you for subscribing."></label>
           <button className="btn waves-effect waves-light" type="submit" name="action">
             
             <i className="fa fa-paper-plane" aria-hidden="true"></i>
-  </button>
-      </div>
+         </button>
+      </form>
   
               
             </div>

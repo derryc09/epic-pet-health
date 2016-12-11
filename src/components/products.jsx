@@ -80,7 +80,6 @@ export default class extends React.Component {
 
     componentWillMount() {
         $('.modal').modal();
-        
         this.setState({products: PRODUCTS});
     }
 
