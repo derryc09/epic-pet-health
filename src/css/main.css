@@ -322,7 +322,10 @@ i.right {
 
 
 nav {
-    background-color: #B5B5B5 !important;
+    /*background-color: #B5B5B5 !important;*/
+    background-image: url(./../../img/other/texturebackground3.jpg);
+    background-position: center;
+    background-size: 100%;
 }
 
 
@@ -937,6 +940,54 @@ margin-top: 75%;
     padding-right: 5px;
 }
 
+html{
+    height: 100%;
+}
+
+
+  #app {
+      flex: 1 0 auto;
+  }
+
+
+#sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 12%; 
+    margin-right: 12%;
+}
+
+#sidebar h5 {
+    font-size: 15px;
+}
+
+#scrollup {
+  width: 30px; 
+  position: fixed; 
+  /*margin-left: 400px;*/
+    top: 95%;
+    right: 0;
+  
+    padding-right: 10px;
+}
+
+  body {
+    display: flex;
+    /*min-height: 100vh;*/
+    flex-direction: column;
+    height: 100%;
+  }
+
+
+  footer {
+    flex: 0 0 auto;
+  }
+
+
 /*Derry's Code -- Begin  */
 .card-content {
     text-align: left;
@@ -969,10 +1020,13 @@ margin-top: 75%;
     }
 
 
+
+
     .btn{
         flex-basis: 48%;
         margin-bottom: 5px;
     }
+
 
 
     /*Main View*/
@@ -1002,3 +1056,4 @@ margin-top: 75%;
 }
 
 /*Derry's Code -- End'*/
+
