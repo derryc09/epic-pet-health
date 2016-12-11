@@ -2,17 +2,12 @@ import React from "react";
 import ReactDOM from 'react-dom';
 import "whatwg-fetch";
 
-
-
-
-
 export default class extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             products: PRODUCTS
         }
-
     }
 
     reset() {
@@ -87,21 +82,12 @@ export default class extends React.Component {
         return s;
     }
 
-
-
-
     componentWillMount() {
         $('.modal').modal();
-        this.setState({products: PRODUCTS});
-    
+        this.setState({products: PRODUCTS});    
     }
 
-
     render() {
-
-  
-        // console.log(this.state);
-        // console.log(this.props);
         var productCards = this.state.products.map(product => (
               <div key={this.state.products.indexOf(product)} className="products col flex-col-products s12 m7">
                 <div className="card horizontal products-card-horizontal">
@@ -122,12 +108,8 @@ export default class extends React.Component {
             </div>
         ));
         return (
-
-
             <div>
-        
                <div className="productsGenre">
-
                     <button href="#/products" onClick={() => this.bestSellers()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
                                 Best-Sellers
@@ -167,26 +149,22 @@ export default class extends React.Component {
                         <span>
                                 All Products
                         </span>
-                    </button>        
-
-                                                                                                                 
-   
+                    </button>                                                                                                            
                 </div>
                  <div className="col s12">
                       <div>
                         <div className="input-field col s6 searchBox">
-                                  <i className="material-icons prefix">search</i>
-                        <input onKeyDown={() => this.search()} id="first_name2" type="text" className="validate searchArea"/>
-                        <label className="active" htmlFor="first_name2">Search using ONE keyword</label>
+                            <i className="material-icons prefix">search</i>
+                            <input onKeyDown={() => this.search()} id="first_name2" type="text" className="validate searchArea"/>
+                            <label className="active" htmlFor="first_name2">Search using ONE keyword</label>
                         </div>
-                    </div>
-                        
+                    </div>        
                 </div>                  
                 <div className="products1">
-                <div className="flex-row-products">
-                {productCards} 
+                    <div className="flex-row-products">
+                        {productCards} 
+                    </div>
                 </div>
-            </div>
             </div>
         );
     }

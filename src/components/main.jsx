@@ -6,12 +6,10 @@ export default class extends React.Component {
     constructor(props) {
         super(props);
     }
-    
 
     componentDidMount() {
         $('.carousel').carousel();
     }
-
 
     render() {
         var img_calm = "../img/products/calm-transparent.png";
