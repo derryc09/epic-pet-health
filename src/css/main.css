@@ -46,6 +46,7 @@ a:hover {
 
 
 
+
 .main, .products-text {
     text-align: center;
 }
@@ -444,7 +445,7 @@ nav .brand-logo img {
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
@@ -528,6 +529,12 @@ footer, .page-footer {
 
 .submitButton{
     text-align: center;
+    margin: 0 auto;
+
+}
+#app > div > main > div > form > div > div.submitButton.waves-effect.waves-light.btn{
+    width: 25%;
+    display: block;    
 }
 .btn i {
     line-height: 36px;
@@ -567,6 +574,7 @@ footer, .page-footer {
         -webkit-column-count: 2;
         column-count: 2;
     }
+
 }
 
 
@@ -610,12 +618,6 @@ footer, .page-footer {
         /*width: 1260px;*/
     }
 }
-
-
-
-
-
-
 
 
 
@@ -937,9 +939,43 @@ margin-top: 75%;
 .fa-facebook-square {
     padding-right: 5px;
 }
+
 html{
     height: 100%;
 }
+
+
+/*Derry's Code -- Begin  */
+.card-content {
+    text-align: left;
+}  
+.searchBox{
+    padding-top:10px;
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+} 
+
+@media(max-width: 800px){
+    /*Contact Form */
+
+    .contact-form{
+        width: 100%;
+    }
+    .centerTitle {
+        font-size: 3rem;
+        text-align: left;
+    }
+    .row .col.s6 {
+        width: 230px;
+    }
+
+    /*Products View*/
+    .flex-col-products {
+        flex-grow: 1;
+        flex-basis: 100%;
+    }
+
 
   body {
     display: flex;
@@ -948,13 +984,21 @@ html{
     height: 100%;
   }
 
+
   footer {
     flex: 0 0 auto;
   }
 
+    .btn{
+        flex-basis: 48%;
+        margin-bottom: 5px;
+    }
+
+
   #app {
       flex: 1 0 auto;
   }
+
 
 #sidebar {
     display: flex;
@@ -981,3 +1025,32 @@ html{
     padding-right: 10px;
 
 }
+
+    /*Main View*/
+    .award-list-main {
+        width: 100%;
+    }
+    #app > div > main > div > div.bestSellers > div > div{
+        flex-basis: 100%;
+    }    
+}
+
+@media(min-width:800px){
+    .categoryBtn{
+        margin:5px;
+    }    
+}
+
+@media(min-width: 1200px){
+    .flex-row-products{
+        max-width:1100px;
+        margin: 0 auto;
+        margin-top: 50px
+    }
+    .categoryBtn{
+        margin:5px;
+    }    
+}
+
+/*Derry's Code -- End'*/
+

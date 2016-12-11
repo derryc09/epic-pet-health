@@ -6,7 +6,6 @@
     <title>Epic Pet Health</title>
     <link rel="icon" href="../img/logos/eph-favicon.png" sizes="32x32">
 
-    <link rel="stylesheet" href="src/css/main.css">  
 
     <!--Font Awesome-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -20,6 +19,8 @@
 
     <!--Compiled and minified CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"> 
+    <link rel="stylesheet" href="src/css/main.css">  
+    
     <script defer src="dist/bundle.js"></script>
 
 
@@ -28,7 +29,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     
     <div id="app"></div>   
-        <footer class="page-footer">
+    <footer class="page-footer">
         <div class="container">
           <div class="row">
 
@@ -66,14 +67,14 @@
               Sign Up Here
               </p></a>
               
-      <div class="input-field inline">
-        <input id="email" type="email" class="validate" placeholder="email"/>
-        <label htmlFor="email" data-error="wrong" data-success="right"></label>
-          <button class="btn waves-effecsst waves-light" type="submit" name="action">
+      <form id="newLetterForm" class="input-field inline newLetterForm">
+        <input id="email" type="email" class="validate newsletterInput" placeholder="email"/>
+        <label htmlFor="email" data-error="wrong" data-success="Thank you for subscribing."></label>
+          <button class="btn waves-effect waves-light" type="submit" name="action">
             
             <i class="fa fa-paper-plane" aria-hidden="true"></i>
-  </button>
-      </div>
+         </button>
+      </form>
   
               
             </div>
@@ -95,12 +96,14 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <script src="https://use.fontawesome.com/e86b502797.js"></script>
     <script src="src/components/carousel.js"></script>
     <script src="data/awards.js"></script>
     <script src="data/products.js"></script>
+    <script src="data/firebase.js"></script>
+
 
 </html>

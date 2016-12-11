@@ -14,6 +14,11 @@ export default class extends React.Component {
                     $(".dropdown-button").dropdown({hover: true}); 
     }
 
+    submitted(){
+        Materialize.toast('Request submitted', 20000) 
+
+    }
+
     render() {
         return (
                 
