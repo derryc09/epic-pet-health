@@ -6,7 +6,7 @@ export default class extends React.Component {
     constructor(props) {
         super(props);
     }
-    
+
     truncate(s){
         if(s.length > 175){
             return <span>{s.substring(0,175)}... <span className="readMore">Read More</span></span>
@@ -18,7 +18,6 @@ export default class extends React.Component {
     componentDidMount() {
         $('.carousel').carousel();
     }
-
 
     render() {
         var img_calm = "../img/products/calm-transparent.png";
