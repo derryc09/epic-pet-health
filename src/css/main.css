@@ -940,7 +940,13 @@ margin-top: 75%;
 /*Derry's Code -- Begin  */
 .card-content {
     text-align: left;
-}   
+}  
+.searchBox{
+    padding-top:10px;
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+} 
 
 @media(max-width: 800px){
     /*Contact Form */

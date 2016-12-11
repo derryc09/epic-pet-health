@@ -5,6 +5,7 @@ import "whatwg-fetch";
 
 
 
+
 export default class extends React.Component {
     constructor(props) {
         super(props);
@@ -68,6 +69,17 @@ export default class extends React.Component {
         });
         this.setState({products: newProducts});
     }
+    search() {
+        var query = document.getElementById("first_name2");
+        if(query.value.toLowerCase().trim().length <= 0){
+            this.reset();
+        } else {
+            var newProducts = PRODUCTS.filter(function(product) {
+                return (product.name.toLowerCase().includes(query.value.toLowerCase().trim()) || product.description.toLowerCase().includes(query.value.toLowerCase().trim()));
+            });
+            this.setState({products: newProducts});
+        }
+    }    
     truncate(s){
         if(s.length > 175){
             return <span>{s.substring(0,175)}... <span className="readMore">Read More</span></span>
@@ -81,13 +93,13 @@ export default class extends React.Component {
     componentWillMount() {
         $('.modal').modal();
         this.setState({products: PRODUCTS});
+    
     }
 
 
     render() {
 
-           
-    
+  
         // console.log(this.state);
         // console.log(this.props);
         var productCards = this.state.products.map(product => (
@@ -155,10 +167,21 @@ export default class extends React.Component {
                         <span>
                                 All Products
                         </span>
-                    </button>                                                                                                                        
+                    </button>        
+
+                                                                                                                 
    
                 </div>
-                
+                 <div className="col s12">
+                      <div>
+                        <div className="input-field col s6 searchBox">
+                                  <i className="material-icons prefix">search</i>
+                        <input onKeyDown={() => this.search()} id="first_name2" type="text" className="validate searchArea"/>
+                        <label className="active" htmlFor="first_name2">Search using ONE keyword</label>
+                        </div>
+                    </div>
+                        
+                </div>                  
                 <div className="products1">
                 <div className="flex-row-products">
                 {productCards} 
