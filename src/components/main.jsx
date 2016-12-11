@@ -7,6 +7,13 @@ export default class extends React.Component {
         super(props);
     }
     
+    truncate(s){
+        if(s.length > 175){
+            return <span>{s.substring(0,175)}... <span className="readMore">Read More</span></span>
+        } 
+
+        return s;
+    }
 
     componentDidMount() {
         $('.carousel').carousel();
@@ -60,84 +67,29 @@ export default class extends React.Component {
                     </a>
                 </div>
 
-                <div className="bestSellers">
-                    <h2>Best Sellers</h2>
-
-                    <div className="container">
-                        <div className="products col s12 m7">
-                            <div className="card horizontal">
-                                <div className="card-image">
-                                    <img className="product-image" src={img_calm} height={img_height}/>
-                                </div>
-                                <div className="card-stacked products-text">
-                                    <h5>Calm</h5>
-                                    <i>For tranquil, relaxed behavior</i>
-                                    <div className="card-content">
-                                        <p>Calms a stressed dog or cat. It also relaxes hyper animals, such as puppies and kittens. Use it to encourage restful, all night sleep.</p>
-                                    </div>
-                                    <div className="card-action">
-                                        <a href="https://epic-pet-health.myshopify.com/collections/frontpage/products/calm" target="_blank">BUY NOW</a>
-                                    </div>
-                                </div>
-                            </div>
+                
+                <div className="products col flex-col-products s12 m7">
+                    <div className="card horizontal products-card-horizontal">
+                        <div className="card-image">
+                            <img className="product-image" src={img_calm}></img>
                         </div>
-
-                        <div className="products col s12 m7">
-                            <div className="card horizontal">
-                                <div className="card-image">
-                                    <img className="product-image" src={img_skin} height={img_height}/>
-                                </div>
-                                <div className="card-stacked products-text">
-                                    <h5>Skin</h5>
-                                    <i>Relieves itchy, flaky skin</i>
-                                    <div className="card-content">
-                                        <p>Promotes healthy skin and coats. It also relieves scratchy, dry skin. Helps ease discomfort from flea bites and other skin irritants.</p>
-                                    </div>
-                                    <div className="card-action">
-                                        <a href="https://epic-pet-health.myshopify.com/collections/frontpage/products/skin" target="_blank">BUY NOW</a>
-                                    </div>
-                                </div>
+                        <div className="card-stacked products-text">
+                            <h5>Calm</h5>
+                            <i>For tranquil, relaxed behavior</i>
+                            <div className="card-content">
+                                <p>{this.truncate("Calms a stressed dog or cat. It also relaxes hyper animals, such as puppies and kittens. Use it to encourage restful, all night sleep.")}</p>
                             </div>
-                        </div>
-
-                        <div className="products col s12 m7">
-                            <div className="card horizontal">
-                                <div className="card-image">
-                                    <img className="product-image" src={img_happy} height={img_height}/>
-                                </div>
-                                <div className="card-stacked products-text">
-                                    <h5>Happy</h5>
-                                    <i>Reduces stress and anxiety</i>
-                                    <div className="card-content">
-                                        <p>Reduces stress from grief, separation anxiety, and environmental changes. It helps your pet feel better and get back to normal.</p>
-                                    </div>
-                                    <div className="card-action">
-                                        <a href="https://epic-pet-health.myshopify.com/collections/frontpage/products/happy" target="_blank">BUY NOW</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="products col s12 m7">
-                            <div className="card horizontal">
-                                <div className="card-image">
-                                    <img className="product-image" src={img_repair} height={img_height}/>
-                                </div>
-                                <div className="card-stacked products-text">
-                                    <h5>Repair</h5>
-                                    <i>For faster injury recovery</i>
-                                    <div className="card-content">
-                                        <p>Helps boost the body’s immune response and relieves aches, pains and inflammation. It is good for injury recovery and supports the body during illness.</p>
-                                    </div>
-                                    <div className="card-action">
-                                        <a href="https://epic-pet-health.myshopify.com/collections/frontpage/products/repair" target="_blank">BUY NOW</a>
-                                    </div>
-                                </div>
+                            <div className="card-action">
+                                <a href="https://epic-pet-health.myshopify.com/collections/frontpage/products/calm" target="_blank">Buy now</a>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                </div> 
+
+
+
+
 
                 <div className="awards">
                     <h2>Awards</h2>
