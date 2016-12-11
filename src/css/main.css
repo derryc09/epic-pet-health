@@ -938,7 +938,10 @@ margin-top: 75%;
 
 /*Derry's Code -- Begin  */
 
+
 @media(max-width: 800px){
+    /*Contact Form */
+
     .contact-form{
         width: 100%;
     }
@@ -949,12 +952,28 @@ margin-top: 75%;
     .row .col.s6 {
         width: 230px;
     }
-    .input-field col s12{
 
+    /*Products View*/
+    .flex-col-products {
+        flex-grow: 1;
+        flex-basis: 100%;
     }
+
+
+    .btn{
+        flex-basis: 48%;
+        margin-bottom: 5px;
+    }
+
+
+    /*Main View*/
+    .award-list-main {
+        width: 100%;
+    }
+    #app > div > main > div > div.bestSellers > div > div{
+        flex-basis: 100%;
+    }    
 }
-
-
 
 
 /*Derry's Code -- End'*/
