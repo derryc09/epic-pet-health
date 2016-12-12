@@ -2,14 +2,18 @@ import React from "react";
 import Scrollchor from 'react-scrollchor';
 
 
+
+
 export default class extends React.Component {
     constructor(props) {
         super(props);
     }
 
+
     componentDidMount() {
          $('.parallax').parallax();
     }
+
 
     render() {
         return (
@@ -185,6 +189,7 @@ export default class extends React.Component {
                     </div>   
                     <div className="testimonials">
 
+
                         <h4 id="happy">Happy Fans</h4>
                         <div className="happy grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                             
@@ -250,9 +255,11 @@ export default class extends React.Component {
                                 
                                 <p>“I recently learned about Epic Pet Health and it was difficult for me to decide which product to order first. I went with Relief, because two of our dogs have arthritis. I spray Relief in their water and directly on the area that bothers them, rubbing it into their skin. I’ve noticed a difference in our dogs’ gait and I’m happy to be able to provide them something to alleviate the pain without pumping them full of pain killers.
 
-    If place an order, I’d suggest ordering several bottles of Relief or several items from the Epic Pet Health store, because 2-day shipping is spendy and as an impatient dog parent, I wanted the product as quickly as possible. Make the shipping worth it by ordering other products – Epic Pet Health offers several that are amazing. Calm, to keep our dogs calm when we leave for the day, Skin, to relieve irritated skin issues, and Repair for minor injuries.
 
-    We still visit our veterinarian for check ups, but it’s nice to have an option that’s less chemical and more natural. I’ll definitely be ordering more products from Epic Pet Health.”</p>
+                                If place an order, I’d suggest ordering several bottles of Relief or several items from the Epic Pet Health store, because 2-day shipping is spendy and as an impatient dog parent, I wanted the product as quickly as possible. Make the shipping worth it by ordering other products – Epic Pet Health offers several that are amazing. Calm, to keep our dogs calm when we leave for the day, Skin, to relieve irritated skin issues, and Repair for minor injuries.
+
+
+                                We still visit our veterinarian for check ups, but it’s nice to have an option that’s less chemical and more natural. I’ll definitely be ordering more products from Epic Pet Health.”</p>
                                 <h6>Kimberly D. Gauthier, Keep the Tail Wagging Magazine</h6>
                             </div>
                         </div>
@@ -341,8 +348,10 @@ export default class extends React.Component {
                             </div>
                         </div>
 
-                        </div>
+                    </div>
                 </div>
         );
     }
 }
+
+
