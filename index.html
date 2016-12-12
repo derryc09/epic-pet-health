@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="src/css/main.css">  
 
+
     <!--Font Awesome-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     
@@ -21,16 +22,16 @@
     <!--Compiled and minified CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"> 
     
-    <!--<script defer src="dist/bundle.js"></script>-->
+    
+    <script defer src="dist/bundle.js"></script>
 
 
 </head>
 <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     
-    <div id="app"></div> 
-    <script defer src="dist/bundle.js"></script>  
-
+    <div id="app"></div>   
+    
     <footer class="page-footer">
         <div class="container">
             <div class="row">
@@ -65,24 +66,27 @@
                             Sign Up Here
                         </p>
                     </a>
-                
-                    <form id="newLetterForm" class="input-field inline newLetterForm">
-                        <input id="email" type="email" class="validate newsletterInput" placeholder="email"/>
-                        <label htmlFor="email" data-error="wrong" data-success="Thank you for subscribing."></label>
-                        <button class="btn waves-effect waves-light" type="submit" name="action">
-                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                        </button>
-                    </form>
-                </div>
-
+            
+              
+      <form id="newLetterForm" class="input-field inline newLetterForm">
+        <input id="email" type="email" class="validate newsletterInput" placeholder="email"/>
+        <label htmlFor="email" data-error="wrong" data-success="Thank you for subscribing."></label>
+          <button class="btn waves-effect waves-light" type="submit" name="action">
+            
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+         </button>
+      </form>
+  
+              
             </div>
+          </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
                 &copy; Epic Pet Health 2014
             </div>
         </div>
-    </footer>
+      </footer>
 </body>
 
 
