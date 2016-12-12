@@ -771,7 +771,7 @@ html{
 
 
 
-  footer {
+footer {
     flex: 0 0 auto;
   }
 
@@ -785,6 +785,18 @@ html{
     width: 50%;
     margin-top: 10px;
 } 
+
+#scrollup a {
+    color: #62BE48 !important; 
+}
+
+#sidebar a {
+    color: #5567A4 !important;
+}
+
+.grid-item a {
+    color: #5567A4 !important;
+}
 
 
 @media(max-width: 800px){
