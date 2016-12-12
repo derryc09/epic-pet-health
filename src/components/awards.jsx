@@ -7,7 +7,6 @@ export default class extends React.Component {
     }
 
     render() {
-        console.log(AWARDS);
         var awardCard = AWARDS.map(award => (
             <AwardCard key={award.name} className="awardCard" award={award}>
              
