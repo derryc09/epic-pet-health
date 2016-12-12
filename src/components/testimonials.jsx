@@ -58,7 +58,7 @@ export default class extends React.Component {
 
         return (
             <div>
-            <a id="top"></a>
+          
             <div className="parallax-container">
                 <div className="parallax">
                     <img src="../../img/other/corgi1.jpg"/>
@@ -66,7 +66,7 @@ export default class extends React.Component {
             </div>            
             
            
-                <h3 id="headerTestimonial" >Our Stories</h3>
+               <a id="top"></a> <h3 id="headerTestimonial" >Our Stories</h3>
 
 
                 
