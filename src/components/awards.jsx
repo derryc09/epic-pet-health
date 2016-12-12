@@ -1,6 +1,5 @@
 import React from "react";
 import AwardCard from "./award-card.jsx";
-//import AWARDS from "./../../data/awards.js";
 
 export default class extends React.Component {
     constructor(props) {
@@ -15,20 +14,13 @@ export default class extends React.Component {
             </AwardCard>
         ));
         
-
         return (
-
             <div>
-            <h4 id="headingAwards">Awards and Media</h4>
-            <div className="award-list">
-            
-                
-                {awardCard}
-               
-                        {this.props.children}
-                
-               
-            </div>
+                <h4 id="headingAwards">Awards and Media</h4>
+                <div className="award-list">
+                    {awardCard}
+                    {this.props.children}
+                </div>
             </div>
         );
     }
