@@ -1,5 +1,5 @@
 import React from "react";
-
+import Scrollchor from 'react-scrollchor';
 function hashLinkScroll() {
     console.log("hi");
   const { hash } = window.location;
@@ -58,7 +58,7 @@ export default class extends React.Component {
 
         return (
             <div>
-            <a name="top"></a>
+            <a id="top"></a>
             <div className="parallax-container">
                 <div className="parallax">
                     <img src="../../img/other/corgi1.jpg"/>
@@ -71,40 +71,39 @@ export default class extends React.Component {
 
                 
                 <div id="sidebar">
-                    <a href="#calm"><h5>Calm</h5></a>
+                    <Scrollchor to="#calm"><h5>Calm</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#clean"><h5>Clean Teeth</h5></a>
+                    <Scrollchor to="#clean"><h5>Clean Teeth</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#clear"><h5>Clear</h5></a>
+                    <Scrollchor to="#clear"><h5>Clear</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#digest"><h5>Digest</h5></a>
+                    <Scrollchor to="#digest"><h5>Digest</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#eye"><h5>Eye</h5></a>
+                    <Scrollchor to="#eye"><h5>Eye</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#fur"><h5>Fur</h5></a>
+                    <Scrollchor to="#fur"><h5>Fur</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#gain"><h5>Gain</h5></a>
+                    <Scrollchor to="#gain"><h5>Gain</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#happy"><h5>Happy</h5></a>
+                    <Scrollchor to="#happy"><h5>Happy</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#kidney"><h5>Kidney</h5></a>
+                    <Scrollchor to="#kidney"><h5>Kidney</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#relief"><h5>Relief</h5></a>
+                    <Scrollchor to="#relief"><h5>Relief</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#repair"><h5>Repair</h5></a>
+                    <Scrollchor to="#repair"><h5>Repair</h5></Scrollchor>
                     <h5>|</h5>
-                    <a href="#vitality"><h5>Vitality</h5></a>               
+                    <Scrollchor to="#vitality"><h5>Vitality</h5></Scrollchor>              
                 </div>              
                 
-<div className="testimonials">
-<div id="scrollup">
-                    <a href="#top">UP</a>
-                   
+        <div className="testimonials">
+                <div id="scrollup">
+                   <Scrollchor to="#top"><i className="fa fa-arrow-circle-o-up" aria-hidden="true"></i></Scrollchor>
                 </div>
                     <div className="tabitha">
                         <p></p>
                     </div>
-                    <a name="calm"></a><h4>Calm Fans</h4>
+                    <h4 id="calm">Calm Fans</h4>
                     <div className="calm grid">
                         
                         <div className="grid-item">
@@ -147,7 +146,7 @@ export default class extends React.Component {
                 </div>
             </div>   
             <div className="testimonials">
-                    <h4>Clean Teeth Fans</h4>
+                    <h4 id="clean">Clean Teeth Fans</h4>
                     <div className="clean-teeth grid" >
                         
                         <div className="grid-item">
@@ -177,7 +176,7 @@ export default class extends React.Component {
                             <a href="http://www.rubytheairedalepup.com/2013/07/review-epic-pet-health_12.html"><h6>Ruby The Airedale Blog</h6></a>
                         </div>
                     </div>
-                    <h4>Clear Fans</h4>
+                    <h4 id="clear">Clear Fans</h4>
                     <div className="clear grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
@@ -191,7 +190,7 @@ export default class extends React.Component {
                             <h6>Kiki</h6>
                         </div>
                     </div>
-                    <h4>Digest Fans</h4>
+                    <h4 id="digest">Digest Fans</h4>
                     <div className="digest grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
@@ -199,7 +198,7 @@ export default class extends React.Component {
                             <a href="http://www.rubytheairedalepup.com/2013/07/review-epic-pet-health_12.html"><h6> Ruby The Airedale Blog</h6></a>
                         </div>
                     </div>
-                    <h4>Eye Fans</h4>
+                    <h4 id="eye">Eye Fans</h4>
                     <div className="eye grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
@@ -208,7 +207,7 @@ export default class extends React.Component {
                             <h6>Kiki</h6>
                         </div>
                     </div>
-                    <h4>Fur Fans</h4>
+                    <h4 id="fur">Fur Fans</h4>
                     <div className="fur grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
@@ -217,7 +216,7 @@ export default class extends React.Component {
                             <a href="http://sweetwilliamthescot.blogspot.com/"><h6>Sweet William The Scot Blog</h6></a>
                         </div>
                     </div>
-                    <h4>Gain Fans</h4>
+                    <h4 id="gain">Gain Fans</h4>
                     <div className="gain grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                        
                         <div className="grid-item">
@@ -234,7 +233,7 @@ export default class extends React.Component {
             </div>   
             <div className="testimonials">
 
-                    <h4>Happy Fans</h4>
+                    <h4 id="happy">Happy Fans</h4>
                     <div className="happy grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
@@ -283,7 +282,7 @@ export default class extends React.Component {
                             <h6>Julie L, Madison, WI</h6>
                         </div>
                     </div>
-                    <h4>Kidney Fans</h4>
+                    <h4 id="kidney">Kidney Fans</h4>
                     <div className="kidney grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
@@ -292,7 +291,7 @@ export default class extends React.Component {
                             <h6>makesscents</h6>
                         </div>
                     </div>
-                    <h4>Relief Fans</h4>
+                    <h4 id="relief">Relief Fans</h4>
                     <div className="relief grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
@@ -305,7 +304,7 @@ We still visit our veterinarian for check ups, but it’s nice to have an option
                             <h6>Kimberly D. Gauthier, Keep the Tail Wagging Magazine</h6>
                         </div>
                     </div>
-                    <h4>Repair Fans</h4>
+                    <h4 id="repair">Repair Fans</h4>
                     <div className="repair grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
@@ -345,7 +344,7 @@ Before using Repair, Scarlett, almost 16 years old, was having difficulty gettin
                             <h6>Tracey Thompson</h6>
                         </div>
                     </div>
-                    <h4>Skin Fans</h4>
+                    <h4 id="skin">Skin Fans</h4>
                     <div className="skin grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                         <div className="grid-item">
@@ -369,7 +368,7 @@ Before using Repair, Scarlett, almost 16 years old, was having difficulty gettin
                             
                         </div>
                     </div>
-                    <h4>Vitality Fans</h4>
+                    <h4 id="vitality">Vitality Fans</h4>
                     <div className="vitality grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 20}'>
                         
                     
