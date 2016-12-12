@@ -192,7 +192,7 @@ var PRODUCTS = [{
     "description": "Supports a healthy immune system. It can be used with other supplements such as Clear or Calm to help a sick pet regain health."
 }, {
     "name": "Kidneys",
-    "img": "../img/products/kidneys.jpg",
+    "img": "img/products/kidneys.jpg",
     "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/kidney",
     "bestseller": true,
     "agility": false,
