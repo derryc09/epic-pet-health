@@ -151,7 +151,7 @@ export default class extends React.Component {
                 <div>
                     <h2>All About Epic Pet Health</h2>
                     <div className="main-flex-row-products main-flex-col-video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/I4h3D_Q3m6Y" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/I4h3D_Q3m6Y" frameBorder="0" allowFullScreen></iframe>
                     </div>
                 </div>
 
