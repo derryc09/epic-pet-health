@@ -57,7 +57,7 @@ export default class extends React.Component {
                             <input type="submit" value="Send"/>
                             <i className="material-icons left">cloud</i>
                         </div>
-                        <input type="hidden" name="_next" value="/#/contact" />
+                        <input type="hidden" name="_next" value="epic-pet-health/#/contact" />
                     </div>
                 </form>
             </div> 
