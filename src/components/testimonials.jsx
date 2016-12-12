@@ -19,7 +19,7 @@ export default class extends React.Component {
             <div>
                 <div className="parallax-container">
                     <div className="parallax">
-                        <img src="../../img/other/corgi1.jpg"/>
+                        <img src="img/other/corgi1.jpg"/>
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@ export default class extends React.Component {
                 </div>
                 <div className="parallax-container">
                     <div className="parallax">
-                        <img src="../../img/other/cat.jpeg"/>
+                        <img src="img/other/cat.jpeg"/>
                     </div>
                 </div>
                 <div className="testimonials">
@@ -183,7 +183,7 @@ export default class extends React.Component {
                 </div>
                 <div className="parallax-container">
                     <div className="parallax">
-                        <img src="../../img/other/dog2.jpg"/>
+                        <img src="img/other/dog2.jpg"/>
                     </div>
                 </div>
                 <div className="testimonials">
