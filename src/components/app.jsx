@@ -31,9 +31,11 @@ export default class extends React.Component {
                                             activeClassName="active">FAQ</Link></li>
                             <li><Link to="/contact" 
                                             activeClassName="active">Contact Us</Link></li>
-                            <li><a href="#">Search</a></li>
                         </ul>
+
                         <ul className="side-nav" id="mobile-demo">
+                            <li><Link to="/#" 
+                                            activeClassName="active">Home</Link></li>
                             <li><Link to="/about" 
                                             activeClassName="active">About</Link></li>
                             <li><a href="https://epic-pet-health.myshopify.com/">Shop</a></li>
@@ -41,7 +43,6 @@ export default class extends React.Component {
                                             activeClassName="active">FAQ</Link></li>
                             <li><Link to="/contact" 
                                             activeClassName="active">Contact Us</Link></li>
-                            <li><a href="#">Search</a></li>
                         </ul>
                         <ul className="tabs tabs-transparent">                        
                                 <li className="tab dropdown-button" data-activates="dropdown1">                             
