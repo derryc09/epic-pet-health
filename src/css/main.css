@@ -861,8 +861,6 @@ html{
     flex: 0 0 auto;
   }
 
-
-/*Derry's Code -- Begin  */
 .card-content {
     text-align: left;
 }  
@@ -874,7 +872,6 @@ html{
 } 
 
 @media(max-width: 800px){
-    /*Contact Form */
 
     .contact-form{
         width: 100%;
@@ -887,7 +884,6 @@ html{
         width: 230px;
     }
 
-    /*Products View*/
     .flex-col-products, .main-flex-col-products {
         flex-grow: 1;
         flex-basis: 100%;
@@ -901,9 +897,6 @@ html{
         margin-bottom: 5px;
     }
 
-
-
-    /*Main View*/
     .award-list-main {
         width: 100%;
     }
@@ -943,7 +936,6 @@ html{
     }    
 }
 
-/*Derry's Code -- End'*/
 
 @media(max-width: 500px){
     
