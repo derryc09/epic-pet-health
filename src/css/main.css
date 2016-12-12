@@ -323,7 +323,7 @@ i.right {
 
 nav {
     /*background-color: #B5B5B5 !important;*/
-    background-image: url(./../../img/other/texturebackground3.jpg);
+    background-image: url(./../../img/other/texturebackground7.jpg);
     background-position: center;
     background-size: 100%;
 }
@@ -872,7 +872,7 @@ footer, .page-footer {
     padding-bottom: 30px;
   }
   .carousel-indicators {
-    bottom: 20px;
+    bottom: 0;
   }
 }
 
@@ -1057,3 +1057,16 @@ html{
 
 /*Derry's Code -- End'*/
 
+@media(max-width: 800px){
+    
+    .parallax-container {
+        display: none;
+    }
+
+    .carousel.slide {
+        max-height: 139px;
+    }
+    .carousel-indicators {
+        display:none;
+    }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 
 function hashLinkScroll() {
+    console.log("hi");
   const { hash } = window.location;
   if (hash !== '') {
     // Push onto callback queue so it runs after the DOM is updated,
@@ -24,21 +25,40 @@ export default class extends React.Component {
      
 
          
-        var element = document.querySelector("#test");
-         element.scrollIntoView();
+        // var element = document.querySelector("test");
+        // console.log(element);
+        //  element.scrollIntoView();
+
+        //   var hash = window.location.hash;
+        //   if (hash) {
+        //     var element = document.querySelector(hash);
+        //     if (element) {
+        //       element.scrollIntoView();
+        //     }
+        //   } else {
+        //    window.scrollTo(0, 0);
+        //   }
+
+        function  scrollToAnchor(anchor)  {
+            let anchorName = anchor;
+            if (anchorName) {
+                anchorName = anchorName.replace("#","");
+                let anchorElement = document.getElementById(anchorName);
+                if(anchorElement) { anchorElement.scrollIntoView(); }
+            }
+        }
 
     }
-
-
 
 
 
     render() {
         // window.location.href = '/testimonials';
 
+
         return (
             <div>
-            
+            <a name="top"></a>
             <div className="parallax-container">
                 <div className="parallax">
                     <img src="../../img/other/corgi1.jpg"/>
@@ -46,45 +66,45 @@ export default class extends React.Component {
             </div>            
             
            
-                <a name="test"></a><h3 id="headerTestimonial" >Our Stories</h3>
+                <h3 id="headerTestimonial" >Our Stories</h3>
 
 
                 
                 <div id="sidebar">
-                    <a href=""><h5>Calm</h5></a>
+                    <a href="#calm"><h5>Calm</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Clean Teeth</h5></a>
+                    <a href="#clean"><h5>Clean Teeth</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Clear</h5></a>
+                    <a href="#clear"><h5>Clear</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Digest</h5></a>
+                    <a href="#digest"><h5>Digest</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Eye</h5></a>
+                    <a href="#eye"><h5>Eye</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Fur</h5></a>
+                    <a href="#fur"><h5>Fur</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Gain</h5></a>
+                    <a href="#gain"><h5>Gain</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Happy</h5></a>
+                    <a href="#happy"><h5>Happy</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Kidney</h5></a>
+                    <a href="#kidney"><h5>Kidney</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Relief</h5></a>
+                    <a href="#relief"><h5>Relief</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Repair</h5></a>
+                    <a href="#repair"><h5>Repair</h5></a>
                     <h5>|</h5>
-                    <a href=""><h5>Vitality</h5></a>               
+                    <a href="#vitality"><h5>Vitality</h5></a>               
                 </div>              
                 
 <div className="testimonials">
 <div id="scrollup">
-                    <a href="#test" >UP</a>
+                    <a href="#top">UP</a>
                    
                 </div>
                     <div className="tabitha">
                         <p></p>
                     </div>
-                    <h4>Calm Fans</h4>
+                    <a name="calm"></a><h4>Calm Fans</h4>
                     <div className="calm grid">
                         
                         <div className="grid-item">
