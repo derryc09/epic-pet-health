@@ -20,7 +20,7 @@ export default class extends React.Component {
     }
 
     render() {
-        var img_calm = "../img/products/calm-transparent.png";
+        var img_calm = "img/products/calm-transparent.png";
         var img_skin = "../img/products/skin-transparent.png";
         var img_happy = "../img/products/happy-transparent.png";
         var img_repair = "../img/products/repair-transparent.png";
