@@ -44,7 +44,9 @@ export default class extends React.Component {
                     </div>
                 </div>
                 <div className="parallax-container">
-                    <div className="parallax"><img src="../img/other/dog-running.jpg"/></div>
+                    <div className="parallax">
+                        <img src="../img/other/dog-running.jpg"/>
+                    </div>
                 </div>
                 <div className="section white">
                     <div className="row container">

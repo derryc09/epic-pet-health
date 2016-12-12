@@ -96,12 +96,11 @@ export default class extends React.Component {
                     </div>
                     <div className="card-stacked products-text">
                         <h5>{product.name}</h5>
-                        <i></i>
                         <div className="card-content">
-                        <p>{this.truncate(product.description)}</p>
+                            <p>{this.truncate(product.description)}</p>
                         </div>
                         <div className="card-action">
-                        <a href={product.link}>Buy now</a>
+                            <a href={product.link}>Buy now</a>
                         </div>
                     </div>
                 </div>
@@ -112,45 +111,46 @@ export default class extends React.Component {
                <div className="productsGenre">
                     <button href="#/products" onClick={() => this.bestSellers()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
-                                Best-Sellers
+                            Best-Sellers
                         </span>
                     </button>
                     <button href="#/products" onClick={() => this.agility()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
-                                Agility
+                            Agility
                         </span>
                     </button>
                     <button href="#/products" onClick={() => this.behavioral()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
-                                Behavioral
+                            Behavioral
                         </span>
                     </button>
                     <button href="#/products" onClick={() => this.prevention()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
-                                Prevention & Wellness
+                            Prevention & Wellness
                         </span>
                     </button>
                     <button href="#/products" onClick={() => this.allergy()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
-                                Allergy
+                            Allergy
                         </span>
                     </button>
                     <button href="#/products" onClick={() => this.cat()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
-                                Cat
+                            Cat
                         </span>
                     </button>
                     <button href="#/products" onClick={() => this.horse()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
-                                Horse
+                            Horse
                         </span>
                     </button>   
                     <button href="#/products" onClick={() => this.reset()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
                         <span>
-                                All Products
+                            All Products
                         </span>
                     </button>                                                                                                            
-                </div>
+                 </div>
+                
                  <div className="col s12">
                       <div>
                         <div className="input-field col s6 searchBox">
@@ -159,7 +159,8 @@ export default class extends React.Component {
                             <label className="active" htmlFor="first_name2">Search using ONE keyword</label>
                         </div>
                     </div>        
-                </div>                  
+                </div>   
+                               
                 <div className="products1">
                     <div className="flex-row-products">
                         {productCards} 
