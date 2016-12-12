@@ -20,13 +20,13 @@ export default class extends React.Component {
         return (
             <div className="about">
                 <div className="parallax-container">
-                    <div className="parallax"><img src="../img/other/robbie-joey.jpg"></img></div>
+                    <div className="parallax"><img src="img/other/robbie-joey.jpg"></img></div>
                 </div>
                 <div className="section white">
                     <div className="row container">
                         <center>
-                            <img src="../img/other/amy.png"/>   
-                            <img src="../img/other/girls.png"/>
+                            <img src="img/other/amy.png"/>   
+                            <img src="img/other/girls.png"/>
                             <h5>
                                 We’re helping pets live longer, happier, healthier lives!
                             </h5>
@@ -45,13 +45,13 @@ export default class extends React.Component {
                 </div>
                 <div className="parallax-container">
                     <div className="parallax">
-                        <img src="../img/other/dog-running.jpg"/>
+                        <img src="img/other/dog-running.jpg"/>
                     </div>
                 </div>
                 <div className="section white">
                     <div className="row container">
                         <center>
-                            <img src="../img/other/lucas.png"/>
+                            <img src="img/other/lucas.png"/>
                             <h5>
                                 Lucas’ Story
                             </h5>

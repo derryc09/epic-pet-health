@@ -12,7 +12,6 @@ export default class extends React.Component {
 
     reset() {
        this.setState({products: PRODUCTS}, function () {
-             console.log(this.state.products);
         });
     }
 
