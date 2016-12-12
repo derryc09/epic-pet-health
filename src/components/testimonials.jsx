@@ -58,7 +58,7 @@ export default class extends React.Component {
 
         return (
             <div>
-            <a id="top"></a>
+          
             <div className="parallax-container">
                 <div className="parallax">
                     <img src="../../img/other/corgi1.jpg"/>
@@ -66,39 +66,39 @@ export default class extends React.Component {
             </div>            
             
            
-                <h3 id="headerTestimonial" >Our Stories</h3>
+               <a id="top"></a> <h3 id="headerTestimonial" >Our Stories</h3>
 
 
                 
                 <div id="sidebar">
-                    <Scrollchor to="#calm"><h5>Calm</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#clean"><h5>Clean Teeth</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#clear"><h5>Clear</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#digest"><h5>Digest</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#eye"><h5>Eye</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#fur"><h5>Fur</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#gain"><h5>Gain</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#happy"><h5>Happy</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#kidney"><h5>Kidney</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#relief"><h5>Relief</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#repair"><h5>Repair</h5></Scrollchor>
-                    <h5>|</h5>
-                    <Scrollchor to="#vitality"><h5>Vitality</h5></Scrollchor>              
+                    <Scrollchor to="#calm" className="genreCol"><h5>Calm</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#clean" className="genreCol"><h5>Clean Teeth</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#clear" className="genreCol"><h5>Clear</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#digest" className="genreCol"><h5>Digest</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#eye" className="genreCol"><h5>Eye</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#fur" className="genreCol"><h5>Fur</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#gain" className="genreCol"><h5>Gain</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#happy" className="genreCol"><h5>Happy</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#kidney" className="genreCol"><h5>Kidney</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#relief" className="genreCol"><h5>Relief</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#repair" className="genreCol"><h5>Repair</h5></Scrollchor>
+                    <h5 className="line">|</h5>
+                    <Scrollchor to="#vitality" className="genreCol"><h5>Vitality</h5></Scrollchor>              
                 </div>              
                 
         <div className="testimonials">
                 <div id="scrollup">
-                   <Scrollchor to="#top"><i className="fa fa-arrow-circle-o-up" aria-hidden="true"></i></Scrollchor>
+                   <Scrollchor to="#top"><i className="fa fa-arrow-circle-o-up fa-3x" aria-hidden="true"></i></Scrollchor>
                 </div>
                     <div className="tabitha">
                         <p></p>
