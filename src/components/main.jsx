@@ -7,8 +7,8 @@ export default class extends React.Component {
         super(props);
     }
 
-    truncate(s){
-        if(s.length > 175){
+    truncate(s) {
+        if (s.length > 175){
             return <span>{s.substring(0,175)}... <span className="readMore">Read More</span></span>
         } 
 
@@ -30,7 +30,6 @@ export default class extends React.Component {
         ));
         return (
             <div className="main">
-
                 <div id="myCarousel" className="carousel slide" data-ride="carousel"> 
                     <ol className="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to={0} className="active" />
@@ -41,18 +40,17 @@ export default class extends React.Component {
                     
                     <div className="carousel-inner" role="listbox">
                         <div className="item active">
-                        <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/Love1.jpg" alt="2" />
+                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/Love1.jpg" alt="2" />
                         </div>
                         <div className="item">
-                        <img src="http://epicpethealth.com/wp-content/uploads/2013/02/happy_narrow.jpg" alt="3" />
+                            <img src="http://epicpethealth.com/wp-content/uploads/2013/02/happy_narrow.jpg" alt="3" />
                         </div>
                         <div className="item">
-                        <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/cat1.jpg" alt="4" />
+                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/cat1.jpg" alt="4" />
                         </div>
                         <div className="item">
-                        <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/dog1.jpg" alt="5" />
+                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/dog1.jpg" alt="5" />
                         </div>
-                        
                     </div>
                             
                     <a className="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

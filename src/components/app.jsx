@@ -34,7 +34,7 @@ export default class extends React.Component {
                         </ul>
 
                         <ul className="side-nav" id="mobile-demo">
-                            <li><Link to="/#" 
+                            <li><Link to="" 
                                             activeClassName="active">Home</Link></li>
                             <li><Link to="/about" 
                                             activeClassName="active">About</Link></li>
