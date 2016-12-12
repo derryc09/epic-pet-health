@@ -38,12 +38,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrenguyener/epic-pet-health.git"
+    "url": "https://github.com/derryc09/epic-pet-health.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andrenguyener/epic-pet-health/issues"
+    "url": "https://github.com/derryc09/epic-pet-health.git"
   },
-  "homepage": "https://github.com/andrenguyener/epic-pet-health#readme"
+  "homepage": "https://github.com/derryc09/epic-pet-health#readme"
 }
