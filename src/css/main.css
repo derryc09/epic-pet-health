@@ -2,21 +2,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
 }
 
-
 p {
     font-family: "Roboto", sans-serif;
 }
-
 
 a {
     color: #5567A4; 
 }
 
-
 a:hover {
     color: #000; 
 }
-
 
 .footer-link {
     color: #FFF;
@@ -32,24 +28,17 @@ a:hover {
     justify-content: center;
 }
 
-
-
 .main, .products-text {
     text-align: center;
 }
-
-
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
     color: #5567A4; 
 }
 
-
-
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
     color: #777; 
 }
-
 
 .btn, .btn-large {
     background-color: #62BE48 !important; 
@@ -59,12 +48,10 @@ a:hover {
     color: #5567A4 !important; 
 }
 
-
 .test {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .container {
     display: flex;
@@ -72,47 +59,33 @@ a:hover {
     justify-content: center;
 }
 
-
-
 .bestSellers, .awards {
     background-color: #F8F8F8;
     padding: 5px;
 }
 
-
-
 .input-field {
     margin-top: 0;
 }
-
-
 
 .input-field .btn {
     font-size: 10px;
     max-height: 25px;
 }
 
-
-
-
 .sign-up-here {
     margin-bottom: 0;
 }
-
-
-
 
 #email {
     width: 50%;
     height: 1rem;
 }
 
-
 i.right {
     margin-left: 0px;
     font-size: 15px;
 }
-
 
 .btn i {
     line-height: normal;
@@ -120,7 +93,6 @@ i.right {
 .product-image{
     height: 230px;
 }
-
 
 .award {
     height: 200px;
@@ -132,19 +104,15 @@ i.right {
     margin: 10px;
 }
 
-
-
 .award .btn {
     display: none;
     position: relative;
 }
 
-
 .award:hover {
     background-color: lightgray;
     opacity: .5;
 }
-
 
 .award:hover .btn {
     display: block;
@@ -152,13 +120,11 @@ i.right {
     background-color: #8674ff;
 }
 
-
 .award-list {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
 }
-
 
 .award-main {
     width: 100px;
@@ -172,20 +138,16 @@ i.right {
     
 }
 
-
 .award-main:hover {
     opacity: .5;
     cursor: pointer;
 }
 
-
 .award-list-main {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
-    
+    justify-content: space-around;   
 }
-
 
 .testimonials {
     margin-right: 10%;
@@ -195,11 +157,11 @@ i.right {
     padding-left: 30px;
 }
 
+
 .fa-paper-plane {
     position: relative;
     bottom:5px;
 }
-
 
 .grid {
     margin-left: 10%;
@@ -214,19 +176,14 @@ i.right {
     margin-right: 0;
 }
 
-
-
 .grid h6 {
     float: right;
     font-weight: bold;
 }
 
-
-
 .grid h5 {
     font-style: italic;
 }
-
 
 .grid-item {
     display: inline-block;
@@ -239,38 +196,29 @@ i.right {
     box-shadow: 2px 2px 4px 0 #ccc;
     
 }
-
-
-
-
 nav {
     background-image: url(./../../img/other/texturebackground7.jpg);
     background-position: center;
     background-size: 100%;
 }
 
-
 .parallax {
     background-position: center top;
 }
-
-
 
 .navbar-fixed.test {
     height: 100px;
 }
 
-
 .flex-row-products {
     display: flex;
     margin-top:50px;
-    flex-wrap: wrap; /* wrap columns to next line if needed */
+    flex-wrap: wrap;
 }
-
 
 .flex-col-products {
     flex-grow: 1;
-    flex-basis: 33%; /* columns take up whole line */
+    flex-basis: 33%;
     
 }
 
@@ -281,15 +229,13 @@ nav {
 
 .main-flex-col-products {
     flex-grow: 1;
-    flex-basis: 50%; /* columns take up whole line */
-    
+    flex-basis: 50%; 
 }
-
 
 .main-flex-row-products {
     display: flex;
     margin-top:50px;
-    flex-wrap: wrap; /* wrap columns to next line if needed */
+    flex-wrap: wrap;
 }
 
 .main-products-card-horizontal{
@@ -300,7 +246,7 @@ nav {
 .main-flex-col-video {
     justify-content: center;
     flex-grow: 1;
-    flex-basis: 100%; /* columns take up whole line */
+    flex-basis: 100%; 
 }
 
 .dropdown-content.active {
@@ -308,14 +254,9 @@ nav {
     flex-wrap: wrap;
 }
 
-
-
-
 .nav-children {
     width: 200px;
 }
-
-
 
 nav .brand-logo img {
     padding: 10px;
@@ -323,25 +264,18 @@ nav .brand-logo img {
     width: auto;
 }
 
+
 .side-nav li {
     cursor: pointer;
 }
-
-
 
 .contact-form{
     width: 50%;
 }
 
-
-
-
-
 .collapsible{
     width:100%;
 }
-
-
 
 #sidenav-overlay {
     position: relative;
@@ -349,13 +283,9 @@ nav .brand-logo img {
     z-index: auto !important;
 }
 
-
 .readMore{
     color:cadetblue;
 }
-
-
-
 
 .productsGenre {
     padding-top: 20px;
@@ -363,9 +293,6 @@ nav .brand-logo img {
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
-
 
 .award-list, .award-list-main, .bestSellers-content {
     display: flex;
@@ -381,28 +308,18 @@ nav .brand-logo img {
     text-align: center;
 }
 
-
-
 .award-list-main {
     width: 75%;
     margin: 0 auto;
 }
 
-
-
 .main, .bestSellers, .awards, .awardTitle {
     text-align: center;
 }
 
-
-
-
 .parallax-container {
     height: 800px;
 }
-
-
-
 
 .products1 .row {
     display: flex;
@@ -410,53 +327,41 @@ nav .brand-logo img {
     justify-content: center;
 }
 
-
-
-
 .row .col.s5 {
     margin-left: 0;
 }
-
-
-
 
 footer, .page-footer {
     background-color: #5567A4 !important;
     margin-top: 0px !important;
 }
 
-
-
-
 .submitButton{
     text-align: center;
     margin: 0 auto;
-
 }
+
 #app > div > main > div > form > div > div.submitButton.waves-effect.waves-light.btn{
     width: 25%;
     display: block;    
 }
+
 .btn i {
     line-height: 36px;
 }
 
-
 .centerTitle{
     text-align: center;
 }
-
 
 .products1{
     width: 80%;
     margin: 0 auto;
 }
 
-
 .award:hover .btn {
     background-color: #5567A4;
 }
-
 
 #headingAwards {
     padding-top: 30px;
@@ -469,6 +374,7 @@ footer, .page-footer {
 
 
 
+
 @media only screen and (min-width: 400px) {
     .grid {
         -moz-column-count: 2;
@@ -476,10 +382,8 @@ footer, .page-footer {
         column-count: 2;
     }
 
+
 }
-
-
-
 
 @media only screen and (min-width: 700px) {
     .grid {
@@ -489,9 +393,6 @@ footer, .page-footer {
     }
 }
 
-
-
-
 @media only screen and (min-width: 900px) {
     .grid {
         -moz-column-count: 3;
@@ -500,9 +401,6 @@ footer, .page-footer {
     }
 }
 
-
-
-
 @media only screen and (min-width: 1100px) {
     .grid {
         -moz-column-count: 3;
@@ -510,8 +408,6 @@ footer, .page-footer {
         column-count: 3;
     }
 }
-
-
 
 
 .img-responsive,
@@ -546,8 +442,9 @@ footer, .page-footer {
       display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
+
+
 
 
 @media all and (transform-3d), (-webkit-transform-3d) {
@@ -556,6 +453,7 @@ footer, .page-footer {
          -o-transition:      -o-transform .6s ease-in-out;
             transition:         transform .6s ease-in-out;
             transition-timing-function: ease-in;
+
 
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -757,6 +655,7 @@ footer, .page-footer {
   }
 }
 
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -777,6 +676,7 @@ footer, .page-footer {
   clip: auto;
 }
 
+
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
@@ -786,6 +686,7 @@ footer, .page-footer {
 .glyphicon-chevron-right:before {
   content: "\e080";
 }
+
 
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
@@ -798,6 +699,7 @@ footer, .page-footer {
     margin-top: -10px;
 }
 
+
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
     left: 50%;
@@ -809,22 +711,29 @@ footer, .page-footer {
     margin-right: -10px;
 }
 
+
 .fa-arrow-right, .fa-arrow-left {
     margin-top: 75%;
 }
 
+
 .fa-facebook-square {
     padding-right: 5px;
 }
+
 
 html{
     height: 100%;
 }
 
 
+
+
 #app {
     flex: 1 0 auto;
 }
+
+
 
 
 #sidebar {
@@ -838,9 +747,11 @@ html{
     margin-right: 12%;
 }
 
+
 #sidebar h5 {
     font-size: 15px;
 }
+
 
 #scrollup {
     width: 50px; 
@@ -850,6 +761,7 @@ html{
     padding-right: 20px;
 }
 
+
   body {
     display: flex;
     flex-direction: column;
@@ -857,15 +769,16 @@ html{
   }
 
 
+
+
   footer {
     flex: 0 0 auto;
   }
 
-
-/*Derry's Code -- Begin  */
 .card-content {
     text-align: left;
 }  
+
 .searchBox{
     padding-top:10px;
     margin: auto;
@@ -873,40 +786,36 @@ html{
     margin-top: 10px;
 } 
 
-@media(max-width: 800px){
-    /*Contact Form */
 
+@media(max-width: 800px){
     .contact-form{
         width: 100%;
     }
+
     .centerTitle {
         font-size: 3rem;
         text-align: left;
     }
+
     .row .col.s6 {
         width: 230px;
     }
 
-    /*Products View*/
+
     .flex-col-products, .main-flex-col-products {
         flex-grow: 1;
         flex-basis: 100%;
     }
-
-
-
 
     .btn{
         flex-basis: 48%;
         margin-bottom: 5px;
     }
 
-
-
-    /*Main View*/
     .award-list-main {
         width: 100%;
     }
+
     #app > div > main > div > div.bestSellers > div > div{
         flex-basis: 100%;
     }    
@@ -942,8 +851,6 @@ html{
         margin:5px;
     }    
 }
-
-/*Derry's Code -- End'*/
 
 @media(max-width: 500px){
     
