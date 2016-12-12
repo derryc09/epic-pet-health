@@ -30,9 +30,6 @@ a:hover {
     color: #FFF;
 }
 
-
-
-
 .products {
     width: 40%;
     height: 40%;
@@ -93,9 +90,9 @@ a:hover {
 
 
 
-.bestSellers {
+.bestSellers, .awards {
     background-color: #F8F8F8;
-    padding-top: 5px;
+    padding: 5px;
 }
 
 
@@ -359,15 +356,15 @@ nav {
     
 }
 
+.products-card-horizontal{
+    height:320px;
+    width: 332px;
+}
+
 .main-flex-col-products {
     flex-grow: 1;
     flex-basis: 50%; /* columns take up whole line */
     
-}
-
-.products-card-horizontal{
-    height:320px;
-    width: 332px;
 }
 
 
@@ -380,6 +377,12 @@ nav {
 .main-products-card-horizontal{
     height:300px;
     width: 330px;
+}
+
+.main-flex-col-video {
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 100%; /* columns take up whole line */
 }
 
 .dropdown-content.active {
@@ -530,12 +533,9 @@ nav .brand-logo img {
 
 
 
-
-
-
-
 footer, .page-footer {
     background-color: #5567A4 !important;
+    margin-top: 0px !important;
 }
 
 
@@ -1074,7 +1074,8 @@ html{
     .main-flex-row-products {
         max-width:700px;
         margin: 0 auto;
-        margin-top: 50px
+        margin-top: 50px;
+        margin-bottom: 40px;
     }
 
     .categoryBtn{

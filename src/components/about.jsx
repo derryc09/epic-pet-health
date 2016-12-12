@@ -12,9 +12,6 @@ export default class extends React.Component {
 
     componentDidMount() {
         $('.parallax').parallax();
-        $(document).ready(function(){
-            $('.parallax').parallax();
-        });
     }
 
     render() {
