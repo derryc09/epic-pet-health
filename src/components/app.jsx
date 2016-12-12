@@ -23,7 +23,7 @@ export default class extends React.Component {
                         <div className="nav-wrapper">
 
                             <IndexLink to="/" className="brand-logo" activeClassName="active">
-                                <img src="../img/logos/eph-logo.png" alt="Epic Pet Health Logo" height="10%" width="auto"/>
+                                <img src="img/logos/eph-logo.png" alt="Epic Pet Health Logo" height="10%" width="auto"/>
                             </IndexLink> 
 
                             <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
