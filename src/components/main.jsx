@@ -40,16 +40,16 @@ export default class extends React.Component {
                     
                     <div className="carousel-inner" role="listbox">
                         <div className="item active">
-                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/Love1.jpg" alt="2" />
+                            <img src="img/slideshow/slideshow1.jpg" alt="2" />
                         </div>
                         <div className="item">
-                            <img src="http://epicpethealth.com/wp-content/uploads/2013/02/happy_narrow.jpg" alt="3" />
+                            <img src="img/slideshow/slideshow2.jpg" alt="3" />
                         </div>
                         <div className="item">
-                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/cat1.jpg" alt="4" />
+                            <img src="img/slideshow/slideshow3.jpg" alt="4" />
                         </div>
                         <div className="item">
-                            <img src="http://www.epicpethealth.com/wp-content/uploads/2015/11/dog1.jpg" alt="5" />
+                            <img src="img/slideshow/slideshow4.jpg" alt="5" />
                         </div>
                     </div>
                             
