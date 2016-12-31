@@ -23,7 +23,7 @@ export default class extends React.Component {
         return (
             <div className="row contact-form">
                 <h2 className="centerTitle">Contact Us</h2>
-                <form className="col s12" action="https://formspree.io/dcstackoverflow@gmail.com"
+                <form className="col s12" action="https://formspree.io/info@epicpethealth.com"
                     method="POST" >
                     <div className="row">
                          <div className="input-field col s6">

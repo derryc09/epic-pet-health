@@ -200,6 +200,7 @@ nav {
     background-image: url(./../../img/other/texturebackground7.jpg);
     background-position: center;
     background-size: 100%;
+    background-color: darkgrey !important;
 }
 
 .parallax {
