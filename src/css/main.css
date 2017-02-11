@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-    color: #000; 
+    color: gray; 
 }
 
 .footer-link {
@@ -197,10 +197,9 @@ i.right {
     
 }
 nav {
-    background-image: url(./../../img/other/texturebackground7.jpg);
     background-position: center;
     background-size: 100%;
-    background-color: darkgrey !important;
+    background-color: black !important;
 }
 
 .parallax {
