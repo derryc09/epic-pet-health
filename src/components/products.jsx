@@ -108,7 +108,7 @@ export default class extends React.Component {
         return (
             <div>
                <div className="productsGenre">
-                    <button href="#/products" onClick={() => this.bestSellers()} className="btn waves-effect waves-light categoryBtn" type="submit" name="action">
+                    <button href="#/products" onClick={() => this.bestSellers()} className="btn waves-effect waves-light " type="submit" name="action">
                         <span>
                             Best-Sellers
                         </span>
