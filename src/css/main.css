@@ -32,6 +32,11 @@ a:hover {
     text-align: center;
 }
 
+.main h2{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
     color: #5567A4; 
 }
@@ -208,6 +213,10 @@ nav {
 
 .navbar-fixed.test {
     height: 100px;
+}
+
+.categoryBtn{
+    margin:5px;
 }
 
 .flex-row-products {
@@ -818,12 +827,12 @@ footer {
         flex-grow: 1;
         flex-basis: 100%;
     }
-
+/*
     .btn{
         flex-basis: 48%;
         margin-bottom: 5px;
     }
-
+*/
     .award-list-main {
         width: 100%;
     }
@@ -833,11 +842,7 @@ footer {
     }    
 }
 
-@media(min-width:800px){
-    .categoryBtn{
-        margin:5px;
-    }
-    
+@media(min-width:480px){
     .main-flex-row-products {
         max-width:600px;
         margin: 0 auto;
@@ -858,10 +863,6 @@ footer {
         margin-top: 50px;
         margin-bottom: 40px;
     }
-
-    .categoryBtn{
-        margin:5px;
-    }    
 }
 
 @media(max-width: 500px){
