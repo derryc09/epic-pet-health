@@ -5,4 +5,4 @@ A couple of functions that may not be apprart to you...
 1) The Contact Us Form, upon submissions, sends a form to the site owner's inbox - this works. 
 2) The "Sign up for Newsletter" located in the footers allows users to subscribe to the newsletter by simply entering their email address. The entered email is automatically stored in FireBase - we removed authentication for better UX. 
 
-Please see our website here: https://derryc09.github.io/epic-pet-health/#/
+

@@ -204,7 +204,7 @@ i.right {
 nav {
     background-position: center;
     background-size: 100%;
-    background-color: black !important;
+    background-color: grey !important;
 }
 
 .parallax {
